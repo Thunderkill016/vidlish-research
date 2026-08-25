@@ -16,6 +16,7 @@
 | R10 Vietnamese learners | Which L1-specific problems deserve targeted support? | RQ-002 general L1 scaffold synthesis complete; Vietnamese-specific calibration open | personalization |
 | R11 Motivation/product behavior | Which session designs cause useful return without substituting engagement for learning? | open | UX and retention |
 | R12 AI/technology | Where can ASR/LLMs/TTS help, and where do reliability/privacy limits dominate? | RQ-008 initial ASR validity synthesis complete | AI features |
+| R13 Grammar & constructions | How should form, meaning and use be learned together and evidenced beyond rule recall? | RQ-012 initial synthesis complete | curriculum, lesson engine, speaking/writing/review |
 
 ## Priority research questions
 
@@ -39,6 +40,10 @@
 - `RQ-010`: When should English captions, Vietnamese support, transcript and replay appear? → **initial synthesis complete** (`SYN-CAP-001`, `FEAT-VID-001`, `EXP-010`)
 - `RQ-011`: Does auto-pause improve learning or simply fragment comprehension? → **initial synthesis complete** (`SYN-PAU-001`, `FEAT-VID-003`, `EXP-011`)
 
+### P3 — before treating grammar as a comprehensive learning dimension
+
+- `RQ-012`: How should near-A0 learners learn and demonstrate grammar/construction knowledge without reducing grammar to rule memorization and decontextualized drills? → **initial synthesis complete** (`SYN-GRM-001`, `FEAT-GRM-001`, `EXP-012`)
+
 ## Explicitly unresolved product assumptions
 
 - Session length that fits the target learner's real schedule.
@@ -49,6 +54,11 @@
 - Exact ASR provider/model mix and maintenance policy.
 - Exact caption/support fading policy and transcript/replay thresholds for Vietnamese learners.
 - Exact auto-pause trigger, pause-boundary, duration and temporal-support fading policy.
+- Exact construction sequencing for Vietnamese near-A0 learners.
+- Exact explanation timing and Vietnamese/English grammar-support policy.
+- Exact exemplar count, lexical variation and abstraction threshold for each construction.
+- Exact interpretation-to-production and controlled-to-transfer progression thresholds.
+- Exact grammar corrective-feedback policy by construction, error type and learner state.
 - Exact machine-feedback confidence / false-correction thresholds.
 - Exact automated feature detectors safe enough for Vietnamese near-A0.
 - Exact authentic-video lexical-coverage bands and learner × clip readiness thresholds.

@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "principles": [
+    {
+      "id": "PRN-133",
+      "statement": "Represent beginner grammar as communicative form–meaning–use constructions rather than isolated rules whenever the representation remains pedagogically accurate.",
+      "confidence": "high",
+      "claim_ids": ["CLM-GRM-009", "CLM-GRM-010"]
+    },
+    {
+      "id": "PRN-134",
+      "statement": "Capture a meaningful interpretation attempt before using rule-test success as evidence of construction knowledge.",
+      "confidence": "high",
+      "claim_ids": ["CLM-GRM-002", "CLM-GRM-015"]
+    },
+    {
+      "id": "PRN-135",
+      "statement": "Design structured interpretation tasks so the target grammatical form contributes necessary information to the correct meaning, rather than allowing shortcut answers from unrelated lexical or visual cues.",
+      "confidence": "high",
+      "claim_ids": ["CLM-GRM-004", "CLM-GRM-005"]
+    },
+    {
+      "id": "PRN-136",
+      "statement": "Use production practice after or alongside form–meaning processing because receptive success and productive availability are distinct and production can add delayed productive gains.",
+      "confidence": "high",
+      "claim_ids": ["CLM-GRM-003", "CLM-GRM-004"]
+    },
+    {
+      "id": "PRN-137",
+      "statement": "Treat explicit grammar explanation as bounded support: use the smallest explanation that resolves confusion, record its presence, and return immediately to interpretation or use.",
+      "confidence": "high",
+      "claim_ids": ["CLM-GRM-001", "CLM-GRM-005", "CLM-GRM-016"]
+    },
+    {
+      "id": "PRN-138",
+      "statement": "Do not make highlighting, bolding or textual enhancement the active learning mechanism; require processing of the highlighted form's meaning or function.",
+      "confidence": "high",
+      "claim_ids": ["CLM-GRM-006"]
+    },
+    {
+      "id": "PRN-139",
+      "statement": "Begin construction learning with a small number of clear, useful exemplars and then vary lexical/contextual slots to test generalization; do not infer a universal exemplar count from frequency theory.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-GRM-010", "CLM-GRM-012", "CLM-GRM-016"]
+    },
+    {
+      "id": "PRN-140",
+      "statement": "Preserve rule/metalinguistic knowledge, interpretation, controlled production, changed-context production, real-time processing and delayed retention as separate grammar evidence dimensions.",
+      "confidence": "high",
+      "claim_ids": ["CLM-GRM-007", "CLM-GRM-008", "CLM-GRM-015"]
+    },
+    {
+      "id": "PRN-141",
+      "statement": "Never infer an 'implicit grammar mastery' percentage from one timed test, elicited-imitation task or grammaticality judgment without a separately validated measurement model.",
+      "confidence": "high",
+      "claim_ids": ["CLM-GRM-007", "CLM-GRM-008"]
+    },
+    {
+      "id": "PRN-142",
+      "statement": "Keep support provenance for every construction attempt, including model visibility, explanation language, choices, prompts and reformulations.",
+      "confidence": "high",
+      "claim_ids": ["CLM-GRM-015", "CLM-GRM-016"]
+    },
+    {
+      "id": "PRN-143",
+      "statement": "Use corrective feedback inside meaningful use, but select prompt versus model/reformulation according to learner and error evidence rather than one globally preferred feedback type.",
+      "confidence": "high",
+      "claim_ids": ["CLM-GRM-013", "CLM-GRM-014"]
+    },
+    {
+      "id": "PRN-144",
+      "statement": "When the learner likely has the target form, a self-repair prompt is a candidate first repair; when the form is unavailable or unstable, provide bounded positive evidence/modeling instead of forcing repeated guessing.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-GRM-013", "CLM-GRM-014", "CLM-GRM-016"]
+    },
+    {
+      "id": "PRN-145",
+      "statement": "Sequence grammar across listening, reading, speaking and writing around the same construction so progress reflects flexible use rather than success in a dedicated Grammar tab.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-GRM-003", "CLM-GRM-009", "CLM-GRM-015"]
+    },
+    {
+      "id": "PRN-146",
+      "statement": "Use high-frequency and prototypical exemplars as curriculum candidates, not as automatic mastery or universal teaching-order rules; learner prerequisites and communicative value still govern selection.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-GRM-009", "CLM-GRM-010"]
+    },
+    {
+      "id": "PRN-147",
+      "statement": "Require changed-context and delayed unseen probes before promoting a construction from guided use to independently usable knowledge.",
+      "confidence": "high",
+      "claim_ids": ["CLM-GRM-002", "CLM-GRM-015", "CLM-GRM-016"]
+    },
+    {
+      "id": "PRN-148",
+      "statement": "Keep the exact explanation timing, exemplar distribution, interpretation-to-production threshold and feedback policy falsifiable until EXP-012 validates them with Vietnamese near-A0 learners.",
+      "confidence": "high",
+      "claim_ids": ["CLM-GRM-016"]
+    }
+  ]
+}

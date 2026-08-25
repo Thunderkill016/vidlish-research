@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "SRC-0087",
+      "title": "Lexical Coverage in L1 and L2 Listening Comprehension: The Same or Different from Reading Comprehension?",
+      "type": "lexical-coverage-listening-experiment",
+      "authors": "Hilde van Zeeland; Norbert Schmitt",
+      "year": 2013,
+      "doi": "10.1093/applin/ams074",
+      "url": "https://doi.org/10.1093/applin/ams074",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0088",
+      "title": "Research Investigating Lexical Coverage and Lexical Profiling: What We Know, What We Don't Know, and What Needs to be Examined",
+      "type": "critical-review",
+      "authors": "Stuart Webb",
+      "year": 2021,
+      "doi": "10.64152/10125/67407",
+      "url": "https://nflrc.hawaii.edu/rfl/item/539",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0089",
+      "title": "The relationship between vocabulary and viewing comprehension",
+      "type": "viewing-comprehension-study",
+      "authors": "Marion Durbahn; Michael Rodgers; Elke Peters",
+      "year": 2020,
+      "doi": "10.1016/j.system.2019.102166",
+      "url": "https://doi.org/10.1016/j.system.2019.102166",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0090",
+      "title": "Lexical coverage in L1 and L2 viewing comprehension",
+      "type": "lexical-coverage-viewing-experiment",
+      "authors": "Marion Durbahn; Michael Rodgers; Marijana Macis; Elke Peters",
+      "year": 2024,
+      "doi": "10.1017/S0272263124000391",
+      "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/lexical-coverage-in-l1-and-l2-viewing-comprehension/DFCA6605076705D5762C98F286D16B27",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0091",
+      "title": "Vocabulary Demands of Television Programs",
+      "type": "television-corpus-study",
+      "authors": "Stuart Webb; Michael P. H. Rodgers",
+      "year": 2009,
+      "doi": "10.1111/j.1467-9922.2009.00509.x",
+      "url": "https://doi.org/10.1111/j.1467-9922.2009.00509.x",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0092",
+      "title": "The Lexical Coverage of Movies",
+      "type": "movie-corpus-study",
+      "authors": "Stuart Webb; Michael P. H. Rodgers",
+      "year": 2009,
+      "doi": "10.1093/applin/amp010",
+      "url": "https://doi.org/10.1093/applin/amp010",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0093",
+      "title": "Vocabulary Demands of Informal Spoken English Revisited: What Does It Take to Understand Movies, TV Programs, and Soap Operas?",
+      "type": "large-corpus-lexical-profile",
+      "authors": "Hung Tan Ha",
+      "year": 2022,
+      "doi": "10.3389/fpsyg.2022.831684",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.831684/full",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0094",
+      "title": "Examining Adolescent EFL Learners' TV Viewing Comprehension Through Captions and Subtitles",
+      "type": "longitudinal-beginner-tv-viewing-study",
+      "authors": "Geòrgia Pujadas; Carmen Muñoz",
+      "year": 2020,
+      "doi": "10.1017/S0272263120000042",
+      "url": "https://doi.org/10.1017/S0272263120000042",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0095",
+      "title": "The Effect of Imagery and On-Screen Text on Foreign Language Vocabulary Learning From Audiovisual Input",
+      "type": "audiovisual-imagery-vocabulary-study",
+      "authors": "Elke Peters",
+      "year": 2019,
+      "doi": "10.1002/tesq.531",
+      "url": "https://doi.org/10.1002/tesq.531",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0096",
+      "title": "Second or foreign language learning through watching audio-visual input and the role of on-screen text",
+      "type": "state-of-the-art-review",
+      "authors": "Maribel Montero Perez",
+      "year": 2022,
+      "doi": "10.1017/S0261444821000501",
+      "url": "https://doi.org/10.1017/S0261444821000501",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0097",
+      "title": "The impact of captioning and playback speed on listening comprehension of multilingual English learners at varying proficiency levels",
+      "type": "caption-playback-speed-study",
+      "authors": "Laura Mahalingappa; Jiaxuan Zong; Nihat Polat",
+      "year": 2024,
+      "doi": "10.1016/j.system.2023.103192",
+      "url": "https://doi.org/10.1016/j.system.2023.103192",
+      "status": "verified"
+    }
+  ]
+}

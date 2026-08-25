@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "principles": [
+    {
+      "id": "PRN-091",
+      "statement": "Gate authentic audiovisual input by learner × clip readiness, not by one global vocabulary count or CEFR label.",
+      "confidence": "high",
+      "claim_ids": [
+        "CLM-VID-006",
+        "CLM-VID-007",
+        "CLM-VID-012"
+      ]
+    },
+    {
+      "id": "PRN-092",
+      "statement": "Use clip-specific estimated aural lexical coverage as a primary readiness feature; text-only vocabulary knowledge is weaker evidence for spoken-video access.",
+      "confidence": "high",
+      "claim_ids": [
+        "CLM-VID-002",
+        "CLM-VID-008"
+      ]
+    },
+    {
+      "id": "PRN-093",
+      "statement": "Treat approximately 95% lexical coverage as a research-informed candidate band for relatively stable listening/viewing comprehension, never as a universal unlock constant.",
+      "confidence": "moderate",
+      "claim_ids": [
+        "CLM-VID-003",
+        "CLM-VID-004",
+        "CLM-VID-015"
+      ]
+    },
+    {
+      "id": "PRN-094",
+      "statement": "Do not use low lexical thresholds that permit content comprehension through imagery as proof of independent audio readiness.",
+      "confidence": "high",
+      "claim_ids": [
+        "CLM-VID-004",
+        "CLM-VID-005"
+      ]
+    },
+    {
+      "id": "PRN-095",
+      "statement": "Keep message understanding with video and audio-dependent understanding as separate evidence dimensions.",
+      "confidence": "high",
+      "claim_ids": [
+        "CLM-VID-005",
+        "CLM-VID-010"
+      ]
+    },
+    {
+      "id": "PRN-096",
+      "statement": "Record visual-semantic grounding because supportive imagery can lower pedagogical difficulty, but never let visual success silently update listening mastery.",
+      "confidence": "high",
+      "claim_ids": [
+        "CLM-VID-005",
+        "CLM-VID-009"
+      ]
+    },
+    {
+      "id": "PRN-097",
+      "statement": "Treat speech/playback rate as a learner-relative load feature rather than a universal WPM threshold.",
+      "confidence": "moderate",
+      "claim_ids": [
+        "CLM-VID-011",
+        "CLM-VID-015"
+      ]
+    },
+    {
+      "id": "PRN-098",
+      "statement": "Preserve speaker count, turn density, overlap/noise and connected-speech difficulty as separate readiness features until product data justify any aggregate weighting.",
+      "confidence": "moderate",
+      "claim_ids": [
+        "CLM-VID-011",
+        "CLM-VID-015"
+      ]
+    },
+    {
+      "id": "PRN-099",
+      "statement": "Weight unknown critical content words more heavily than raw unknown-token count when deciding whether a clip can carry the target message.",
+      "confidence": "low",
+      "claim_ids": [
+        "CLM-VID-013"
+      ]
+    },
+    {
+      "id": "PRN-100",
+      "statement": "Use captions/subtitles as an explicit support state; success after answer-bearing text appears cannot be backfilled as independent listening success.",
+      "confidence": "high",
+      "claim_ids": [
+        "CLM-VID-010"
+      ]
+    },
+    {
+      "id": "PRN-101",
+      "statement": "Analyze and unlock short windows within authentic sources rather than assigning one irreversible difficulty label to an entire video.",
+      "confidence": "moderate",
+      "claim_ids": [
+        "CLM-VID-007",
+        "CLM-VID-012",
+        "CLM-VID-014"
+      ]
+    },
+    {
+      "id": "PRN-102",
+      "statement": "Recompute video readiness as learner aural vocabulary, listening evidence and support dependence change.",
+      "confidence": "moderate",
+      "claim_ids": [
+        "CLM-VID-002",
+        "CLM-VID-007"
+      ]
+    },
+    {
+      "id": "PRN-103",
+      "statement": "Use TV/movie corpus vocabulary profiles for candidate discovery and planning, not as individual learner mastery or clip-readiness evidence.",
+      "confidence": "high",
+      "claim_ids": [
+        "CLM-VID-006",
+        "CLM-VID-007"
+      ]
+    },
+    {
+      "id": "PRN-104",
+      "statement": "Keep lexical bands, speech-load weights, clip length and readiness-state boundaries falsifiable product hypotheses until EXP-009 validates them with Vietnamese near-A0 learners.",
+      "confidence": "high",
+      "claim_ids": [
+        "CLM-VID-014",
+        "CLM-VID-015"
+      ]
+    }
+  ]
+}

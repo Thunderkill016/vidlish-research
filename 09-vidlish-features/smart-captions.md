@@ -8,7 +8,7 @@ status: later-stage-experiment
 
 ## Scope
 
-This is **not** a first-session A0 feature. It applies when a learner has graduated to short authentic or semi-authentic video input that passes a difficulty gate.
+This is **not** a first-session A0 feature. It applies only after a short authentic or semi-authentic window passes `FEAT-VID-002`; captions must not be used to rescue arbitrarily difficult sources.
 
 ## Learner problem
 
@@ -20,6 +20,8 @@ Understand a bounded video message with progressively less textual/L1 support.
 
 ## Research links
 
+- `SYN-VID-002` authentic video readiness.
+- `FEAT-VID-002` learner × clip readiness gate.
 - `SYN-VID-001` captions.
 - `SYN-LIS-001` listening model.
 - `PRN-006` scaffold/fade support.

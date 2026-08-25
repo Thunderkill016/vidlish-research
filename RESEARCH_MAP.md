@@ -12,7 +12,7 @@
 | R06 Pronunciation | What improves intelligibility, especially for Vietnamese learners? | RQ-007 initial synthesis complete | pronunciation layer |
 | R07 Reading/writing | How should receptive and productive literacy support the same communicative goals? | open | later A0/A1 packs |
 | R08 Assessment | How should `understood`, `recalled`, `transferred`, `retained` be measured? | RQ-005 initial transfer synthesis complete | progress model |
-| R09 Video-based learning | When is authentic video usable, and which scaffolds help rather than replace listening? | seeded | later source path |
+| R09 Video-based learning | When is authentic video usable, and which scaffolds help rather than replace listening? | RQ-009 initial readiness synthesis complete | later source path |
 | R10 Vietnamese learners | Which L1-specific problems deserve targeted support? | RQ-002 general L1 scaffold synthesis complete; Vietnamese-specific calibration open | personalization |
 | R11 Motivation/product behavior | Which session designs cause useful return without substituting engagement for learning? | open | UX and retention |
 | R12 AI/technology | Where can ASR/LLMs/TTS help, and where do reliability/privacy limits dominate? | RQ-008 initial ASR validity synthesis complete | AI features |
@@ -35,7 +35,7 @@
 
 ### P2 — before making video central to any stage
 
-- `RQ-009`: What vocabulary coverage and speech characteristics make a short authentic clip usable?
+- `RQ-009`: What vocabulary coverage and speech characteristics make a short authentic clip usable? → **initial synthesis complete** (`SYN-VID-002`, `FEAT-VID-002`, `EXP-009`)
 - `RQ-010`: When should English captions, Vietnamese support, transcript and replay appear?
 - `RQ-011`: Does auto-pause improve learning or simply fragment comprehension?
 
@@ -49,7 +49,9 @@
 - Exact ASR provider/model mix and maintenance policy.
 - Exact machine-feedback confidence / false-correction thresholds.
 - Exact automated feature detectors safe enough for Vietnamese near-A0.
-- Exact vocabulary count required before authentic video.
+- Exact authentic-video lexical-coverage bands and learner × clip readiness thresholds.
+- Exact authentic-video window length / segmentation policy.
+- Exact speech-load and visual-grounding weights for Vietnamese near-A0.
 - Exact transfer novelty ladder and probe-sampling frequency for near-A0.
 - Best beginner voice/ accent mix.
 - Whether learners value and return for delayed review.

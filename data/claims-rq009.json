@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "claims": [
+    {
+      "id": "CLM-VID-002",
+      "statement": "Lexical coverage is positively related to L2 listening and viewing comprehension, but coverage predicts probabilities of comprehension rather than guaranteeing understanding.",
+      "evidence_level": "A",
+      "source_ids": [
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-VID-003",
+      "statement": "For informal L2 listening, around 95% lexical coverage is a defensible candidate for relatively stable adequate comprehension, while performance around 90% shows greater between-learner variability; these figures are material- and criterion-dependent rather than universal thresholds.",
+      "evidence_level": "B",
+      "source_ids": [
+        "SRC-0087",
+        "SRC-0088"
+      ],
+      "status": "accepted-with-scope-limit"
+    },
+    {
+      "id": "CLM-VID-004",
+      "statement": "In one direct short-documentary viewing experiment, approximately 95% lexical coverage supported an optimal adequate-comprehension criterion while substantially lower coverage could still support minimal content comprehension because imagery contributes meaning; this cannot be generalized into an independent-listening threshold.",
+      "evidence_level": "B",
+      "source_ids": [
+        "SRC-0090"
+      ],
+      "status": "accepted-with-material-limit"
+    },
+    {
+      "id": "CLM-VID-005",
+      "statement": "Audiovisual imagery changes the comprehension construct: lexical coverage is more strongly tied to audio-dependent understanding than to information recoverable from imagery, so viewing comprehension and listening comprehension should not be treated as identical outcomes.",
+      "evidence_level": "B",
+      "source_ids": [
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-VID-006",
+      "statement": "Large TV and movie corpora commonly reach about 95% lexical coverage around the 3,000-frequency/word-family region, while 98% requires substantially more vocabulary; genre, episode and methodological variation is large.",
+      "evidence_level": "B",
+      "source_ids": [
+        "SRC-0091",
+        "SRC-0092",
+        "SRC-0093"
+      ],
+      "status": "accepted-as-corpus-description"
+    },
+    {
+      "id": "CLM-VID-007",
+      "statement": "Corpus-wide vocabulary-size estimates cannot establish readiness for one specific authentic clip because local lexical demands vary; clip-specific lexical profiling is more appropriate for adaptive selection.",
+      "evidence_level": "C",
+      "source_ids": [
+        "SRC-0088",
+        "SRC-0091",
+        "SRC-0092",
+        "SRC-0093"
+      ],
+      "status": "accepted-as-product-inference"
+    },
+    {
+      "id": "CLM-VID-008",
+      "statement": "For audiovisual readiness, aural access to words/chunks is more relevant than orthographic familiarity alone because successful listening requires recognizing known language in speech.",
+      "evidence_level": "B",
+      "source_ids": [
+        "SRC-0087",
+        "SRC-0089"
+      ],
+      "status": "accepted-with-rq003-link"
+    },
+    {
+      "id": "CLM-VID-009",
+      "statement": "Visual-semantic grounding can support comprehension and vocabulary learning; imagery that coincides closely with spoken referents is more pedagogically useful than unrelated or weakly informative visuals.",
+      "evidence_level": "B",
+      "source_ids": [
+        "SRC-0089",
+        "SRC-0090",
+        "SRC-0095"
+      ],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-VID-010",
+      "statement": "Beginner TV-viewing comprehension is influenced by prior vocabulary knowledge, lexical coverage and on-screen support; support can improve content comprehension without demonstrating independent listening.",
+      "evidence_level": "B",
+      "source_ids": [
+        "SRC-0094",
+        "SRC-0096"
+      ],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-VID-011",
+      "statement": "Playback/speech rate interacts with captions and learner proficiency/listening ability; current evidence does not justify one universal words-per-minute threshold for authentic video readiness.",
+      "evidence_level": "B",
+      "source_ids": [
+        "SRC-0097"
+      ],
+      "status": "accepted-with-generalization-limit"
+    },
+    {
+      "id": "CLM-VID-012",
+      "statement": "Authentic audiovisual input is best treated as gradable by local linguistic and multimodal properties rather than as a binary authentic-versus-graded category.",
+      "evidence_level": "C",
+      "source_ids": [
+        "SRC-0088",
+        "SRC-0090",
+        "SRC-0096"
+      ],
+      "status": "accepted-as-synthesis"
+    },
+    {
+      "id": "CLM-VID-013",
+      "statement": "High overall token coverage can still mask a small number of unknown words that carry critical message content, so raw coverage percentage should be supplemented with the information value of unknown items.",
+      "evidence_level": "D",
+      "source_ids": [
+        "SRC-0088"
+      ],
+      "status": "product-hypothesis-grounded-in-coverage-limit"
+    },
+    {
+      "id": "CLM-VID-014",
+      "statement": "Short source windows can in principle be pedagogically usable before an entire source becomes usable, but the optimal window duration and segmentation policy for Vietnamese near-A0 learners are not established by the literature.",
+      "evidence_level": "D",
+      "source_ids": [
+        "SRC-0090",
+        "SRC-0096"
+      ],
+      "status": "open-product-assumption"
+    },
+    {
+      "id": "CLM-VID-015",
+      "statement": "The exact lexical-coverage bands, speech-load weights, visual-grounding thresholds and authentic-video unlock policy for Vietnamese near-A0 Nếp learners require direct validation and should not be presented as established scientific cutoffs.",
+      "evidence_level": "D",
+      "source_ids": [
+        "SRC-0088",
+        "SRC-0090",
+        "SRC-0097"
+      ],
+      "status": "open-product-assumption"
+    }
+  ]
+}

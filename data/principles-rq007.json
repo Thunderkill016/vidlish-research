@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "principles": [
+    {"id":"PRN-062","statement":"Optimize pronunciation for intelligibility first and comprehensibility second; never use accentedness or native-likeness alone as a failure criterion.","confidence":"high","claim_ids":["CLM-PRN-001","CLM-PRN-011"]},
+    {"id":"PRN-063","statement":"Use Vietnamese population findings as diagnostic priors, then require learner-level evidence before allocating substantial pronunciation practice.","confidence":"high","claim_ids":["CLM-PRN-012"]},
+    {"id":"PRN-064","statement":"Near A0, prioritize preservation of information-bearing word shape—especially risky codas and clusters—before fine accent polish when learner evidence confirms the problem.","confidence":"high","claim_ids":["CLM-PRN-003","CLM-PRN-004"]},
+    {"id":"PRN-065","statement":"Give extra priority to pronunciation deviations that erase lexical or grammatical information, while keeping feature-specific evidence boundaries explicit.","confidence":"high","claim_ids":["CLM-PRN-004","CLM-PRN-011"]},
+    {"id":"PRN-066","statement":"Use functional load as one ranking signal for segmental contrasts, not as a universal Vietnamese phoneme curriculum.","confidence":"moderate","claim_ids":["CLM-PRN-006","CLM-PRN-014"]},
+    {"id":"PRN-067","statement":"Prioritize lexical-stress correction when the deviation damages vowel/syllable realization or word identification; do not correct every harmless prominence difference.","confidence":"high","claim_ids":["CLM-PRN-007","CLM-PRN-008"]},
+    {"id":"PRN-068","statement":"Teach vowel contrasts diagnostically around lexical information and actual learner/listener confusion rather than requiring one native-accent vowel inventory.","confidence":"moderate","claim_ids":["CLM-PRN-009","CLM-PRN-011"]},
+    {"id":"PRN-069","statement":"Use sentence focus, timing and intonation where they reduce listener effort or carry communicative intent; do not impose native-like rhythm as an A0 accent badge.","confidence":"moderate","claim_ids":["CLM-PRN-010"]},
+    {"id":"PRN-070","statement":"Embed pronunciation work inside meaningful listening/speaking tasks and require model-hidden changed-context production before claiming independent pronunciation transfer.","confidence":"high","claim_ids":["CLM-PRN-002","CLM-PRN-011","CLM-PRN-014"]},
+    {"id":"PRN-071","statement":"Record target-feature realization, listener intelligibility, comprehensibility, support and scoring provenance separately rather than collapsing them into one pronunciation score.","confidence":"high","claim_ids":["CLM-PRN-005","CLM-PRN-011"]},
+    {"id":"PRN-072","statement":"Sample pronunciation outcomes across more than one relevant listener background before treating a target as broadly communication-critical.","confidence":"moderate","claim_ids":["CLM-PRN-005"]},
+    {"id":"PRN-073","statement":"If speech is reliably understood, do not force correction solely to erase a Vietnamese accent; optional accent refinement must remain learner-controlled.","confidence":"high","claim_ids":["CLM-PRN-001","CLM-PRN-011"]},
+    {"id":"PRN-074","statement":"Do not use ASR/vendor pronunciation scores as mastery gates until RQ-008 validates them against intended human listener outcomes for this population and task.","confidence":"high","claim_ids":["CLM-PRN-013"]},
+    {"id":"PRN-075","statement":"Calibrate pronunciation target ordering by delayed first-seen listener understanding gained per learner minute, not by immediate imitation accuracy alone.","confidence":"moderate","claim_ids":["CLM-PRN-002","CLM-PRN-014"]}
+  ]
+}

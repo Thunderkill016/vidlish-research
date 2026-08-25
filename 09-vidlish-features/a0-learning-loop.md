@@ -21,6 +21,8 @@ Understand one small message, retrieve/use part of it with reduced support, hand
 - `SYN-VOC-001` retrieval + spacing.
 - `SYN-TRN-001` changed-context transfer policy.
 - `FEAT-TRN-001` graduated transfer probes.
+- `SYN-PRN-001` intelligibility-first pronunciation priorities.
+- `FEAT-PRN-001` pronunciation priority engine.
 - `PRN-001` through `PRN-005`, plus `PRN-040` through `PRN-049` for transfer interpretation.
 
 ## Proposed behavior
@@ -74,3 +76,20 @@ rehearsal if needed
 ```
 
 Model-visible repetition remains practice evidence; independent speaking requires the answer-bearing model to be hidden before the attempt and support provenance to be recorded.
+
+## Pronunciation integration dependency
+
+Pronunciation work should attach to the same meaningful target used in listening/speaking rather than become a separate IPA tour. Use `FEAT-PRN-001` to select communication-relevant pronunciation work from learner evidence.
+
+```text
+meaning understood
+→ learner retrieves/speaks target
+→ if pronunciation threatens word/message identity:
+     diagnose smallest high-value feature
+     → perception/noticing if useful
+     → bounded production
+     → model-hidden changed-context production
+     → later listener outcome
+```
+
+A noticeable Vietnamese accent is not failure when the intended message is reliably understood. ASR/vendor pronunciation scores cannot gate this loop before RQ-008 validation.

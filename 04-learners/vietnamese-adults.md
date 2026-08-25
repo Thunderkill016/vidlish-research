@@ -45,3 +45,25 @@ Vietnamese support. Nếp should therefore:
 
 The previous idea of tapering support around a fixed vocabulary count must remain a product
 hypothesis until directly validated.
+
+## RQ-007 update — pronunciation priorities
+
+Direct Vietnamese-English evidence now gives stronger support to some candidate diagnostic domains than others (`SYN-PRN-001`):
+
+- English coda / word-final consonant preservation and consonant-cluster integrity;
+- morphology-bearing final `/s,z/`, especially in cluster environments;
+- English lexical stress/timing patterns where the learner's realization changes word recognition;
+- selected vowel quality/quantity contrasts where the learner collapses lexical distinctions;
+- sentence-level focus/intonation as a later or conditional communicative target.
+
+These are **population priors, not learner facts**. Vietnamese regional varieties differ, task formality changes pronunciation, and listener language background changes intelligibility judgments. Nếp must confirm targets from the individual learner before allocating substantial practice.
+
+The product must also distinguish:
+
+```text
+accentedness       ≠ intelligibility
+feature accuracy   ≠ listener understanding
+Vietnamese prior   ≠ learner diagnosis
+```
+
+A strong Vietnamese accent that remains understandable is not a defect to erase. RQ-008 remains responsible for determining whether any automated speech technology can validly score the outcomes RQ-007 defines.

@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "SRC-0098",
+      "title": "Captioned video for L2 listening and vocabulary learning: A meta-analysis",
+      "type": "meta-analysis",
+      "authors": "Maribel Montero Perez; Wim Van Den Noortgate; Piet Desmet",
+      "year": 2013,
+      "doi": "10.1016/j.system.2013.07.013",
+      "url": "https://doi.org/10.1016/j.system.2013.07.013",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0099",
+      "title": "Is less more? Effectiveness and perceived usefulness of keyword and full captioned video for L2 listening comprehension",
+      "type": "caption-mode-experiment",
+      "authors": "Maribel Montero Perez; Elke Peters; Piet Desmet",
+      "year": 2014,
+      "doi": "10.1017/S0958344013000256",
+      "url": "https://doi.org/10.1017/S0958344013000256",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0100",
+      "title": "The Effects of Captioning Videos Used for Foreign Language Listening Activities",
+      "type": "repeated-viewing-caption-order-study",
+      "authors": "Paula Winke; Susan Gass; Tetyana Sydorenko",
+      "year": 2010,
+      "url": "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/0bb15976-674b-4006-8653-52b83b8d4654/content",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0101",
+      "title": "Factors influencing the use of captions by foreign language learners: An eye-tracking study",
+      "type": "eye-tracking-study",
+      "authors": "Paula Winke; Susan Gass; Tetyana Sydorenko",
+      "year": 2013,
+      "doi": "10.1111/j.1540-4781.2013.01432.x",
+      "url": "https://doi.org/10.1111/j.1540-4781.2013.01432.x",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0102",
+      "title": "How captions help people learn languages: A working-memory, eye-tracking study",
+      "type": "eye-tracking-working-memory-study",
+      "authors": "Susan M. Gass; Paula Winke; Daniel R. Isbell; Jieun Ahn",
+      "year": 2019,
+      "doi": "10.64152/10125/44684",
+      "url": "https://www.lltjournal.org/item/913/",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0103",
+      "title": "Testing learner reliance on caption supports in second language listening comprehension multimedia environments",
+      "type": "caption-reliance-study",
+      "authors": "Aubrey Neil Leveridge; Jie Chi Yang",
+      "year": 2013,
+      "doi": "10.1017/S0958344013000074",
+      "url": "https://doi.org/10.1017/S0958344013000074",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0104",
+      "title": "One size fits all? In search of the desirable caption display for second language learners with different caption reliance in listening comprehension",
+      "type": "differentiated-caption-mode-study",
+      "authors": "Ping-Jung Lee; Yeu-Ting Liu; Wen-Ta Tseng",
+      "year": 2021,
+      "doi": "10.1177/1362168819856451",
+      "url": "https://doi.org/10.1177/1362168819856451",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0105",
+      "title": "Progressive Reduction of Captions in Language Learning",
+      "type": "exploratory-qualitative-intervention",
+      "authors": "Mónica S. Cárdenas-Claros; Daniela Ramírez-Orellana",
+      "year": 2024,
+      "doi": "10.28945/5263",
+      "url": "https://doi.org/10.28945/5263",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0106",
+      "title": "Perceptions of learning from audiovisual input and changes in L2 viewing preferences: The roles of on-screen text and proficiency",
+      "type": "longitudinal-viewing-preference-study",
+      "authors": "Anastasia Pattemore; Maria-del-Mar Suárez; Carmen Muñoz",
+      "year": 2024,
+      "doi": "10.1017/S0958344024000065",
+      "url": "https://doi.org/10.1017/S0958344024000065",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0107",
+      "title": "When to switch captions off? Exploring the effects of L2 proficiency and vocabulary knowledge on comprehension of captioned and uncaptioned TV",
+      "type": "caption-proficiency-comprehension-study",
+      "authors": "Geòrgia Pujadas; Carmen Muñoz",
+      "year": 2024,
+      "doi": "10.14746/ssllt.38036",
+      "url": "https://doi.org/10.14746/ssllt.38036",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0108",
+      "title": "Listen or Read? The Impact of Proficiency and Visual Complexity on Learners’ Reliance on Captions",
+      "type": "caption-reliance-processing-study",
+      "authors": "Yan Li",
+      "year": 2025,
+      "doi": "10.3390/bs15040542",
+      "url": "https://doi.org/10.3390/bs15040542",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0109",
+      "title": "Learning from academic video with subtitles: When foreign language proficiency matters",
+      "type": "subtitle-language-proficiency-study",
+      "authors": "Maria Pannatier; Mireille Bétrancourt",
+      "year": 2024,
+      "doi": "10.1016/j.learninstruc.2023.101863",
+      "url": "https://doi.org/10.1016/j.learninstruc.2023.101863",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0110",
+      "title": "Vocabulary Acquisition through Viewing Captioned and Subtitled Video: A Scoping Review and Meta-Analysis",
+      "type": "scoping-review-meta-analysis",
+      "authors": "Barry Lee Reynolds; Yanwen Cui; Chian-Wen Kao; Nathan Thomas",
+      "year": 2022,
+      "doi": "10.3390/systems10050133",
+      "url": "https://doi.org/10.3390/systems10050133",
+      "status": "verified"
+    }
+  ]
+}

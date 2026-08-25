@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "principles": [
+    {
+      "id": "PRN-105",
+      "statement": "Record an unsupported or minimally supported attempt before showing answer-bearing captions/translation whenever independent listening evidence is the goal.",
+      "confidence": "high",
+      "claim_ids": [
+        "CLM-CAP-001",
+        "CLM-CAP-013"
+      ]
+    },
+    {
+      "id": "PRN-106",
+      "statement": "Treat caption-visible comprehension and independent audio comprehension as distinct evidence states.",
+      "confidence": "high",
+      "claim_ids": [
+        "CLM-CAP-002",
+        "CLM-CAP-013"
+      ]
+    },
+    {
+      "id": "PRN-107",
+      "statement": "Select support by diagnosed bottleneck: replay for another acoustic encounter, L2 text for form/segmentation, and Vietnamese support for meaning.",
+      "confidence": "moderate",
+      "claim_ids": [
+        "CLM-CAP-006",
+        "CLM-CAP-015"
+      ]
+    },
+    {
+      "id": "PRN-108",
+      "statement": "Replay does not reveal an answer, but every replay increments exposure count and cannot be labeled first-seen evidence.",
+      "confidence": "high",
+      "claim_ids": [
+        "CLM-CAP-007"
+      ]
+    },
+    {
+      "id": "PRN-109",
+      "statement": "Do not assume keyword or partial captions are inherently better than full captions; choose mode by task and learner reliance profile.",
+      "confidence": "high",
+      "claim_ids": [
+        "CLM-CAP-003",
+        "CLM-CAP-004"
+      ]
+    },
+    {
+      "id": "PRN-110",
+      "statement": "Use L2 captions when speech-form mapping/segmentation is the target; do not let their presence count as independent form recognition for the same segment.",
+      "confidence": "high",
+      "claim_ids": [
+        "CLM-CAP-006",
+        "CLM-CAP-013"
+      ]
+    },
+    {
+      "id": "PRN-111",
+      "statement": "Use Vietnamese semantic support when meaning is the bottleneck and keep it as bounded as the task allows.",
+      "confidence": "moderate",
+      "claim_ids": [
+        "CLM-CAP-005",
+        "CLM-CAP-015"
+      ]
+    },
+    {
+      "id": "PRN-112",
+      "statement": "Full L1 subtitles/translation may support content access, but success after full meaning reveal cannot establish independent L2 message comprehension.",
+      "confidence": "high",
+      "claim_ids": [
+        "CLM-CAP-005",
+        "CLM-CAP-013"
+      ]
+    },
+    {
+      "id": "PRN-113",
+      "statement": "Treat a full transcript as an analysis/repair support state rather than default evidence-bearing listening display.",
+      "confidence": "moderate",
+      "claim_ids": [
+        "CLM-CAP-014"
+      ]
+    },
+    {
+      "id": "PRN-114",
+      "statement": "Do not hard-code captions-first or audio-first as a universal scientific rule; test order policies against delayed unsupported listening.",
+      "confidence": "high",
+      "claim_ids": [
+        "CLM-CAP-008"
+      ]
+    },
+    {
+      "id": "PRN-115",
+      "statement": "Fade support based on learner evidence on support-reduced and unseen parallel input, not by a fixed week count or CEFR-only threshold.",
+      "confidence": "high",
+      "claim_ids": [
+        "CLM-CAP-009",
+        "CLM-CAP-010",
+        "CLM-CAP-015"
+      ]
+    },
+    {
+      "id": "PRN-116",
+      "statement": "Track individual caption reliance/support history because proficiency alone does not fully determine the best caption mode.",
+      "confidence": "high",
+      "claim_ids": [
+        "CLM-CAP-003",
+        "CLM-CAP-011"
+      ]
+    },
+    {
+      "id": "PRN-117",
+      "statement": "Increase caution with always-on captions as visual/speaker complexity rises because lower-proficiency learners may shift even more strongly toward text.",
+      "confidence": "moderate",
+      "claim_ids": [
+        "CLM-CAP-012"
+      ]
+    },
+    {
+      "id": "PRN-118",
+      "statement": "Preserve support provenance for every attempt: caption language/mode, transcript visibility, Vietnamese gloss level, replay count, playback rate and exposure index.",
+      "confidence": "high",
+      "claim_ids": [
+        "CLM-CAP-007",
+        "CLM-CAP-013"
+      ]
+    },
+    {
+      "id": "PRN-119",
+      "statement": "Keep exact support ordering, fading thresholds and transcript/replay policies falsifiable until EXP-010 validates them with the target population.",
+      "confidence": "high",
+      "claim_ids": [
+        "CLM-CAP-014",
+        "CLM-CAP-015"
+      ]
+    }
+  ]
+}

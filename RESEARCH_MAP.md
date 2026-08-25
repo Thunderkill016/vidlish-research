@@ -12,7 +12,7 @@
 | R06 Pronunciation | What improves intelligibility, especially for Vietnamese learners? | RQ-007 initial synthesis complete | pronunciation layer |
 | R07 Reading/writing | How should receptive and productive literacy support the same communicative goals? | open | later A0/A1 packs |
 | R08 Assessment | How should `understood`, `recalled`, `transferred`, `retained` be measured? | RQ-005 initial transfer synthesis complete | progress model |
-| R09 Video-based learning | When is authentic video usable, and which scaffolds help rather than replace listening? | RQ-009 initial readiness synthesis complete | later source path |
+| R09 Video-based learning | When is authentic video usable, and which scaffolds help rather than replace listening? | RQ-009 readiness + RQ-010 support-policy syntheses complete | later source path |
 | R10 Vietnamese learners | Which L1-specific problems deserve targeted support? | RQ-002 general L1 scaffold synthesis complete; Vietnamese-specific calibration open | personalization |
 | R11 Motivation/product behavior | Which session designs cause useful return without substituting engagement for learning? | open | UX and retention |
 | R12 AI/technology | Where can ASR/LLMs/TTS help, and where do reliability/privacy limits dominate? | RQ-008 initial ASR validity synthesis complete | AI features |
@@ -36,7 +36,7 @@
 ### P2 — before making video central to any stage
 
 - `RQ-009`: What vocabulary coverage and speech characteristics make a short authentic clip usable? → **initial synthesis complete** (`SYN-VID-002`, `FEAT-VID-002`, `EXP-009`)
-- `RQ-010`: When should English captions, Vietnamese support, transcript and replay appear?
+- `RQ-010`: When should English captions, Vietnamese support, transcript and replay appear? → **initial synthesis complete** (`SYN-CAP-001`, `FEAT-VID-001`, `EXP-010`)
 - `RQ-011`: Does auto-pause improve learning or simply fragment comprehension?
 
 ## Explicitly unresolved product assumptions
@@ -47,6 +47,7 @@
 - Exact pronunciation target priority / practice dose for Vietnamese near-A0.
 - Listener-panel mix and minimum intelligibility criterion for pronunciation validation.
 - Exact ASR provider/model mix and maintenance policy.
+- Exact caption/support fading policy and transcript/replay thresholds for Vietnamese learners.
 - Exact machine-feedback confidence / false-correction thresholds.
 - Exact automated feature detectors safe enough for Vietnamese near-A0.
 - Exact authentic-video lexical-coverage bands and learner × clip readiness thresholds.

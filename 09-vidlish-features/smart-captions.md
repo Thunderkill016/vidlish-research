@@ -1,58 +1,150 @@
 ---
 id: FEAT-VID-001
-title: Smart captions for graduated video input
-status: later-stage-experiment
+title: Adaptive on-screen support controller
+status: research-backed-candidate
+research_question: RQ-010
 ---
 
-# Feature research spec — Smart captions
+# Feature research spec — Adaptive on-screen support controller
 
 ## Scope
 
-This is **not** a first-session A0 feature. It applies only after a short authentic or semi-authentic window passes `FEAT-VID-002`; captions must not be used to rescue arbitrarily difficult sources.
+This is not a first-session A0 feature. It runs only after a video window passes `FEAT-VID-002` or is deliberately used as scaffolded exposure.
 
 ## Learner problem
 
-Audio may be partly understandable while individual words/phrases remain hard to segment or recognize. Permanent bilingual subtitles can solve comprehension by replacing listening with reading.
+Permanent subtitles can make difficult audiovisual content understandable while hiding whether the learner is actually processing speech. Conversely, removing all text too early can turn useful input into noise and frustration.
 
 ## Target capability
 
-Understand a bounded video message with progressively less textual/L1 support.
+Help the learner recover meaning and speech form with the smallest useful scaffold, while preserving clean evidence about what was possible before support appeared.
 
-## Research links
+## Research basis
 
-- `SYN-VID-002` authentic video readiness.
-- `FEAT-VID-002` learner × clip readiness gate.
-- `SYN-VID-001` captions.
-- `SYN-LIS-001` listening model.
-- `PRN-006` scaffold/fade support.
+- `SYN-CAP-001`
+- `SYN-VID-002`
+- `SYN-SCF-001`
+- `SYN-LIS-002`
+- `PRN-105` through `PRN-119`
+
+## Architecture
+
+```text
+Video Window
+   ↓
+Initial Support State
+   ↓
+Attempt
+   ↓
+Evidence Capture
+   ↓
+Failure Classifier
+   ├── exposure/attention problem
+   ├── segmentation/form problem
+   ├── meaning problem
+   └── global overload/not-ready
+   ↓
+Support Selector
+   ├── replay
+   ├── L2 targeted cue
+   ├── L2 full caption
+   ├── Vietnamese micro-gloss
+   ├── transcript
+   └── full Vietnamese meaning support
+   ↓
+Retry / analysis
+   ↓
+Support-reduced attempt
+   ↓
+Delayed unseen probe
+```
+
+## Support object
+
+```ts
+type VideoSupportEvent = {
+  attemptId: string;
+  clipWindowId: string;
+  action:
+    | "replay"
+    | "show_l2_keyword"
+    | "show_l2_caption"
+    | "show_vi_micro_gloss"
+    | "show_l2_transcript"
+    | "show_vi_full_meaning";
+  reason:
+    | "learner_request"
+    | "segmentation_failure"
+    | "meaning_failure"
+    | "global_comprehension_failure"
+    | "experiment_policy";
+  exposureIndex: number;
+  revealsForm: "none" | "partial" | "full";
+  revealsMeaning: "none" | "partial" | "full";
+  answerBearing: boolean;
+  occurredAt: string;
+};
+```
 
 ## Candidate interaction
 
 ```text
-attempt 1: video/audio + visual context
-→ ask gist / target meaning
-→ reveal English caption on request or after failure
-→ tap phrase for bounded Vietnamese support
-→ replay exact window
-→ later replay with less support
-→ changed clip/window probe when feasible
+1. play short window without answer-bearing text
+2. ask a bounded gist/meaning probe
+3. if correct → continue / optional consolidation replay
+4. if wrong → small diagnostic
+5. choose support matching the failure
+6. replay the exact window
+7. hide support again when feasible
+8. later use an unseen parallel window
 ```
 
-## Do not assume
+## Evidence rules
 
-- bilingual subtitles are always harmful;
-- English-only captions are always superior;
-- auto-pause is beneficial;
-- tapping every unknown word should create a flashcard;
-- watching to completion is a learning outcome.
+### Rule 1 — support never rewrites history
 
-## Experiments
+If attempt 1 failed before support and attempt 2 succeeds after a full caption:
 
-Compare support policies on matched clips:
+```text
+attempt 1 = independent failure
+attempt 2 = caption-supported success
+```
 
-- A: English captions always on;
-- B: bilingual captions always on;
-- C: progressive English → Vietnamese-on-demand;
-- D: audio-first then caption after attempt.
+Do not overwrite attempt 1.
 
-Measure comprehension, delayed target-word retention, listening performance on an unseen parallel clip, completion and subjective effort separately.
+### Rule 2 — replay is exposure, not answer reveal
+
+Replay may remain eligible as unsupported listening evidence, but `exposureIndex > 1` must be recorded. It is not first-seen evidence.
+
+### Rule 3 — full L1 meaning is explicit support
+
+Success with Vietnamese subtitle/full translation can support content learning, but cannot be counted as independent L2 meaning comprehension.
+
+### Rule 4 — caption visibility is target-sensitive
+
+A visible L2 caption invalidates an independent **form/segmentation** claim for that same segment, but it may still allow other learning observations to be stored.
+
+## Do not build
+
+- one global subtitle toggle as the complete pedagogy;
+- automatic permanent bilingual subtitles for every learner;
+- a fixed `audio → EN → VI` ladder applied to every error;
+- `caption_used = true` without finer provenance;
+- mastery updates based on caption-visible answers;
+- a CEFR-only rule for permanently switching captions off;
+- keyword captions as the default based on the assumption that less text is always better.
+
+## Dependencies
+
+- `FEAT-VID-002` decides whether the window is suitable.
+- `FEAT-LIS-001` helps diagnose perception versus meaning problems.
+- `FEAT-SCF-001` governs Vietnamese semantic support.
+- `FEAT-TRN-001` supplies unseen/support-reduced transfer probes.
+
+## Falsification
+
+This feature is weakened if adaptive support does not improve delayed unsupported listening relative to simpler always-on or always-off policies, or if its extra interaction cost produces no meaningful gain.
+
+## Experiment
+
+See `EXP-010`.

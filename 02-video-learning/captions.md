@@ -1,41 +1,53 @@
 ---
 id: SYN-VID-001
-title: Captions as a scaffold, not the listening task itself
-status: seeded
+title: Captions as support with evidence provenance
+status: updated-after-rq010
 evidence_level: B
 ---
 
-# Captions and subtitles
+# Captions, subtitles, transcripts and replay
 
-## Seed evidence
+Captions are useful L2 scaffolds, but their benefit depends on learner, task, material and outcome. The key Nếp distinction is **support benefit versus evidence validity**.
 
-Captioned video research generally supports captions as a scaffold for second-language comprehension and/or vocabulary learning, but effects depend on proficiency, task, caption type, outcome and study design.
+## Research-backed observations
 
-Seed reference already used by Vidlish:
+- Captioned viewing generally improves immediate comprehension and/or vocabulary outcomes relative to no captions (`SRC-0098`, `SRC-0110`).
+- Lower-proficiency learners can rely heavily on captions rather than audio (`SRC-0101`, `SRC-0108`).
+- Full captions are not universally worse than keyword/partial captions (`SRC-0099`, `SRC-0104`).
+- L1 subtitles can be valuable for content comprehension, but they give a direct semantic route and therefore change what a successful attempt proves (`SRC-0094`).
+- Caption order evidence is mixed; no universal captions-first/audio-first rule is established (`SRC-0100`).
 
-- Montero Perez et al. / captioned-video meta-analytic literature: https://www.sciencedirect.com/science/article/abs/pii/S0346251X13001012
+See `SYN-CAP-001` for the full RQ-010 synthesis.
 
-This note requires a deeper updated literature review before any precise effect-size claim is promoted to `data/claims.json`.
-
-## Product implication
-
-Captions can help make input usable, but they can also change the task from listening toward reading. Therefore caption visibility should match the learning objective.
-
-Candidate interaction:
+## Product contract
 
 ```text
-first attempt: audio / bounded visual context
-→ learner attempts meaning
-→ reveal English caption if needed
-→ targeted word/phrase help
-→ replay
-→ later attempt with less support
+attempt before answer-bearing support when independent listening is measured
+→ diagnose failure
+→ apply the smallest support matching the bottleneck
+→ record support provenance
+→ remove support when feasible
+→ later probe unsupported unseen input
 ```
 
-## Product assumptions still unproven
+Support is not a single ladder. Replay, English captions, Vietnamese glosses and full transcripts expose different information.
 
-- English-first progressive reveal is better for the target learner than always-on bilingual subtitles.
-- Auto-pause at unknown words helps more than it fragments message comprehension.
-- A tap-to-translate interaction preserves more listening attention than persistent Vietnamese subtitles.
+## Measurement rule
 
-These belong in experiments, not in evidence claims.
+```text
+caption-visible success ≠ independent listening success
+L1-subtitle success      ≠ independent L2 meaning success
+replay success           ≠ first-seen success
+```
+
+All remain useful learning events when stored honestly.
+
+## Open assumptions
+
+- exact fading threshold;
+- exact transcript timing;
+- exact number of replays;
+- whether audio-first fixed ordering beats a learner-adaptive policy;
+- best Vietnamese micro-gloss behavior.
+
+These are tested in `EXP-010`.

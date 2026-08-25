@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "claims": [
+    {
+      "id": "CLM-CAP-001",
+      "statement": "Captioned viewing generally improves immediate L2 comprehension and/or vocabulary outcomes compared with uncaptioned viewing, but effect magnitude depends on outcome, material and study design.",
+      "evidence_level": "A",
+      "source_ids": [
+        "SRC-0098",
+        "SRC-0110"
+      ],
+      "status": "accepted-with-moderators"
+    },
+    {
+      "id": "CLM-CAP-002",
+      "statement": "Lower-proficiency learners can allocate a large share of attention to on-screen captions and rely on written text more than audio during captioned viewing.",
+      "evidence_level": "B",
+      "source_ids": [
+        "SRC-0101",
+        "SRC-0102",
+        "SRC-0108"
+      ],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-CAP-003",
+      "statement": "Caption reliance varies substantially across individual learners and is related to proficiency/achievement; a one-size caption mode can therefore mismatch learner processing needs.",
+      "evidence_level": "B",
+      "source_ids": [
+        "SRC-0103",
+        "SRC-0104"
+      ],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-CAP-004",
+      "statement": "Full captions are not universally inferior to reduced captions: full captions have outperformed keyword captions for some global-comprehension outcomes, while partial modes can benefit some less-caption-reliant learners.",
+      "evidence_level": "B",
+      "source_ids": [
+        "SRC-0099",
+        "SRC-0104"
+      ],
+      "status": "accepted-with-task-dependence"
+    },
+    {
+      "id": "CLM-CAP-005",
+      "statement": "L1 subtitles can improve immediate content comprehension in some lower-proficiency viewing contexts, while other studies find no subtitle-language effect; L1 versus L2 text effects are task- and population-dependent.",
+      "evidence_level": "B",
+      "source_ids": [
+        "SRC-0094",
+        "SRC-0109"
+      ],
+      "status": "accepted-as-mixed-evidence"
+    },
+    {
+      "id": "CLM-CAP-006",
+      "statement": "L2 captions provide a direct written representation of the speech stream and can support speech segmentation, form recognition and lexical form-meaning learning.",
+      "evidence_level": "A",
+      "source_ids": [
+        "SRC-0098",
+        "SRC-0099",
+        "SRC-0102",
+        "SRC-0110"
+      ],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-CAP-007",
+      "statement": "Repeated viewing can provide additional opportunities for comprehension and form processing, but the resulting attempt is repeated exposure rather than first-seen evidence.",
+      "evidence_level": "B",
+      "source_ids": [
+        "SRC-0100",
+        "SRC-0102"
+      ],
+      "status": "accepted-with-measurement-inference"
+    },
+    {
+      "id": "CLM-CAP-008",
+      "statement": "Existing caption-order findings do not justify a universal captions-first or audio-first learning rule; order effects are mixed and can vary with language/script and task outcome.",
+      "evidence_level": "B",
+      "source_ids": [
+        "SRC-0100"
+      ],
+      "status": "accepted-with-limited-evidence-base"
+    },
+    {
+      "id": "CLM-CAP-009",
+      "statement": "Progressive reduction from more to less caption support is pedagogically plausible and positively perceived in exploratory work, but direct causal evidence is insufficient for a fixed universal fading sequence.",
+      "evidence_level": "C",
+      "source_ids": [
+        "SRC-0105"
+      ],
+      "status": "accepted-as-preliminary"
+    },
+    {
+      "id": "CLM-CAP-010",
+      "statement": "Captions can continue to improve television content comprehension across a wide proficiency range; a threshold for content comprehension without captions should not be treated as a threshold for listening-skill training without text.",
+      "evidence_level": "B",
+      "source_ids": [
+        "SRC-0107"
+      ],
+      "status": "accepted-with-construct-boundary"
+    },
+    {
+      "id": "CLM-CAP-011",
+      "statement": "Learners’ viewing-mode preferences and confidence can change with sustained audiovisual exposure, with more proficient learners more likely to shift toward uncaptioned viewing while elementary learners may still prefer L1 support.",
+      "evidence_level": "C",
+      "source_ids": [
+        "SRC-0106"
+      ],
+      "status": "accepted-as-behavioral-evidence"
+    },
+    {
+      "id": "CLM-CAP-012",
+      "statement": "Visual and linguistic complexity can increase caption reliance, especially for lower-proficiency learners, so support policy should account for clip complexity rather than proficiency alone.",
+      "evidence_level": "B",
+      "source_ids": [
+        "SRC-0108",
+        "SRC-0109"
+      ],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-CAP-013",
+      "statement": "Because captions and L1 subtitles can provide alternate routes to form or meaning, success while answer-bearing text is visible cannot by itself establish independent listening ability.",
+      "evidence_level": "C",
+      "source_ids": [
+        "SRC-0101",
+        "SRC-0103",
+        "SRC-0094"
+      ],
+      "status": "accepted-as-measurement-synthesis"
+    },
+    {
+      "id": "CLM-CAP-014",
+      "statement": "The relative pedagogical strength and optimal timing of synchronized captions versus a self-paced full transcript are not established well enough to encode a universal ordering rule.",
+      "evidence_level": "D",
+      "source_ids": [
+        "SRC-0098",
+        "SRC-0102"
+      ],
+      "status": "open-product-assumption"
+    },
+    {
+      "id": "CLM-CAP-015",
+      "statement": "The optimal adaptive sequence and fading thresholds for replay, L2 form support, Vietnamese micro-gloss, transcript and full L1 meaning support for Vietnamese near-A0 learners require direct product validation.",
+      "evidence_level": "D",
+      "source_ids": [
+        "SRC-0104",
+        "SRC-0105",
+        "SRC-0108"
+      ],
+      "status": "open-product-assumption"
+    }
+  ]
+}

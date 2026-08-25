@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "principles": [
+    {
+      "id": "PRN-149",
+      "statement": "Represent early reading as separate evidence for written-form access, lexical/construction interpretation, connected-text comprehension and fluency rather than one reading score.",
+      "confidence": "high",
+      "claim_ids": ["CLM-READ-001", "CLM-READ-002", "CLM-READ-013"]
+    },
+    {
+      "id": "PRN-150",
+      "statement": "Move learners beyond isolated sentences into connected microtexts as soon as prerequisite vocabulary and constructions make coherent meaning feasible.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-READ-001", "CLM-READ-003", "CLM-READ-016"]
+    },
+    {
+      "id": "PRN-151",
+      "statement": "Capture an independent first-pass reading attempt before revealing audio, glosses, translation or other comprehension support.",
+      "confidence": "high",
+      "claim_ids": ["CLM-READ-009", "CLM-READ-010", "CLM-READ-014", "CLM-READ-015"]
+    },
+    {
+      "id": "PRN-152",
+      "statement": "Store support provenance for reading attempts so unaided comprehension, comprehension after gloss, comprehension after translation and comprehension with audio remain distinguishable.",
+      "confidence": "high",
+      "claim_ids": ["CLM-READ-010", "CLM-READ-014", "CLM-READ-015"]
+    },
+    {
+      "id": "PRN-153",
+      "statement": "Estimate learner-by-text readiness from lexical coverage, construction readiness, text demands and task purpose instead of using one universal lexical threshold or CEFR label as a gate.",
+      "confidence": "high",
+      "claim_ids": ["CLM-READ-003", "CLM-READ-004", "CLM-READ-016"]
+    },
+    {
+      "id": "PRN-154",
+      "statement": "Prefer comfortably comprehensible graded material when the goal is sustained reading; do not treat unnecessary text difficulty or authenticity as a learning virtue.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-READ-005", "CLM-READ-006", "CLM-READ-007"]
+    },
+    {
+      "id": "PRN-155",
+      "statement": "Include sustained easy/extensive reading as a curriculum strand once learners can process connected graded text with low enough friction to maintain meaning across passages.",
+      "confidence": "high",
+      "claim_ids": ["CLM-READ-006", "CLM-READ-007"]
+    },
+    {
+      "id": "PRN-156",
+      "statement": "Use level-aware text choice and light accountability for extensive reading, but never convert pages, books or reading streaks into evidence of language mastery.",
+      "confidence": "high",
+      "claim_ids": ["CLM-READ-006", "CLM-READ-007", "CLM-READ-015"]
+    },
+    {
+      "id": "PRN-157",
+      "statement": "Treat reading-while-listening as an optional, fadeable scaffold for word access, pacing or fluency repair rather than the default proof of reading comprehension.",
+      "confidence": "high",
+      "claim_ids": ["CLM-READ-009", "CLM-READ-010", "CLM-READ-012"]
+    },
+    {
+      "id": "PRN-158",
+      "statement": "After audio-assisted or repeated reading, require a later unseen text-only self-paced probe before inferring independent reading development.",
+      "confidence": "high",
+      "claim_ids": ["CLM-READ-010", "CLM-READ-011", "CLM-READ-012", "CLM-READ-015"]
+    },
+    {
+      "id": "PRN-159",
+      "statement": "Measure reading fluency together with comprehension and support use; never optimize raw words per minute when meaning accuracy deteriorates.",
+      "confidence": "high",
+      "claim_ids": ["CLM-READ-013", "CLM-READ-015"]
+    },
+    {
+      "id": "PRN-160",
+      "statement": "Use repeated reading selectively for fluency or difficult-text repair and record exposure count; do not generalize faster rereading of a practiced passage to unseen-text fluency.",
+      "confidence": "high",
+      "claim_ids": ["CLM-READ-011", "CLM-READ-012", "CLM-READ-015"]
+    },
+    {
+      "id": "PRN-161",
+      "statement": "Introduce reading strategies in response to recurring comprehension problems and apply them immediately to real text rather than front-loading a large near-A0 strategy checklist.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-READ-008", "CLM-READ-016"]
+    },
+    {
+      "id": "PRN-162",
+      "statement": "Keep reading comprehension probes sparse and meaning-oriented so the product does not turn every paragraph into a quiz or every unknown word into compulsory vocabulary study.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-READ-006", "CLM-READ-007", "CLM-READ-015"]
+    },
+    {
+      "id": "PRN-163",
+      "statement": "Feed reading encounters into vocabulary, construction, transfer and review models while preserving whether the evidence came from reading, listening, support-assisted interpretation or productive use.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-READ-001", "CLM-READ-003", "CLM-READ-014", "CLM-READ-015"]
+    },
+    {
+      "id": "PRN-164",
+      "statement": "Keep exact message/microtext length, readiness bands, audio/gloss fading, repeated-reading dose, strategy timing and extensive-reading unlock rules falsifiable until EXP-013 validates them with Vietnamese near-A0 learners.",
+      "confidence": "high",
+      "claim_ids": ["CLM-READ-016"]
+    }
+  ]
+}

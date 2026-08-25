@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "claims": [
+    {
+      "id": "CLM-READ-001",
+      "statement": "L2 passage reading comprehension is a multi-component ability associated with decoding/written-word access, vocabulary, grammar and broader language comprehension rather than a single isolated reading subskill.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0134", "SRC-0135"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-READ-002",
+      "statement": "In meta-analytic L2 reading models, language-comprehension components make a substantial contribution to reading comprehension in addition to decoding, so accurate word reading alone cannot establish text understanding.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0134", "SRC-0135"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-READ-003",
+      "statement": "Vocabulary knowledge and grammar/construction knowledge show strong relationships with L2 reading comprehension across large research syntheses.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0134", "SRC-0135"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-READ-004",
+      "statement": "Reading comprehension generally improves as lexical coverage increases, but figures such as 95% and 98% depend on the text, learner, task and comprehension criterion and should not be treated as universal deterministic thresholds.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0136", "SRC-0088"],
+      "status": "accepted-with-threshold-caveat"
+    },
+    {
+      "id": "CLM-READ-005",
+      "statement": "Level-appropriate easy reading can produce stronger comprehension than text above the learner's estimated level; difficulty itself is not evidence of better learning material.",
+      "evidence_level": "C",
+      "source_ids": ["SRC-0140"],
+      "status": "accepted-with-population-limit"
+    },
+    {
+      "id": "CLM-READ-006",
+      "statement": "Extensive reading has positive effects on L2 reading proficiency and related language outcomes across meta-analyses, although intervention designs and populations are heterogeneous.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0132", "SRC-0133"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-READ-007",
+      "statement": "Recent extensive-reading synthesis suggests that level-attuned text selection and some accountability are associated with stronger effects, while long-term follow-up evidence remains limited.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0133"],
+      "status": "accepted-with-moderator-caveat"
+    },
+    {
+      "id": "CLM-READ-008",
+      "statement": "L2 reading-strategy instruction can improve reading comprehension on average, but effects vary across strategies, pedagogical approaches, learner groups and contexts, and delayed-retention evidence is comparatively sparse in some syntheses.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0137", "SRC-0138"],
+      "status": "accepted-with-moderators"
+    },
+    {
+      "id": "CLM-READ-009",
+      "statement": "Reading-while-listening shows only a trivial overall comprehension advantage over reading-only in a broad meta-analysis, with no reliable advantage when the reading-only condition is self-paced.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0139"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-READ-010",
+      "statement": "Success while audio is present cannot by itself establish independent reading because audio can change word access, pacing and segmentation demands.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0139", "SRC-0143"],
+      "status": "accepted-as-measurement-synthesis"
+    },
+    {
+      "id": "CLM-READ-011",
+      "statement": "Repeated reading has evidence for improving reading fluency and can improve comprehension in some L2 contexts, including a Vietnamese EFL study, but performance on a repeatedly exposed passage is not equivalent to transfer to an unseen passage.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0141", "SRC-0142"],
+      "status": "accepted-with-transfer-caveat"
+    },
+    {
+      "id": "CLM-READ-012",
+      "statement": "In a Vietnamese undergraduate EFL experiment, both unassisted and audio-assisted repeated reading improved reading rate, with larger rate gains under audio-assisted repeated reading; the study does not establish a universal near-A0 comprehension policy.",
+      "evidence_level": "C",
+      "source_ids": ["SRC-0142"],
+      "status": "accepted-with-scope-limit"
+    },
+    {
+      "id": "CLM-READ-013",
+      "statement": "Reading fluency is broader than raw words per minute and involves efficient, accurate processing that supports comprehension; passage-level fluency is informative but speed alone is not mastery.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0143"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-READ-014",
+      "statement": "Glosses and bounded lookup can support L2 reading and vocabulary learning, but assisted comprehension should remain distinguishable from unaided text comprehension.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0025", "SRC-0017", "SRC-0024"],
+      "status": "accepted-with-provenance-requirement"
+    },
+    {
+      "id": "CLM-READ-015",
+      "statement": "A valid early reading progression must test connected-text understanding and later performance on unfamiliar text; sentence-level success, practiced-text speed and support-assisted answers are insufficient evidence of independent connected reading.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0134", "SRC-0139", "SRC-0141", "SRC-0143"],
+      "status": "accepted-as-measurement-synthesis"
+    },
+    {
+      "id": "CLM-READ-016",
+      "statement": "The optimal progression from messages to microtexts to graded sustained reading, including exact text length, readiness bands, audio/gloss fading, repeated-reading dose and strategy timing for Vietnamese near-A0 adults, is not established and requires direct product validation.",
+      "evidence_level": "D",
+      "source_ids": ["SRC-0132", "SRC-0133", "SRC-0139", "SRC-0140", "SRC-0141", "SRC-0142"],
+      "status": "open-product-assumption"
+    }
+  ]
+}

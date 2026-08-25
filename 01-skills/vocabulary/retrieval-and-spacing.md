@@ -1,32 +1,27 @@
 ---
 id: SYN-VOC-001
 title: Retrieval and spaced practice for L2 vocabulary
-status: seeded
+status: expanded-by-rq-004
 evidence_level: A
 ---
 
 # Retrieval + spacing
 
-## Synthesis
+The initial seed conclusion remains: repeated retrieval and spacing support L2 vocabulary retention, but no universal fixed repetition count or spacing formula is justified.
 
-Second-language vocabulary learning benefits from repeated retrieval and spacing across time, but the literature does not justify a universal fixed number of repetitions or a single spacing formula for every learner and item.
+The full product-facing synthesis now lives at:
 
-## Seed sources
+- `SYN-REV-001` — `07-syntheses/RQ-004-retrieval-spacing-review.md`
+- `FEAT-REV-001` — `09-vidlish-features/adaptive-review-orchestrator.md`
+- `EXP-004` — `10-experiments/EXP-004-review-scheduling-efficiency.md`
 
-- Kim & Webb — meta-analysis of spacing in second-language vocabulary learning: https://onlinelibrary.wiley.com/doi/10.1111/lang.12479
-- Nakata — within-session repeated retrieval: https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/abs/does-repeated-practice-make-perfect-the-effects-of-withinsession-repeated-retrieval-on-second-language-vocabulary-learning/F14BA8A576CD2563D14CEA46E35D842E
-- Nation — *Learning Vocabulary in Another Language*: https://www.cambridge.org/core/books/learning-vocabulary-in-another-language/97C1293EBC8716EA70B77626E00740AA
+## Durable conclusions
 
-## Product implications
-
-- Keep delayed review.
-- Hide the full answer before tasks intended to measure retrieval.
-- Schedule a target item/evidence representation, not “watched lesson”.
-- Do not interpret a scheduler state as mastery.
-- Optimize intervals against delayed performance and time-on-task rather than a ritual repetition count.
-
-## Open questions for Nếp
-
-- Which response types are valid retrieval measures near A0?
-- When should a failed item be re-presented within the same session?
-- How should FSRS scheduling interact with separate `recalled`, `transferred`, `retained` evidence?
+- space practice across time;
+- attempt before answer reveal for retrieval;
+- judge interval policies on delayed outcomes;
+- do not treat expanding spacing as universally superior to equal spacing;
+- account for time-on-task and diminishing returns from repeated same-session retrieval;
+- align retrieval format with the capability being trained/measured;
+- keep scheduler state separate from language mastery/evidence;
+- treat exact FSRS configuration and desired retention as product calibration questions.

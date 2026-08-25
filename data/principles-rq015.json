@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "principles": [
+    {
+      "id": "PRN-181",
+      "statement": "Model interaction as a distinct capability from monologic speaking; do not infer conversational ability from isolated oral production scores alone.",
+      "confidence": "high",
+      "claim_ids": ["CLM-INT-001", "CLM-INT-002"]
+    },
+    {
+      "id": "PRN-182",
+      "statement": "Require learner responses to be contingent on actual preceding turns and record response relevance separately from grammar, pronunciation and fluency.",
+      "confidence": "high",
+      "claim_ids": ["CLM-INT-003", "CLM-INT-015"]
+    },
+    {
+      "id": "PRN-183",
+      "statement": "Use an appropriate next turn as comprehension evidence when possible; fall back to explicit listening diagnostics only when interaction does not provide interpretable evidence.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-INT-003", "CLM-INT-015"]
+    },
+    {
+      "id": "PRN-184",
+      "statement": "Teach turn-taking, listener support and sequence progression inside short goal-driven exchanges rather than as decontextualized conversation tips.",
+      "confidence": "high",
+      "claim_ids": ["CLM-INT-004", "CLM-INT-009"]
+    },
+    {
+      "id": "PRN-185",
+      "statement": "Treat learner-initiated clarification and repair as positive interactional strategies when they restore shared understanding and allow the task to progress.",
+      "confidence": "high",
+      "claim_ids": ["CLM-INT-005", "CLM-INT-006"]
+    },
+    {
+      "id": "PRN-186",
+      "statement": "Do not reward fake comprehension by penalizing every clarification request; interpret repair frequency together with source-turn difficulty and repair success.",
+      "confidence": "high",
+      "claim_ids": ["CLM-INT-005", "CLM-INT-006", "CLM-INT-015"]
+    },
+    {
+      "id": "PRN-187",
+      "statement": "Progress near-A0 interaction through bounded shared goals and increasing turn/wording/partner variability rather than through unstructured open chat from the start.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-INT-001", "CLM-INT-004", "CLM-INT-016"]
+    },
+    {
+      "id": "PRN-188",
+      "statement": "Teach pragmatic language as form plus social function plus context plus sequence position; do not reduce pragmatics to isolated polite phrases.",
+      "confidence": "high",
+      "claim_ids": ["CLM-INT-007", "CLM-INT-008", "CLM-INT-009"]
+    },
+    {
+      "id": "PRN-189",
+      "statement": "Prioritize high-frequency survival functions—greeting/closing, request, accept/decline, apology, permission, clarification and confirmation—then test them in changed contexts.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-INT-007", "CLM-INT-009", "CLM-INT-016"]
+    },
+    {
+      "id": "PRN-190",
+      "statement": "Protect interaction progressivity: repair meaning-blocking problems during the exchange, but defer many non-blocking form corrections until a task boundary.",
+      "confidence": "high",
+      "claim_ids": ["CLM-INT-001", "CLM-INT-005", "CLM-INT-006"]
+    },
+    {
+      "id": "PRN-191",
+      "statement": "Use AI/chatbots as scalable rehearsal partners, not as proof of real-world interaction capability; require changed-partner and human-calibrated transfer evidence for stronger claims.",
+      "confidence": "high",
+      "claim_ids": ["CLM-INT-010", "CLM-INT-011", "CLM-INT-012", "CLM-INT-014"]
+    },
+    {
+      "id": "PRN-192",
+      "statement": "Record how much the partner repeats, rephrases, supplies language, leads the exchange or silently infers ambiguous learner intent, because partner rescue changes the evidential value of task completion.",
+      "confidence": "high",
+      "claim_ids": ["CLM-INT-002", "CLM-INT-014", "CLM-INT-015"]
+    },
+    {
+      "id": "PRN-193",
+      "statement": "Do not treat ASR success or LLM semantic inference as human intelligibility evidence; distinguish machine recognition, model intent inference and human listener understanding.",
+      "confidence": "high",
+      "claim_ids": ["CLM-INT-011", "CLM-INT-014"]
+    },
+    {
+      "id": "PRN-194",
+      "statement": "Calibrate automated interaction judgments—including response contingency, pragmatic fit, intelligibility and repair classification—against stratified human judgments before using them for mastery decisions.",
+      "confidence": "high",
+      "claim_ids": ["CLM-INT-014", "CLM-INT-015"]
+    },
+    {
+      "id": "PRN-195",
+      "statement": "Prefer low-inference observable interaction evidence such as relevant next turns, goal completion and successful repair over opaque holistic scores such as naturalness or conversation ability percentages.",
+      "confidence": "high",
+      "claim_ids": ["CLM-INT-003", "CLM-INT-015"]
+    },
+    {
+      "id": "PRN-196",
+      "statement": "Keep turn-count progression, latency expectations, repair frequency, pragmatic syllabus, AI accommodation, partner-rescue thresholds, automated scoring and human-transfer criteria falsifiable until EXP-015 validates them for Vietnamese near-A0 learners.",
+      "confidence": "high",
+      "claim_ids": ["CLM-INT-016"]
+    }
+  ]
+}

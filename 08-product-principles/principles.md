@@ -17,3 +17,10 @@
 | `PRN-013` | Require delayed re-demonstration before calling lexical evidence retained. | high | Immediate performance overstates durable retention. |
 | `PRN-014` | Treat useful chunks as lexical targets and record phrase-level cues/support. | moderate | Chunk measurement has distinct receptive/productive and cueing issues. |
 | `PRN-015` | Near A0, prioritize useful form-meaning and spoken/written form first; deepen lexical use progressively. | moderate | Total word-knowledge mastery is not a realistic prerequisite for progression. |
+| `PRN-016` | Near A0, allow strategic Vietnamese support; do not enforce English-only as a product virtue. | high | Multilingual/L1-inclusive instruction can support L2 learning, especially at beginner levels. |
+| `PRN-017` | Use Vietnamese to reduce unnecessary access cost while keeping English form/audio/context as the learning object. | high | L1 lexical support can be efficient without replacing target-language practice. |
+| `PRN-018` | Hide answer-bearing Vietnamese during independent probes and record revealed support. | high | Supported success and independent English performance are different inferences. |
+| `PRN-019` | Prefer progressive disclosure of the smallest useful scaffold over permanently visible full translation. | moderate | Evidence supports scaffolding, not blanket translation or a universal amount. |
+| `PRN-020` | Fade Vietnamese from demonstrated lower-support performance, not a fixed day or vocabulary count. | moderate | Lower proficiency often benefits more, but exact fading thresholds are unvalidated. |
+| `PRN-021` | Keep instruction, lexical gloss, context hint, contrastive note, feedback and full translation as distinct scaffold types. | moderate | Multilingual interventions bundle different mechanisms; product data must not. |
+| `PRN-022` | Judge scaffolds by later unsupported English performance plus task access, not immediate ease alone. | high | Delayed evidence is limited and recognition-heavy outcomes can overstate durable learning. |

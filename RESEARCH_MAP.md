@@ -8,16 +8,17 @@
 | R02 Vocabulary & chunks | What should be learned, in what contexts, and how is knowledge evidenced? | RQ-001 initial synthesis complete | starter catalogue, review |
 | R03 Listening | How should perception, segmentation and comprehension progress? | RQ-003 initial synthesis complete | audio-first sessions |
 | R04 Retrieval & spacing | How should recall and delayed review be designed without pretending one scheduler proves mastery? | RQ-004 initial synthesis complete | review engine |
-| R05 Speaking/output | When and how should controlled production expand into guided interaction? | RQ-006 initial synthesis complete; interaction progression open | speaking tasks |
+| R05 Speaking/output | When and how should controlled production expand into guided interaction? | RQ-006 controlled speaking + RQ-015 interaction initial syntheses complete | speaking tasks, conversation engine |
 | R06 Pronunciation | What improves intelligibility, especially for Vietnamese learners? | RQ-007 initial synthesis complete | pronunciation layer |
 | R07 Reading/writing | How should receptive and productive literacy support the same communicative goals? | RQ-013 reading + RQ-014 writing initial syntheses complete | A0/A1 literacy engine |
 | R08 Assessment | How should `understood`, `recalled`, `transferred`, `retained` be measured? | RQ-005 initial transfer synthesis complete | progress model |
 | R09 Video-based learning | When is authentic video usable, and which scaffolds help rather than replace listening? | RQ-009 readiness + RQ-010 support + RQ-011 temporal-repair syntheses complete | later source path |
 | R10 Vietnamese learners | Which L1-specific problems deserve targeted support? | RQ-002 general L1 scaffold synthesis complete; Vietnamese-specific calibration open | personalization |
 | R11 Motivation/product behavior | Which session designs cause useful return without substituting engagement for learning? | open | UX and retention |
-| R12 AI/technology | Where can ASR/LLMs/TTS help, and where do reliability/privacy limits dominate? | RQ-008 initial ASR validity synthesis complete; generative feedback calibration open | AI features |
+| R12 AI/technology | Where can ASR/LLMs/TTS help, and where do reliability/privacy limits dominate? | RQ-008 ASR + RQ-014 writing AI + RQ-015 interaction AI evidence seeded; broader calibration open | AI features |
 | R13 Grammar & constructions | How should form, meaning and use be learned together and evidenced beyond rule recall? | RQ-012 initial synthesis complete | curriculum, lesson engine, speaking/writing/review |
-| R14 Interaction & pragmatics | How should learners manage turns, responses, repair and socially appropriate language in real interaction? | open | conversation engine, roleplay, transfer |
+| R14 Interaction & pragmatics | How should learners manage turns, responses, repair and socially appropriate language in real interaction? | RQ-015 initial synthesis complete | conversation engine, roleplay, transfer |
+| R15 Fluency & automaticity | How should accurate and meaningful language become faster and less effortful without turning raw speed into mastery? | open | listening, speaking, reading, interaction, review |
 
 ## Priority research questions
 
@@ -52,7 +53,11 @@
 
 ### P5 — before calling speaking a real interaction capability
 
-- `RQ-015`: How should near-A0 learners progress from controlled speaking to real turn-by-turn interaction, including response relevance, turn-taking, clarification/repair and pragmatic appropriateness, without letting AI roleplay hide comprehension or production weaknesses? → **open**
+- `RQ-015`: How should near-A0 learners progress from controlled speaking to real turn-by-turn interaction, including response relevance, turn-taking, clarification/repair and pragmatic appropriateness, without letting AI roleplay hide comprehension or production weaknesses? → **initial synthesis complete** (`SYN-INT-001`, `FEAT-INT-001`, `EXP-015`)
+
+### P6 — before treating faster performance as fluent language use
+
+- `RQ-016`: How should Nếp develop fluency/automaticity across listening, reading, speaking and interaction without confusing faster performance on practiced material with flexible retained use? → **open**
 
 ## Explicitly unresolved product assumptions
 
@@ -87,6 +92,16 @@
 - Exact AI/AWE assistance limits, confidence gates and false-correction thresholds in writing.
 - Exact writing component weights, if any composite score is ever justified.
 - Exact practical writing-genre order and mobile typing/mechanics policy.
+- Exact first interaction stage for true A0 learners and turns per stage.
+- Exact interaction response-latency expectations by task/device.
+- Exact listener-support/backchannel teaching timing.
+- Exact repair repertoire, sequence, engineered-breakdown frequency and difficulty.
+- Exact partner rephrasing/rescue thresholds that should count as interaction support.
+- Exact pragmatic-function order and treatment of cultural variation in appropriateness.
+- Exact AI interaction strictness/accommodation policy and whether intentional misunderstanding is useful for repair practice.
+- Exact automated response-contingency and pragmatic-scoring thresholds.
+- Minimum human-listener/human-partner validation sample and AI-to-human transfer criteria.
+- Exact interaction review schedule and delayed-probe interval.
 - Exact machine-feedback confidence / false-correction thresholds outside writing.
 - Exact automated feature detectors safe enough for Vietnamese near-A0.
 - Exact authentic-video lexical-coverage bands and learner × clip readiness thresholds.

@@ -1,22 +1,33 @@
 #!/usr/bin/env python3
-"""Minimal integrity checks for Vidlish Research machine-readable indexes."""
+"""Integrity checks for Vidlish Research machine-readable indexes and cycle fragments."""
 from pathlib import Path
 import json
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
-FILES = ["sources.json", "claims.json", "principles.json", "features.json"]
+BASE_FILES = ["sources.json", "claims.json", "principles.json", "features.json"]
+FRAGMENT_FILES = sorted(p.name for p in DATA.glob("*-rq*.json"))
+FILES = BASE_FILES + FRAGMENT_FILES
 
 errors = []
 objects = {}
+collections = {"sources": [], "claims": [], "principles": [], "features": []}
 
 for filename in FILES:
     path = DATA / filename
     try:
-        objects[filename] = json.loads(path.read_text(encoding="utf-8"))
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        objects[filename] = payload
     except Exception as exc:
         errors.append(f"{filename}: invalid JSON: {exc}")
+        continue
+    for key in collections:
+        value = payload.get(key, [])
+        if value is not None and not isinstance(value, list):
+            errors.append(f"{filename}: {key} must be a list")
+            continue
+        collections[key].extend(value or [])
 
 ids = {}
 for filename, payload in objects.items():
@@ -32,17 +43,17 @@ for filename, payload in objects.items():
                 errors.append(f"duplicate id {item_id}: {ids[item_id]} and {filename}")
             ids[item_id] = filename
 
-for claim in objects.get("claims.json", {}).get("claims", []):
+for claim in collections["claims"]:
     for ref in claim.get("source_ids", []):
         if ref not in ids:
             errors.append(f"{claim['id']}: missing source reference {ref}")
 
-for principle in objects.get("principles.json", {}).get("principles", []):
+for principle in collections["principles"]:
     for ref in principle.get("claim_ids", []):
         if ref not in ids:
             errors.append(f"{principle['id']}: missing claim reference {ref}")
 
-for feature in objects.get("features.json", {}).get("features", []):
+for feature in collections["features"]:
     for ref in feature.get("principle_ids", []):
         if ref not in ids:
             errors.append(f"{feature['id']}: missing principle reference {ref}")
@@ -56,4 +67,4 @@ if errors:
         print(f"- {error}")
     sys.exit(1)
 
-print(f"OK: validated {len(ids)} stable IDs across {len(FILES)} indexes")
+print(f"OK: validated {len(ids)} stable IDs across {len(FILES)} registry files")

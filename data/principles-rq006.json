@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "principles": [
+    {
+      "id": "PRN-050",
+      "statement": "Start meaningful speaking near A0 with short bounded production; do not make open conversation the gate to having a speaking curriculum.",
+      "confidence": "high",
+      "claim_ids": ["CLM-SPK-001", "CLM-SPK-002"]
+    },
+    {
+      "id": "PRN-051",
+      "statement": "Progress speaking demand from rehearsal to independent retrieval, controlled recombination, guided interaction and only later sampled open interaction.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-SPK-001", "CLM-SPK-005", "CLM-SPK-012"]
+    },
+    {
+      "id": "PRN-052",
+      "statement": "Store listen-and-repeat, shadowing and read-aloud as rehearsal evidence; never silently promote model-visible performance to independent speaking evidence.",
+      "confidence": "high",
+      "claim_ids": ["CLM-SPK-010"]
+    },
+    {
+      "id": "PRN-053",
+      "statement": "Allow planning and lexical/chunk support to reduce beginner speaking load, but hide answer-bearing language before an independent attempt and record planning/support provenance.",
+      "confidence": "high",
+      "claim_ids": ["CLM-SPK-003", "CLM-SPK-004", "CLM-SPK-010"]
+    },
+    {
+      "id": "PRN-054",
+      "statement": "Match each speaking claim to its response demand: a productive claim requires oral retrieval and an interaction claim requires a contingent response to another turn.",
+      "confidence": "high",
+      "claim_ids": ["CLM-SPK-002", "CLM-SPK-007", "CLM-SPK-010"]
+    },
+    {
+      "id": "PRN-055",
+      "statement": "Use standardized guided Q&A, information-gap or role-play tasks to introduce interaction before relying on unrestricted AI conversation as the primary beginner measure.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-SPK-001", "CLM-SPK-007"]
+    },
+    {
+      "id": "PRN-056",
+      "statement": "Use oral task repetition to rehearse and proceduralize performance, but require a changed or unseen task for fresh speaking-transfer evidence.",
+      "confidence": "high",
+      "claim_ids": ["CLM-SPK-006"]
+    },
+    {
+      "id": "PRN-057",
+      "statement": "Increase speaking difficulty progressively and avoid stacking new content, new language, new interlocutor demands and open response freedom at the same time for near-A0 learners.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-SPK-005", "CLM-SPK-012"]
+    },
+    {
+      "id": "PRN-058",
+      "statement": "After an independent speaking error, prefer a short opportunity for self-repair when plausible; if repair fails, reveal/correct and treat the following repetition as supported relearning.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-SPK-008"]
+    },
+    {
+      "id": "PRN-059",
+      "statement": "Do not equate faster or longer speech with global speaking mastery; fluency measures are task-conditioned evidence alongside task success, language form and interaction evidence.",
+      "confidence": "high",
+      "claim_ids": ["CLM-SPK-004", "CLM-SPK-010"]
+    },
+    {
+      "id": "PRN-060",
+      "statement": "Do not use opaque ASR or pronunciation scores as speaking mastery gates before RQ-007/RQ-008 establish target validity and scoring reliability for the intended population.",
+      "confidence": "high",
+      "claim_ids": ["CLM-SPK-011"]
+    },
+    {
+      "id": "PRN-061",
+      "statement": "Calibrate speaking progression against delayed success on first-seen parallel production tasks per learner minute and burden, not immediate rehearsal smoothness alone.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-SPK-006", "CLM-SPK-012"]
+    }
+  ]
+}

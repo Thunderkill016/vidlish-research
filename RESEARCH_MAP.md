@@ -8,7 +8,7 @@
 | R02 Vocabulary & chunks | What should be learned, in what contexts, and how is knowledge evidenced? | RQ-001 initial synthesis complete | starter catalogue, review |
 | R03 Listening | How should perception, segmentation and comprehension progress? | RQ-003 initial synthesis complete | audio-first sessions |
 | R04 Retrieval & spacing | How should recall and delayed review be designed without pretending one scheduler proves mastery? | RQ-004 initial synthesis complete | review engine |
-| R05 Speaking/output | When and how should controlled production expand into guided interaction? | open | speaking tasks |
+| R05 Speaking/output | When and how should controlled production expand into guided interaction? | RQ-006 initial synthesis complete | speaking tasks |
 | R06 Pronunciation | What improves intelligibility, especially for Vietnamese learners? | open | pronunciation layer |
 | R07 Reading/writing | How should receptive and productive literacy support the same communicative goals? | open | later A0/A1 packs |
 | R08 Assessment | How should `understood`, `recalled`, `transferred`, `retained` be measured? | RQ-005 initial transfer synthesis complete | progress model |
@@ -29,7 +29,7 @@
 
 ### P1 — before expanding speaking and pronunciation
 
-- `RQ-006`: Which controlled speaking tasks are valid for near-A0 learners?
+- `RQ-006`: Which controlled speaking tasks are valid for near-A0 learners? → **initial synthesis complete** (`SYN-SPK-001`, `FEAT-SPK-001`, `EXP-006`)
 - `RQ-007`: Which pronunciation targets most affect intelligibility for Vietnamese L1 learners?
 - `RQ-008`: What can ASR score reliably for this population, if anything?
 
@@ -43,6 +43,7 @@
 
 - Session length that fits the target learner's real schedule.
 - Exact support-fading threshold.
+- Exact speaking support-fading / task-unlock threshold.
 - Exact vocabulary count required before authentic video.
 - Exact transfer novelty ladder and probe-sampling frequency for near-A0.
 - Best beginner voice/ accent mix.

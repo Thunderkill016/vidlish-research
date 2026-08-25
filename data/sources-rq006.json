@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "SRC-0054",
+      "title": "Comprehension-Based Versus Production-Based Grammar Instruction: A Meta-Analysis of Comparative Studies",
+      "type": "meta-analysis",
+      "authors": "Natsuko Shintani; Shaofeng Li; Rod Ellis",
+      "year": 2013,
+      "doi": "10.1111/lang.12001",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/lang.12001",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0055",
+      "title": "A comparison of input- and output-based planning on the oral performance of low proficiency EFL learners",
+      "type": "controlled-low-proficiency-speaking-study",
+      "authors": "Dongju Lee; Sung-Yeon Kim",
+      "year": 2022,
+      "doi": "10.1016/j.system.2022.102861",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0346251X22001427",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0056",
+      "title": "Task Planning and Oral L2 Production: A Research Synthesis and Meta-analysis",
+      "type": "research-synthesis-meta-analysis",
+      "authors": "Mark D. Johnson; Mahmoud Abdi Tabari",
+      "year": 2022,
+      "doi": "10.1093/applin/amac026",
+      "url": "https://academic.oup.com/applij/article-abstract/43/6/1143/6682841",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0057",
+      "title": "The effects of different task sequences on novice L2 learners’ oral performance in the classroom",
+      "type": "controlled-novice-speaking-study",
+      "authors": "Nayoung Kim",
+      "year": 2020,
+      "doi": "10.1177/1362168820937548",
+      "url": "https://journals.sagepub.com/doi/10.1177/1362168820937548",
+      "status": "verified-online-first"
+    },
+    {
+      "id": "SRC-0058",
+      "title": "Task repetition and L2 oral performance: A meta-analysis",
+      "type": "meta-analysis",
+      "authors": "Mahmoud Abdi Tabari; Jingyuan Zhuang; Mahsa Farahanynia",
+      "year": 2025,
+      "doi": "10.1016/j.system.2025.103868",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0346251X25002787",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0059",
+      "title": "Measuring L2 speakers’ interactional ability using interactive speech tasks",
+      "type": "speaking-assessment-validation-study",
+      "authors": "Eline S. L. van Batenburg; Ron J. Oostdam; Amos J. S. van Gelderen; Nivja H. de Jong",
+      "year": 2018,
+      "doi": "10.1177/0265532216679452",
+      "url": "https://journals.sagepub.com/doi/10.1177/0265532216679452",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0060",
+      "title": "Oral Feedback in Classroom SLA: A Meta-Analysis",
+      "type": "meta-analysis",
+      "authors": "Roy Lyster; Kazuya Saito",
+      "year": 2010,
+      "doi": "10.1017/S0272263109990520",
+      "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/abs/oral-feedback-in-classroom-sla/4999EE1C8379B2BF026B148EAF373CA1",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0061",
+      "title": "Experimental and Intervention Studies on Formulaic Sequences in a Second Language",
+      "type": "state-of-scholarship-review",
+      "authors": "Frank Boers; Seth Lindstromberg",
+      "year": 2012,
+      "doi": "10.1017/S0267190512000050",
+      "url": "https://www.cambridge.org/core/journals/annual-review-of-applied-linguistics/article/abs/experimental-and-intervention-studies-on-formulaic-sequences-in-a-second-language/A2ACDF54604CFAC4443240748360C403",
+      "status": "verified"
+    }
+  ]
+}

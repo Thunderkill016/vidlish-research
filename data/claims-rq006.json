@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "claims": [
+    {
+      "id": "CLM-SPK-001",
+      "statement": "CEFR Pre-A1 describes a narrow early speaking profile built largely from short phrases, words and formulaic expressions, including simple personal information and highly bounded interaction; it does not require broad generative conversation as the entry criterion.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0001"],
+      "status": "accepted-descriptive-boundary"
+    },
+    {
+      "id": "CLM-SPK-002",
+      "statement": "When productive ability is an instructional goal, production-based practice contributes to productive learning and can show a relative delayed advantage over comprehension-only practice, so comprehension success should not be assumed to become speaking skill automatically.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0054"],
+      "status": "accepted-with-grammar-domain-scope"
+    },
+    {
+      "id": "CLM-SPK-003",
+      "statement": "Low-proficiency adult EFL learners can benefit from output-based preparation before speaking; in one large controlled study, productive planning through writing improved speaking scores and fluency relative to reading model answers.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0055"],
+      "status": "accepted-with-planning-mode-caution"
+    },
+    {
+      "id": "CLM-SPK-004",
+      "statement": "Pre-task planning changes subsequent oral performance, with effects differing across complexity, accuracy, lexical complexity and fluency depending on planning implementation and task conditions; planning provenance therefore matters when interpreting speaking evidence.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0056"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-SPK-005",
+      "statement": "For novice L2 learners, task complexity and the type of guided planning can create different fluency/accuracy/complexity trade-offs; vocabulary-guided planning can reduce production burden while complexity increases can create dysfluency or accuracy costs.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0057"],
+      "status": "accepted-with-context-limits"
+    },
+    {
+      "id": "CLM-SPK-006",
+      "statement": "Repeating oral tasks can improve dimensions of oral performance, but gains depend on task/repetition conditions and same-task repetition is practice on a trained episode rather than evidence of spontaneous transfer to an unseen speaking task.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0058", "SRC-0041"],
+      "status": "accepted-with-transfer-boundary"
+    },
+    {
+      "id": "CLM-SPK-007",
+      "statement": "Standardized interactive speech tasks can elicit and distinguish interactional subskills such as meaning negotiation and repair with useful rating reliability, supporting bounded scripted interlocutor tasks as a diagnostic option before fully open conversation.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0059"],
+      "status": "accepted-with-population-limits"
+    },
+    {
+      "id": "CLM-SPK-008",
+      "statement": "Oral corrective feedback supports L2 development in classroom evidence, and prompts that require self-repair can be particularly useful; however, current evidence does not establish one universal automated feedback sequence for every target and learner.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0060"],
+      "status": "accepted-with-automation-boundary"
+    },
+    {
+      "id": "CLM-SPK-009",
+      "statement": "Formulaic sequences are legitimate instructional units that can support L2 performance, while the evidence does not establish a universal near-A0 chunk inventory or prove that formulaic production alone demonstrates broad generative speaking ability.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0061", "SRC-0001"],
+      "status": "accepted-with-inference-limit"
+    },
+    {
+      "id": "CLM-SPK-010",
+      "statement": "Repetition, reading aloud, model-visible production, independent short production and contingent interaction impose different response demands; speaking claims must therefore be tied to the elicitation task and support visible at response time.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0001", "SRC-0056", "SRC-0059"],
+      "status": "accepted-as-measurement-rule"
+    },
+    {
+      "id": "CLM-SPK-011",
+      "statement": "RQ-006 does not establish the validity of automatic speech-recognition scores, pronunciation scores or one global fluency metric as measures of near-A0 speaking proficiency; those decisions remain dependent on pronunciation and ASR validation.",
+      "evidence_level": "D",
+      "source_ids": [],
+      "status": "open-research-dependency"
+    },
+    {
+      "id": "CLM-SPK-012",
+      "statement": "The exact speaking-task unlock thresholds, planning/support fade, repetition dose and transition from bounded interaction to open conversation for Vietnamese-speaking near-A0 Nếp learners are not established by the literature and require product experiments.",
+      "evidence_level": "D",
+      "source_ids": ["SRC-0055", "SRC-0057", "SRC-0058"],
+      "status": "open-product-assumption"
+    }
+  ]
+}

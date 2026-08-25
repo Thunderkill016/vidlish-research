@@ -60,3 +60,17 @@ The feature assumption weakens if real target learners cannot understand the flo
 - time-on-task;
 - return for due review;
 - voluntary continuation.
+
+## Speaking progression dependency
+
+Short oral production can begin near A0 once the learner has enough comprehension and target access to make a meaningful attempt. Use `FEAT-SPK-001` rather than jumping directly from recognition to unrestricted conversation.
+
+```text
+rehearsal if needed
+→ independent short retrieval
+→ controlled recombination
+→ guided interaction
+→ later unseen/open speaking
+```
+
+Model-visible repetition remains practice evidence; independent speaking requires the answer-bearing model to be hidden before the attempt and support provenance to be recorded.

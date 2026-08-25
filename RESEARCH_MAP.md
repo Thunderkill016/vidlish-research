@@ -13,7 +13,7 @@
 | R07 Reading/writing | How should receptive and productive literacy support the same communicative goals? | open | later A0/A1 packs |
 | R08 Assessment | How should `understood`, `recalled`, `transferred`, `retained` be measured? | seeded | progress model |
 | R09 Video-based learning | When is authentic video usable, and which scaffolds help rather than replace listening? | seeded | later source path |
-| R10 Vietnamese learners | Which L1-specific problems deserve targeted support? | seeded | personalization |
+| R10 Vietnamese learners | Which L1-specific problems deserve targeted support? | RQ-002 general L1 scaffold synthesis complete; Vietnamese-specific calibration open | personalization |
 | R11 Motivation/product behavior | Which session designs cause useful return without substituting engagement for learning? | open | UX and retention |
 | R12 AI/technology | Where can ASR/LLMs/TTS help, and where do reliability/privacy limits dominate? | seeded | AI features |
 
@@ -22,7 +22,7 @@
 ### P0 — before expanding the A0 engine
 
 - `RQ-001`: What counts as independent evidence that an A0 learner knows a word/chunk? → **initial synthesis complete** (`SYN-VOC-002`, `FEAT-VOC-001`, `EXP-001`)
-- `RQ-002`: What amount/type of Vietnamese scaffold supports comprehension without becoming the task itself?
+- `RQ-002`: What amount/type of Vietnamese scaffold supports comprehension without becoming the task itself? → **initial synthesis complete** (`SYN-SCF-001`, `FEAT-SCF-001`, `EXP-002`)
 - `RQ-003`: How should short listening tasks separate sound perception from meaning comprehension?
 - `RQ-004`: What retrieval schedule gives useful delayed retention while keeping time-on-task reasonable?
 - `RQ-005`: What changed-context probe is feasible enough to measure transfer repeatedly?

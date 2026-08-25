@@ -8,15 +8,16 @@
 | R02 Vocabulary & chunks | What should be learned, in what contexts, and how is knowledge evidenced? | RQ-001 initial synthesis complete | starter catalogue, review |
 | R03 Listening | How should perception, segmentation and comprehension progress? | RQ-003 initial synthesis complete | audio-first sessions |
 | R04 Retrieval & spacing | How should recall and delayed review be designed without pretending one scheduler proves mastery? | RQ-004 initial synthesis complete | review engine |
-| R05 Speaking/output | When and how should controlled production expand into guided interaction? | RQ-006 initial synthesis complete | speaking tasks |
+| R05 Speaking/output | When and how should controlled production expand into guided interaction? | RQ-006 initial synthesis complete; interaction progression open | speaking tasks |
 | R06 Pronunciation | What improves intelligibility, especially for Vietnamese learners? | RQ-007 initial synthesis complete | pronunciation layer |
-| R07 Reading/writing | How should receptive and productive literacy support the same communicative goals? | RQ-013 reading initial synthesis complete; writing progression open | later A0/A1 packs |
+| R07 Reading/writing | How should receptive and productive literacy support the same communicative goals? | RQ-013 reading + RQ-014 writing initial syntheses complete | A0/A1 literacy engine |
 | R08 Assessment | How should `understood`, `recalled`, `transferred`, `retained` be measured? | RQ-005 initial transfer synthesis complete | progress model |
 | R09 Video-based learning | When is authentic video usable, and which scaffolds help rather than replace listening? | RQ-009 readiness + RQ-010 support + RQ-011 temporal-repair syntheses complete | later source path |
 | R10 Vietnamese learners | Which L1-specific problems deserve targeted support? | RQ-002 general L1 scaffold synthesis complete; Vietnamese-specific calibration open | personalization |
 | R11 Motivation/product behavior | Which session designs cause useful return without substituting engagement for learning? | open | UX and retention |
-| R12 AI/technology | Where can ASR/LLMs/TTS help, and where do reliability/privacy limits dominate? | RQ-008 initial ASR validity synthesis complete | AI features |
+| R12 AI/technology | Where can ASR/LLMs/TTS help, and where do reliability/privacy limits dominate? | RQ-008 initial ASR validity synthesis complete; generative feedback calibration open | AI features |
 | R13 Grammar & constructions | How should form, meaning and use be learned together and evidenced beyond rule recall? | RQ-012 initial synthesis complete | curriculum, lesson engine, speaking/writing/review |
+| R14 Interaction & pragmatics | How should learners manage turns, responses, repair and socially appropriate language in real interaction? | open | conversation engine, roleplay, transfer |
 
 ## Priority research questions
 
@@ -47,7 +48,11 @@
 ### P4 — before expanding literacy from sentences to independent text production
 
 - `RQ-013`: How should near-A0 learners progress from supported sentence-level reading to independent connected-text reading without confusing word recognition, comprehension, fluency and support-assisted success? → **initial synthesis complete** (`SYN-READ-001`, `FEAT-READ-001`, `EXP-013`)
-- `RQ-014`: How should near-A0 learners progress from controlled written production to independent meaningful writing, with feedback that improves future writing rather than merely correcting the current text? → **open**
+- `RQ-014`: How should near-A0 learners progress from controlled written production to independent meaningful writing, with feedback that improves future writing rather than merely correcting the current text? → **initial synthesis complete** (`SYN-WRI-001`, `FEAT-WRI-001`, `EXP-014`)
+
+### P5 — before calling speaking a real interaction capability
+
+- `RQ-015`: How should near-A0 learners progress from controlled speaking to real turn-by-turn interaction, including response relevance, turn-taking, clarification/repair and pragmatic appropriateness, without letting AI roleplay hide comprehension or production weaknesses? → **open**
 
 ## Explicitly unresolved product assumptions
 
@@ -72,7 +77,17 @@
 - Exact sustained/extensive-reading unlock threshold, text-choice freedom and accountability policy.
 - Exact reading fluency metrics and any useful rate targets for Vietnamese adults.
 - Exact balance of practical, narrative, dialogue and informational reading material.
-- Exact machine-feedback confidence / false-correction thresholds.
+- Exact transition from writing reconstruction to independent sentence production.
+- Exact writing sentence-frame / word-bank fading thresholds.
+- Exact micro-writing length and proposition load for Vietnamese near-A0.
+- Exact use of Vietnamese in writing planning versus feedback explanation.
+- Exact writing feedback priority and maximum issue count per draft.
+- Exact self-repair-prompt versus direct-correction policy.
+- Exact comparator/model timing and number of revision cycles before a new writing task.
+- Exact AI/AWE assistance limits, confidence gates and false-correction thresholds in writing.
+- Exact writing component weights, if any composite score is ever justified.
+- Exact practical writing-genre order and mobile typing/mechanics policy.
+- Exact machine-feedback confidence / false-correction thresholds outside writing.
 - Exact automated feature detectors safe enough for Vietnamese near-A0.
 - Exact authentic-video lexical-coverage bands and learner × clip readiness thresholds.
 - Exact authentic-video window length / segmentation policy.

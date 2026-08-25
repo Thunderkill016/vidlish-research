@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "claims": [
+    {
+      "id": "CLM-ASR-001",
+      "statement": "ASR-assisted pronunciation practice can improve L2 pronunciation outcomes on average, especially with explicit corrective feedback, but evidence of learning benefit does not establish that raw ASR recognition or vendor scores are valid mastery measures.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0077"],
+      "status": "accepted-with-validity-boundary"
+    },
+    {
+      "id": "CLM-ASR-002",
+      "statement": "ASR recognition and human intelligibility are not interchangeable: agreement varies by learner and task even when aggregate recognition rates look similar.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0078", "SRC-0072"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-ASR-003",
+      "statement": "A correctly recognized word is not proof of correct pronunciation, and a recognition failure is not proof of learner mispronunciation; robust ASR and pronunciation-error detection optimize for partly conflicting objectives.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0079", "SRC-0080"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-ASR-004",
+      "statement": "Plain ASR transcription is primarily a content-recognition signal and does not directly measure phoneme accuracy, lexical stress, rhythm, intonation, comprehensibility or accentedness as separate constructs.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0080", "SRC-0081"],
+      "status": "accepted-as-construct-boundary"
+    },
+    {
+      "id": "CLM-ASR-005",
+      "statement": "WER/MER can be useful for benchmarking transcription systems but is not a stable proxy for human pronunciation quality; highly accurate ASR can become less sensitive to pronunciation variation that humans still perceive.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0084", "SRC-0079"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-ASR-006",
+      "statement": "Current ASR accuracy is not uniform across L1 backgrounds; peer-reviewed and current benchmark evidence shows Vietnamese-accented English among the higher-error groups for Whisper and several contemporary ASR systems.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0082", "SRC-0083"],
+      "status": "accepted-with-corpus-scope"
+    },
+    {
+      "id": "CLM-ASR-007",
+      "statement": "ASR error patterns can reflect phonological properties of speakers' L1, so system mistakes may systematically track accent structure rather than learner capability alone.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0085", "SRC-0082"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-ASR-008",
+      "statement": "ASR performance changes with speech style, proficiency and other speaker/task conditions; read-speech validation cannot automatically justify scoring guided or spontaneous learner speech.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0082", "SRC-0083", "SRC-0078"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-ASR-009",
+      "statement": "Transformer/Whisper confidence or transcription-distance signals can correlate with learner level or read-speech quality in some corpora, but current evidence does not justify treating those values as calibrated pronunciation probabilities or human-intelligibility scores.",
+      "evidence_level": "C",
+      "source_ids": ["SRC-0086", "SRC-0084"],
+      "status": "accepted-as-candidate-signal"
+    },
+    {
+      "id": "CLM-ASR-010",
+      "statement": "Automatic pronunciation assessment requires feature-specific models, labels or validated acoustic/phonetic measures beyond ordinary ASR when the goal is to diagnose segmental or suprasegmental errors.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0080", "SRC-0081", "SRC-0079"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-ASR-011",
+      "statement": "Commercial or research pronunciation scores may correlate with human ratings in a particular dataset while still being miscalibrated, biased or construct-incomplete; correlation alone is insufficient for a mastery gate.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0084", "SRC-0080"],
+      "status": "accepted-as-validation-rule"
+    },
+    {
+      "id": "CLM-ASR-012",
+      "statement": "For Vietnamese-speaking near-A0 learners, ASR should be treated as a fallible sensor whose model/version, task, noise conditions and expected response must be logged so evidence can be reinterpreted when systems change.",
+      "evidence_level": "C",
+      "source_ids": ["SRC-0082", "SRC-0083", "SRC-0072"],
+      "status": "product-synthesis"
+    },
+    {
+      "id": "CLM-ASR-013",
+      "statement": "The safest near-term automated use is candidate detection and low-stakes practice feedback under controlled conditions, with uncertainty handling and human-validated calibration; ASR alone should not certify pronunciation mastery or intelligibility transfer.",
+      "evidence_level": "C",
+      "source_ids": ["SRC-0077", "SRC-0078", "SRC-0079", "SRC-0080"],
+      "status": "product-synthesis"
+    },
+    {
+      "id": "CLM-ASR-014",
+      "statement": "A pronunciation correction should only be automated when the detector has been validated for the specific feature, target population and task strongly enough that false corrective feedback is acceptably rare.",
+      "evidence_level": "D",
+      "source_ids": [],
+      "status": "open-product-threshold"
+    },
+    {
+      "id": "CLM-ASR-015",
+      "statement": "The exact ASR/model ensemble, confidence threshold, feature-level scoring method, fallback policy and human-review sample rate for Nếp are not established by literature and require Vietnamese near-A0 validation.",
+      "evidence_level": "D",
+      "source_ids": ["SRC-0083", "SRC-0084", "SRC-0080"],
+      "status": "open-product-assumption"
+    }
+  ]
+}

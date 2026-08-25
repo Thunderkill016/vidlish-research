@@ -15,7 +15,7 @@
 | R09 Video-based learning | When is authentic video usable, and which scaffolds help rather than replace listening? | seeded | later source path |
 | R10 Vietnamese learners | Which L1-specific problems deserve targeted support? | RQ-002 general L1 scaffold synthesis complete; Vietnamese-specific calibration open | personalization |
 | R11 Motivation/product behavior | Which session designs cause useful return without substituting engagement for learning? | open | UX and retention |
-| R12 AI/technology | Where can ASR/LLMs/TTS help, and where do reliability/privacy limits dominate? | seeded | AI features |
+| R12 AI/technology | Where can ASR/LLMs/TTS help, and where do reliability/privacy limits dominate? | RQ-008 initial ASR validity synthesis complete | AI features |
 
 ## Priority research questions
 
@@ -31,7 +31,7 @@
 
 - `RQ-006`: Which controlled speaking tasks are valid for near-A0 learners? → **initial synthesis complete** (`SYN-SPK-001`, `FEAT-SPK-001`, `EXP-006`)
 - `RQ-007`: Which pronunciation targets most affect intelligibility for Vietnamese L1 learners? → **initial synthesis complete** (`SYN-PRN-001`, `FEAT-PRN-001`, `EXP-007`)
-- `RQ-008`: What can ASR score reliably for this population, if anything?
+- `RQ-008`: What can ASR score reliably for this population, if anything? → **initial synthesis complete** (`SYN-ASR-001`, `FEAT-ASR-001`, `EXP-008`)
 
 ### P2 — before making video central to any stage
 
@@ -46,6 +46,9 @@
 - Exact speaking support-fading / task-unlock threshold.
 - Exact pronunciation target priority / practice dose for Vietnamese near-A0.
 - Listener-panel mix and minimum intelligibility criterion for pronunciation validation.
+- Exact ASR provider/model mix and maintenance policy.
+- Exact machine-feedback confidence / false-correction thresholds.
+- Exact automated feature detectors safe enough for Vietnamese near-A0.
 - Exact vocabulary count required before authentic video.
 - Exact transfer novelty ladder and probe-sampling frequency for near-A0.
 - Best beginner voice/ accent mix.

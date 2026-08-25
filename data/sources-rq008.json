@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "SRC-0077",
+      "title": "The effectiveness of automatic speech recognition in ESL/EFL pronunciation: A meta-analysis",
+      "type": "meta-analysis",
+      "authors": "Thuy Thi-Nhu Ngo; Howard Hao-Jan Chen; Kyle Kuo-Wei Lai",
+      "year": 2024,
+      "doi": "10.1017/S0958344023000113",
+      "url": "https://www.cambridge.org/core/journals/recall/article/effectiveness-of-automatic-speech-recognition-in-eslefl-pronunciation-a-metaanalysis/A915444CF252B61D14961D2FE733822D",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0078",
+      "title": "Assessment of L2 intelligibility: Comparing L1 listeners and automatic speech recognition",
+      "type": "human-asr-intelligibility-comparison",
+      "authors": "Solène Inceoglu; Wen-Hsin Chen; Hyojung Lim",
+      "year": 2023,
+      "doi": "10.1017/S0958344022000192",
+      "url": "https://www.cambridge.org/core/journals/recall/article/abs/assessment-of-l2-intelligibility-comparing-l1-listeners-and-automatic-speech-recognition/7E499AD990383AC65A9688BB5BE17887",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0079",
+      "title": "Automatic pronunciation assessment vs. automatic speech recognition: A study of conflicting conditions for L2-English",
+      "type": "asr-pronunciation-validity-study",
+      "authors": "Enrique Cámara-Arenas; Cristian Tejedor-García; Cecilia Judith Tomas-Vázquez; David Escudero-Mancebo",
+      "year": 2023,
+      "doi": "10.64152/10125/73512",
+      "url": "https://www.lltjournal.org/item/1065/",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0080",
+      "title": "Automatic Pronunciation Assessment - A Review",
+      "type": "technical-review",
+      "authors": "Yassine El Kheir; Ahmed Ali; Shammur Absar Chowdhury",
+      "year": 2023,
+      "doi": "10.18653/v1/2023.findings-emnlp.557",
+      "url": "https://aclanthology.org/2023.findings-emnlp.557/",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0081",
+      "title": "Automatic Speech Recognition in L2 Learning: A Review Based on PRISMA Methodology",
+      "type": "systematic-review",
+      "authors": "Mireia Farrús",
+      "year": 2023,
+      "doi": "10.3390/languages8040242",
+      "url": "https://www.mdpi.com/2226-471X/8/4/242",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0082",
+      "title": "Evaluating OpenAI's Whisper ASR: Performance analysis across diverse accents and speaker traits",
+      "type": "accent-bias-asr-study",
+      "authors": "Calbert Graham; Nathan Roll",
+      "year": 2024,
+      "doi": "10.1121/10.0024876",
+      "url": "https://doi.org/10.1121/10.0024876",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0083",
+      "title": "Comparing ASR system accuracy on non-native English read speech across L1 backgrounds",
+      "type": "multi-asr-l2-benchmark",
+      "authors": "Michael McGuire",
+      "year": 2026,
+      "doi": "10.29140/jct.v2n1.103250",
+      "url": "https://www.castledown.com/journals/jct/article/view/jct.v2n1.103250",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0084",
+      "title": "Assessing the efficacy of word error rate as a proxy for pronunciation quality",
+      "type": "asr-human-pronunciation-validity-study",
+      "authors": "Yongkook Won",
+      "year": 2025,
+      "doi": "10.1075/jslp.25012.won",
+      "url": "https://www.jbe-platform.com/content/journals/10.1075/jslp.25012.won",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0085",
+      "title": "Language-specific Effects on Automatic Speech Recognition Errors for World Englishes",
+      "type": "linguistic-asr-bias-study",
+      "authors": "June Choe; Yiran Chen; May Pik Yu Chan; Aini Li; Xin Gao; Nicole Holliday",
+      "year": 2022,
+      "url": "https://aclanthology.org/2022.coling-1.628/",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0086",
+      "title": "Investigating Acoustic Correlates of Whisper Scoring for L2 Speech Using Forced Alignment with the Italian Component of the ISLE corpus",
+      "type": "whisper-l2-scoring-study",
+      "authors": "Nicolas Ballier; Adrien Méli",
+      "year": 2024,
+      "url": "https://aclanthology.org/2024.nlp4call-1.2/",
+      "status": "verified"
+    }
+  ]
+}

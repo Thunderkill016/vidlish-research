@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "principles": [
+    {"id":"PRN-076","statement":"Treat ASR as a fallible sensor, not an authority: machine recognition is evidence about one model's response to speech, not direct proof of learner capability.","confidence":"high","claim_ids":["CLM-ASR-002","CLM-ASR-003","CLM-ASR-012"]},
+    {"id":"PRN-077","statement":"Never infer pronunciation correctness from successful transcription alone and never infer mispronunciation from non-recognition alone.","confidence":"high","claim_ids":["CLM-ASR-003","CLM-ASR-005"]},
+    {"id":"PRN-078","statement":"Do not use raw WER, MER, transcript confidence or n-best position as a pronunciation mastery score.","confidence":"high","claim_ids":["CLM-ASR-005","CLM-ASR-009"]},
+    {"id":"PRN-079","statement":"Keep machine transcription success, feature-level pronunciation evidence, human intelligibility and comprehensibility as separate evidence dimensions.","confidence":"high","claim_ids":["CLM-ASR-002","CLM-ASR-004","CLM-ASR-011"]},
+    {"id":"PRN-080","statement":"Before automating corrective feedback, validate the detector on the exact pronunciation feature, learner population and task family it will judge.","confidence":"high","claim_ids":["CLM-ASR-006","CLM-ASR-008","CLM-ASR-010","CLM-ASR-014"]},
+    {"id":"PRN-081","statement":"Use Vietnamese population ASR disparities as a reason for stronger calibration and uncertainty handling, not as evidence that an individual learner speaks poorly.","confidence":"high","claim_ids":["CLM-ASR-006","CLM-ASR-007"]},
+    {"id":"PRN-082","statement":"Log ASR provider/model/version, language/accent configuration, prompt/task type, expected text or intent, audio conditions and scoring rule with every machine-derived attempt.","confidence":"high","claim_ids":["CLM-ASR-008","CLM-ASR-012"]},
+    {"id":"PRN-083","statement":"A model validated on read speech cannot silently become the judge of guided or spontaneous speech; each task shift requires evidence of generalization.","confidence":"high","claim_ids":["CLM-ASR-008"]},
+    {"id":"PRN-084","statement":"Prefer ASR for low-stakes candidate detection, transcript assistance and practice feedback before using it for consequential gates.","confidence":"moderate","claim_ids":["CLM-ASR-001","CLM-ASR-013"]},
+    {"id":"PRN-085","statement":"For phoneme, stress, rhythm or intonation feedback, require a feature-specific validated detector or measurement rather than pretending ordinary ASR directly measures the feature.","confidence":"high","claim_ids":["CLM-ASR-004","CLM-ASR-010"]},
+    {"id":"PRN-086","statement":"When machine signals disagree or confidence falls into an unvalidated region, return uncertainty, request another sample or defer judgment instead of inventing a precise score.","confidence":"moderate","claim_ids":["CLM-ASR-009","CLM-ASR-014","CLM-ASR-015"]},
+    {"id":"PRN-087","statement":"Calibrate automated feedback against human listener outcomes that match Nếp's intelligibility-first goal, not only native-model acoustic distance.","confidence":"high","claim_ids":["CLM-ASR-002","CLM-ASR-011","CLM-ASR-013"]},
+    {"id":"PRN-088","statement":"ASR-based practice can be offered when it helps learners attempt and notice pronunciation, while its learning benefit remains separate from the validity of its scores.","confidence":"high","claim_ids":["CLM-ASR-001"]},
+    {"id":"PRN-089","statement":"Version automated evidence so historical learner records can be reinterpreted after model changes or recalibration.","confidence":"moderate","claim_ids":["CLM-ASR-012","CLM-ASR-015"]},
+    {"id":"PRN-090","statement":"A machine-derived pronunciation signal may contribute to mastery only after product validation establishes acceptable error and bias under the intended Vietnamese near-A0 conditions; until then it remains supporting evidence only.","confidence":"high","claim_ids":["CLM-ASR-006","CLM-ASR-011","CLM-ASR-013","CLM-ASR-015"]}
+  ]
+}

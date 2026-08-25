@@ -26,7 +26,7 @@ Select and practice the smallest pronunciation target that materially improves t
 - RQ-003 listening diagnostics
 - RQ-005 first-seen transfer
 - `FEAT-SPK-001` guided speaking ladder
-- RQ-008 dependency for automated speech scoring
+- `SYN-ASR-001` / `FEAT-ASR-001` validity gate for automated speech evidence
 
 ## Non-goals
 
@@ -89,7 +89,7 @@ The tier is a product heuristic, not a CEFR mapping.
 5. If the learner's intended word/message is reliably understood, do not force correction solely for accent conformity.
 6. Preserve first-seen provenance for pronunciation-transfer attempts.
 7. Log listener/scoring background and scoring rule version.
-8. Do not use ASR/vendor pronunciation scores as mastery gates before `RQ-008` validation.
+8. Route all ASR/vendor pronunciation outputs through `FEAT-ASR-001`; machine output alone never sets mastery.
 9. Do not make one Vietnamese regional variety the hidden default for every learner.
 10. A feature detected in controlled repetition must transfer to model-hidden production before it can support independent pronunciation evidence.
 

@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "SRC-0132",
+      "title": "A Meta-Analysis of Extensive Reading Research",
+      "type": "meta-analysis",
+      "authors": "Takayuki Nakanishi",
+      "year": 2015,
+      "doi": "10.1002/tesq.157",
+      "url": "https://doi.org/10.1002/tesq.157",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0133",
+      "title": "Learning a Language Through Reading: A Meta-analysis of Studies on the Effects of Extensive Reading on Second and Foreign Language Learning",
+      "type": "meta-analysis",
+      "authors": "N. L. Sangers; L. van der Sande; C. Welie; M. Dobber; R. van Steensel",
+      "year": 2025,
+      "doi": "10.1007/s10648-025-10068-6",
+      "url": "https://doi.org/10.1007/s10648-025-10068-6",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0134",
+      "title": "L2 Reading Comprehension and Its Correlates: A Meta-Analysis",
+      "type": "meta-analysis",
+      "authors": "Eun Hee Jeon; Junko Yamashita",
+      "year": 2014,
+      "doi": "10.1111/lang.12034",
+      "url": "https://doi.org/10.1111/lang.12034",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0135",
+      "title": "Robust evidence for the simple view of second language reading: Secondary meta-analysis of Jeon and Yamashita (2022)",
+      "type": "secondary-meta-analysis",
+      "authors": "Akira Hamada; Haruka Shimizu; Yuko Hoshino; Shuichi Takaki; Yuji Ushiro",
+      "year": 2024,
+      "doi": "10.1017/S0272263124000226",
+      "url": "https://doi.org/10.1017/S0272263124000226",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0136",
+      "title": "The Percentage of Words Known in a Text and Reading Comprehension",
+      "type": "lexical-coverage-reading-study",
+      "authors": "Norbert Schmitt; Xiangying Jiang; William Grabe",
+      "year": 2011,
+      "doi": "10.1111/j.1540-4781.2011.01146.x",
+      "url": "https://doi.org/10.1111/j.1540-4781.2011.01146.x",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0137",
+      "title": "Improving second language reading comprehension through reading strategies: A meta-analysis of L2 reading strategy interventions",
+      "type": "meta-analysis",
+      "authors": "Deborah June Yapp; Rick de Graaff; Huub van den Bergh",
+      "year": 2021,
+      "doi": "10.1075/jsls.19013.yap",
+      "url": "https://doi.org/10.1075/jsls.19013.yap",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0138",
+      "title": "Impact of reading strategy instruction on improvement of strategy use and reading comprehension: A meta-analysis",
+      "type": "meta-analysis",
+      "authors": "Shotaro Ueno; Maiko Ikeda; Osamu Takeuchi; Mark Feng Teng",
+      "year": 2025,
+      "doi": "10.64152/10125/67505",
+      "url": "https://doi.org/10.64152/10125/67505",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0139",
+      "title": "Does Reading While Listening to Text Improve Comprehension Compared to Reading Only? A Systematic Review and Meta-Analysis",
+      "type": "systematic-review-meta-analysis",
+      "authors": "Virginia Clinton-Lisell",
+      "year": 2023,
+      "url": "https://commons.und.edu/ehb-fac/75",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0140",
+      "title": "Text difficulty in extensive reading: Reading comprehension and reading motivation",
+      "type": "extensive-reading-difficulty-study",
+      "authors": "Yu-Hsien Yang; Hsiao-Chien Chu; Wei-Tsung Tseng",
+      "year": 2021,
+      "doi": "10.64152/10125/67394",
+      "url": "https://doi.org/10.64152/10125/67394",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0141",
+      "title": "Repeated reading for developing reading fluency and reading comprehension: The case of EFL learners in Vietnam",
+      "type": "vietnamese-efl-repeated-reading-study",
+      "authors": "Greta Gorsuch; Etsuo Taguchi",
+      "year": 2008,
+      "doi": "10.1016/j.system.2007.09.009",
+      "url": "https://doi.org/10.1016/j.system.2007.09.009",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0142",
+      "title": "Comparing the effects of two repeated reading methods on EFL learners' reading rates",
+      "type": "vietnamese-efl-repeated-reading-experiment",
+      "authors": "Ngoc Yen Vy Pham; John Baker; Thi Bich Hanh Nguyen",
+      "year": 2024,
+      "doi": "10.1057/s41599-024-02793-0",
+      "url": "https://doi.org/10.1057/s41599-024-02793-0",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0143",
+      "title": "Reading Fluency, Reading Rate, and Comprehension",
+      "type": "state-of-field-book-chapter",
+      "authors": "William Grabe; Junko Yamashita",
+      "year": 2022,
+      "doi": "10.1017/9781108878944.018",
+      "url": "https://doi.org/10.1017/9781108878944.018",
+      "status": "verified"
+    }
+  ]
+}

@@ -10,7 +10,7 @@
 | R04 Retrieval & spacing | How should recall and delayed review be designed without pretending one scheduler proves mastery? | RQ-004 initial synthesis complete | review engine |
 | R05 Speaking/output | When and how should controlled production expand into guided interaction? | RQ-006 initial synthesis complete | speaking tasks |
 | R06 Pronunciation | What improves intelligibility, especially for Vietnamese learners? | RQ-007 initial synthesis complete | pronunciation layer |
-| R07 Reading/writing | How should receptive and productive literacy support the same communicative goals? | open | later A0/A1 packs |
+| R07 Reading/writing | How should receptive and productive literacy support the same communicative goals? | RQ-013 reading initial synthesis complete; writing progression open | later A0/A1 packs |
 | R08 Assessment | How should `understood`, `recalled`, `transferred`, `retained` be measured? | RQ-005 initial transfer synthesis complete | progress model |
 | R09 Video-based learning | When is authentic video usable, and which scaffolds help rather than replace listening? | RQ-009 readiness + RQ-010 support + RQ-011 temporal-repair syntheses complete | later source path |
 | R10 Vietnamese learners | Which L1-specific problems deserve targeted support? | RQ-002 general L1 scaffold synthesis complete; Vietnamese-specific calibration open | personalization |
@@ -44,6 +44,11 @@
 
 - `RQ-012`: How should near-A0 learners learn and demonstrate grammar/construction knowledge without reducing grammar to rule memorization and decontextualized drills? → **initial synthesis complete** (`SYN-GRM-001`, `FEAT-GRM-001`, `EXP-012`)
 
+### P4 — before expanding literacy from sentences to independent text production
+
+- `RQ-013`: How should near-A0 learners progress from supported sentence-level reading to independent connected-text reading without confusing word recognition, comprehension, fluency and support-assisted success? → **initial synthesis complete** (`SYN-READ-001`, `FEAT-READ-001`, `EXP-013`)
+- `RQ-014`: How should near-A0 learners progress from controlled written production to independent meaningful writing, with feedback that improves future writing rather than merely correcting the current text? → **open**
+
 ## Explicitly unresolved product assumptions
 
 - Session length that fits the target learner's real schedule.
@@ -59,6 +64,14 @@
 - Exact exemplar count, lexical variation and abstraction threshold for each construction.
 - Exact interpretation-to-production and controlled-to-transfer progression thresholds.
 - Exact grammar corrective-feedback policy by construction, error type and learner state.
+- Exact reading message/microtext/graded-text length progression for Vietnamese near-A0.
+- Exact lexical and construction readiness bands for each reading stage.
+- Exact reading audio/gloss/translation fading policy.
+- Exact repeated-reading dose and criteria for using repeated reading as repair rather than routine.
+- Exact point at which reading-strategy instruction becomes worth the learning time.
+- Exact sustained/extensive-reading unlock threshold, text-choice freedom and accountability policy.
+- Exact reading fluency metrics and any useful rate targets for Vietnamese adults.
+- Exact balance of practical, narrative, dialogue and informational reading material.
 - Exact machine-feedback confidence / false-correction thresholds.
 - Exact automated feature detectors safe enough for Vietnamese near-A0.
 - Exact authentic-video lexical-coverage bands and learner × clip readiness thresholds.

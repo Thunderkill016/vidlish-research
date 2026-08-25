@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "SRC-0144",
+      "title": "Planning in L2 writing: A research synthesis and meta-analysis",
+      "type": "research-synthesis-meta-analysis",
+      "authors": "Mark D. Johnson; Mahmoud Abdi Tabari",
+      "year": 2023,
+      "doi": "10.1016/j.system.2023.103152",
+      "url": "https://doi.org/10.1016/j.system.2023.103152",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0145",
+      "title": "The Effects of Pre-Task Planning on Second Language Writing: A Systematic Review of Experimental Studies",
+      "type": "systematic-review",
+      "authors": "Rod Ellis",
+      "year": 2021,
+      "doi": "10.1515/CJAL-2021-0009",
+      "url": "https://doi.org/10.1515/CJAL-2021-0009",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0146",
+      "title": "Effectiveness of written corrective feedback in developing L2 accuracy: A Bayesian meta-analysis",
+      "type": "bayesian-meta-analysis",
+      "authors": "Dan Brown; Qiandi Liu; Reza Norouzian",
+      "year": 2023,
+      "doi": "10.1177/13621688221147374",
+      "url": "https://doi.org/10.1177/13621688221147374",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0147",
+      "title": "A Meta-Analysis of Short- and Long-Term Effects of Written Corrective Feedback on L2 Grammatical Accuracy in Writing",
+      "type": "meta-analysis",
+      "authors": "EunYoung Kang",
+      "year": 2022,
+      "doi": "10.15738/kjell.22..202211.1269",
+      "url": "https://doi.org/10.15738/kjell.22..202211.1269",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0148",
+      "title": "Examining the Effectiveness of Peer Feedback in Second Language Writing: A Meta-Analysis",
+      "type": "meta-analysis",
+      "authors": "Alyssa Vuogan; Shaofeng Li",
+      "year": 2023,
+      "doi": "10.1002/tesq.3178",
+      "url": "https://doi.org/10.1002/tesq.3178",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0149",
+      "title": "Automated feedback and writing: a multi-level meta-analysis of effects on students' performance",
+      "type": "multilevel-meta-analysis",
+      "authors": "Johanna Fleckenstein; Lucas W. Liebenow; Jennifer Meyer",
+      "year": 2023,
+      "doi": "10.3389/frai.2023.1162454",
+      "url": "https://doi.org/10.3389/frai.2023.1162454",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0150",
+      "title": "The effectiveness of automated writing evaluation in EFL/ESL writing: a three-level meta-analysis",
+      "type": "three-level-meta-analysis",
+      "authors": "T. T. N. Ngo; H. H. J. Chen; K. K. W. Lai",
+      "year": 2022,
+      "doi": "10.1080/10494820.2022.2096642",
+      "url": "https://doi.org/10.1080/10494820.2022.2096642",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0151",
+      "title": "Empowering learners in the second/foreign language classroom: Can self-regulated learning strategies-based writing instruction make a difference?",
+      "type": "longitudinal-l2-writing-intervention",
+      "authors": "Lin Sophie Teng; Lawrence Jun Zhang",
+      "year": 2020,
+      "doi": "10.1016/j.jslw.2019.100701",
+      "url": "https://doi.org/10.1016/j.jslw.2019.100701",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0152",
+      "title": "Examining the effects of self-regulated learning-based teacher feedback on English-as-a-foreign-language learners’ self-regulated writing strategies and writing performance",
+      "type": "efl-writing-feedback-intervention",
+      "authors": "Li Francoise Yang; Yanhong Liu; Zhiqing Xu",
+      "year": 2022,
+      "doi": "10.3389/fpsyg.2022.1027266",
+      "url": "https://doi.org/10.3389/fpsyg.2022.1027266",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0153",
+      "title": "Using model texts as a type of feedback in EFL writing",
+      "type": "model-text-feedback-study",
+      "authors": "Zhixin Wu; Jiaxin Qie; Xuehua Wang",
+      "year": 2023,
+      "doi": "10.3389/fpsyg.2023.1156553",
+      "url": "https://doi.org/10.3389/fpsyg.2023.1156553",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0154",
+      "title": "Task repetition and corrective feedback via models and direct corrections among young EFL writers: Draft quality and task motivation",
+      "type": "young-efl-writing-feedback-study",
+      "authors": "Hanne Roothooft; Amparo Lázaro-Ibarrola; Bram Bulté",
+      "year": 2025,
+      "doi": "10.1177/13621688221082041",
+      "url": "https://doi.org/10.1177/13621688221082041",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0155",
+      "title": "A meta-synthesis of automatic writing evaluation research: trends and developments over a decade",
+      "type": "meta-synthesis-of-reviews",
+      "authors": "Wen-Ta Tseng; Sufen Chen; Thi Hue Dong",
+      "year": 2026,
+      "doi": "10.1007/s11423-026-10601-6",
+      "url": "https://doi.org/10.1007/s11423-026-10601-6",
+      "status": "verified"
+    }
+  ]
+}

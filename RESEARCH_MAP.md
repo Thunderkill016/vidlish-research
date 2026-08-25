@@ -6,7 +6,7 @@
 | --- | --- | --- | --- |
 | R01 Second-language acquisition | What mechanisms and constraints matter for adults near A0? | seeded | whole curriculum |
 | R02 Vocabulary & chunks | What should be learned, in what contexts, and how is knowledge evidenced? | RQ-001 initial synthesis complete | starter catalogue, review |
-| R03 Listening | How should perception, segmentation and comprehension progress? | seeded | audio-first sessions |
+| R03 Listening | How should perception, segmentation and comprehension progress? | RQ-003 initial synthesis complete | audio-first sessions |
 | R04 Retrieval & spacing | How should recall and delayed review be designed without pretending one scheduler proves mastery? | seeded | review engine |
 | R05 Speaking/output | When and how should controlled production expand into guided interaction? | open | speaking tasks |
 | R06 Pronunciation | What improves intelligibility, especially for Vietnamese learners? | open | pronunciation layer |
@@ -23,7 +23,7 @@
 
 - `RQ-001`: What counts as independent evidence that an A0 learner knows a word/chunk? → **initial synthesis complete** (`SYN-VOC-002`, `FEAT-VOC-001`, `EXP-001`)
 - `RQ-002`: What amount/type of Vietnamese scaffold supports comprehension without becoming the task itself? → **initial synthesis complete** (`SYN-SCF-001`, `FEAT-SCF-001`, `EXP-002`)
-- `RQ-003`: How should short listening tasks separate sound perception from meaning comprehension?
+- `RQ-003`: How should short listening tasks separate sound perception from meaning comprehension? → **initial synthesis complete** (`SYN-LIS-002`, `FEAT-LIS-001`, `EXP-003`)
 - `RQ-004`: What retrieval schedule gives useful delayed retention while keeping time-on-task reasonable?
 - `RQ-005`: What changed-context probe is feasible enough to measure transfer repeatedly?
 

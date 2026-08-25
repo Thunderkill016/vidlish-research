@@ -24,3 +24,11 @@
 | `PRN-020` | Fade Vietnamese from demonstrated lower-support performance, not a fixed day or vocabulary count. | moderate | Lower proficiency often benefits more, but exact fading thresholds are unvalidated. |
 | `PRN-021` | Keep instruction, lexical gloss, context hint, contrastive note, feedback and full translation as distinct scaffold types. | moderate | Multilingual interventions bundle different mechanisms; product data must not. |
 | `PRN-022` | Judge scaffolds by later unsupported English performance plus task access, not immediate ease alone. | high | Delayed evidence is limited and recognition-heavy outcomes can overstate durable learning. |
+| `PRN-023` | Separate speech perception/decoding evidence from message-comprehension evidence. | high | Listening breakdown can occur at distinguishable processing levels. |
+| `PRN-024` | Capture an audio-only attempt before answer-bearing transcript/captions when measuring independent listening. | high | Written support changes what the task demonstrates. |
+| `PRN-025` | Diagnose the critical decoding/form-meaning step after short-message failure instead of only replay/reveal. | moderate | Known written language may remain inaccessible in speech. |
+| `PRN-026` | Record speaker, replay count, transcript visibility and support provenance for listening attempts. | high | Listening evidence depends on input and support conditions. |
+| `PRN-027` | Do not use strict full dictation as the sole beginner decoding measure. | moderate | Dictation can mix decoding with spelling/written production. |
+| `PRN-028` | Train known targets in connected speech and later vary speakers/phonetic contexts. | high | Spoken-word recognition and perception must generalize beyond one recording. |
+| `PRN-029` | Integrate bottom-up work with message comprehension and metacognitive feedback. | moderate | Neither perception drills nor strategy instruction alone represent the full listening process. |
+| `PRN-030` | Test listening transfer with unseen parallel utterances and, when feasible, new speakers. | high | Replaying a trained recording cannot establish generalized listening ability. |

@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "claims": [
+    {
+      "id": "CLM-INT-001",
+      "statement": "Meaningful second-language interaction can promote L2 development, but its effects are moderated by learner, interlocutor, task, feedback and context characteristics.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0156", "SRC-0060"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-INT-002",
+      "statement": "Interactional competence is a co-constructed capability that cannot be reduced to the grammatical accuracy, pronunciation or fluency of isolated monologic turns.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0059", "SRC-0158", "SRC-0159", "SRC-0161"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-INT-003",
+      "statement": "Producing a response that is contingent on the previous speaker's contribution is a meaningful observable feature of interactional competence and can provide evidence that the prior turn was processed in context.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0160", "SRC-0159", "SRC-0161"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-INT-004",
+      "statement": "Topic/sequence development, listener support and turn-taking management are recurring interactional features that vary with performance/proficiency in interaction studies, although exact developmental patterns are task- and population-dependent.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0158", "SRC-0161", "SRC-0162", "SRC-0163"],
+      "status": "accepted-with-task-dependence"
+    },
+    {
+      "id": "CLM-INT-005",
+      "statement": "Repair practices—identifying and resolving problems in hearing, understanding or production—are a core component of maintaining shared understanding and progressivity in interaction.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0161", "SRC-0159", "SRC-0162"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-INT-006",
+      "statement": "The absence of clarification requests is not by itself evidence of stronger interactional competence because an appropriate repair initiation can be the best response to genuine ambiguity or non-understanding.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0161", "SRC-0159"],
+      "status": "accepted-as-assessment-synthesis"
+    },
+    {
+      "id": "CLM-INT-007",
+      "statement": "Instruction in second-language pragmatics has a large positive average effect on measured pragmatic competence, with effects moderated by context, duration and outcome measure.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0157"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-INT-008",
+      "statement": "Pragmatics outcome measures are not interchangeable: written discourse-completion tasks can show larger instructional effects than oral production measures, so decontextualized test success should not be treated as equivalent to pragmatic use in interaction.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0157"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-INT-009",
+      "statement": "Pragmatic actions such as requests, acceptances, refusals and apologies are realized within interactional sequences; teaching isolated phrase labels alone omits how turns respond to and shape surrounding moves.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0168", "SRC-0157"],
+      "status": "accepted-as-pragmatics-synthesis"
+    },
+    {
+      "id": "CLM-INT-010",
+      "statement": "Systematic reviews of AI/voice chatbots report potential benefits for L2 speaking practice, confidence, engagement, pronunciation and opportunities for interaction, while the evidence base remains heterogeneous and design-dependent.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0164", "SRC-0165", "SRC-0166"],
+      "status": "accepted-with-high-heterogeneity"
+    },
+    {
+      "id": "CLM-INT-011",
+      "statement": "Voice-chatbot research repeatedly reports limitations including speech-recognition failures, unnatural interaction and weaknesses in corrective or pragmatic/context-sensitive behavior.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0164", "SRC-0165"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-INT-012",
+      "statement": "A small eight-week quasi-experiment with Vietnamese undergraduates found improved speaking measures after AI voice-chatbot practice, but it does not establish effects for near-A0 learners or transfer to unfamiliar human interaction.",
+      "evidence_level": "C",
+      "source_ids": ["SRC-0167"],
+      "status": "accepted-with-population-and-design-limit"
+    },
+    {
+      "id": "CLM-INT-013",
+      "statement": "A 2026 meta-analysis reports positive aggregate GenAI effects on language-learning and affective-cognitive outcomes, including speaking, but high heterogeneity prevents treating generic GenAI use as one validated interaction intervention.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0166"],
+      "status": "accepted-with-high-heterogeneity"
+    },
+    {
+      "id": "CLM-INT-014",
+      "statement": "An AI partner's successful interpretation of learner output and successful completion of an AI roleplay do not by themselves establish that an unfamiliar human interlocutor would understand the learner or that the learner can manage human interaction.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0164", "SRC-0165", "SRC-0167", "SRC-0159"],
+      "status": "accepted-as-transfer-and-provenance-synthesis"
+    },
+    {
+      "id": "CLM-INT-015",
+      "statement": "Valid interaction evidence should preserve response contingency, shared-goal progress, turn/listener behavior, repair, pragmatic fit, intelligibility and partner/support provenance separately rather than relying on one opaque conversation score.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0158", "SRC-0159", "SRC-0160", "SRC-0161", "SRC-0163"],
+      "status": "accepted-as-measurement-synthesis"
+    },
+    {
+      "id": "CLM-INT-016",
+      "statement": "The optimal turn-count progression, repair curriculum, pragmatic sequence, AI accommodation policy, automated scoring thresholds and transfer criteria for Vietnamese near-A0 interaction are not established and require direct product validation.",
+      "evidence_level": "D",
+      "source_ids": ["SRC-0156", "SRC-0157", "SRC-0161", "SRC-0164", "SRC-0165", "SRC-0167"],
+      "status": "open-product-assumption"
+    }
+  ]
+}

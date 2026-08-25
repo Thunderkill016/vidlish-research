@@ -32,3 +32,12 @@
 | `PRN-028` | Train known targets in connected speech and later vary speakers/phonetic contexts. | high | Spoken-word recognition and perception must generalize beyond one recording. |
 | `PRN-029` | Integrate bottom-up work with message comprehension and metacognitive feedback. | moderate | Neither perception drills nor strategy instruction alone represent the full listening process. |
 | `PRN-030` | Test listening transfer with unseen parallel utterances and, when feasible, new speakers. | high | Replaying a trained recording cannot establish generalized listening ability. |
+| `PRN-031` | Use retrieval only after enough initial access for a meaningful attempt; repeated failure is not desirable difficulty. | high | Retrieval benefits depend on successful enough retrieval. |
+| `PRN-032` | Optimize review for delayed unsupported performance per minute, not repetition count. | high | More within-session retrieval can help but consumes learner time. |
+| `PRN-033` | Prefer adaptive spacing over a universal interval ritual, with a simple fallback for sparse data. | high | Spacing works, but exact optimal intervals vary. |
+| `PRN-034` | Do not treat expanding versus equal spacing as a product doctrine. | high | Meta-analysis finds no universal superiority of expanding spacing. |
+| `PRN-035` | Match review task to the capability evidence needed. | high | Recognition, recall, aural access and transfer support different inferences. |
+| `PRN-036` | Capture retrieval before answer feedback, then correct efficiently rather than imposing a universal feedback delay. | high | L2 feedback-timing evidence does not support one mandatory delay. |
+| `PRN-037` | Keep scheduler state and language-capability evidence as separate data models. | high | Recall prediction/due timing is not mastery. |
+| `PRN-038` | Derive scheduler outcomes from observable attempts/support provenance; treat FSRS grade mapping as product calibration. | moderate | Scheduler labels are not validated language-assessment categories. |
+| `PRN-039` | Calibrate desired retention against learning gain, review workload and backlog. | moderate | Higher retention has a cost; the Nếp optimum is unvalidated. |

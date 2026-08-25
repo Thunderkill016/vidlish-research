@@ -31,3 +31,14 @@ This file is a human-readable bridge between research and product. Machine-reada
 | Transcript-visible success is independent audio-only comprehension. | listening assessment + support-provenance logic (`SRC-0034`) | high evidence against | Hide answer-bearing text before independent listening probe. | rejected |
 | Strict dictation is a pure measure of listening perception. | decoding/assessment studies use written responses (`SRC-0026`, `SRC-0032`–`SRC-0034`) | moderate evidence against | Record/tolerate orthographic demands or use lower-writing-burden probes. | rejected as pure measure |
 | One universal replay count or decoding percentage defines A0 listening mastery. | no sufficient evidence | low | Keep as product calibration question. | rejected/open |
+| Spaced practice improves delayed L2 retention relative to massed practice. | L2 meta-analysis `SRC-0003` | high | Keep delayed review in the core engine. | accepted |
+| Longer spacing is always better immediately and after delay. | `SRC-0003` shows retention-horizon interaction | high evidence against | Judge schedule against the intended delay. | rejected |
+| Expanding spacing is universally superior to equal spacing. | `SRC-0003`, `SRC-0037` | high evidence against universal claim | Do not hard-code expanding intervals as doctrine. | rejected |
+| More within-session retrieval is always more efficient. | `SRC-0004` | moderate-high evidence against | Optimize retained performance per minute. | rejected |
+| Retrieval format can be ignored when scheduling review. | `SRC-0038` + RQ-001 evidence model | high evidence against | Select task from the needed capability/evidence lane. | rejected |
+| Delayed corrective feedback is universally better for L2 vocabulary. | `SRC-0039` | moderate evidence against | Feedback after attempt can be prompt; exact timing is not a fixed rule. | rejected |
+| Retrieval practice generally improves retention over restudy. | meta-analysis `SRC-0040` | high | Use attempt-based review when the learner can retrieve meaningfully. | accepted with scope limits |
+| Retrieval practice alone proves transfer. | transfer meta-analysis `SRC-0041` shows conditional effects | high evidence against inference | Require actual changed-context evidence. | rejected |
+| Adaptive memory models can optimize review timing/cost. | `SRC-0042`, `SRC-0043` | moderate-high | Keep an adaptive scheduler behind a versioned adapter. | accepted as engineering strategy |
+| FSRS predicted retrievability or stability means English mastery. | `SRC-0042`–`SRC-0044` target recall prediction/scheduling, not language capability | high evidence against | Separate scheduler state from capability evidence. | rejected |
+| One FSRS desired-retention value is scientifically optimal for Nếp. | no direct Nếp evidence | low | Calibrate via `EXP-004`. | open/rejected as fact |

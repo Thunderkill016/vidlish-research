@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "claims": [
+    {
+      "id": "CLM-PAU-001",
+      "statement": "Learner-controlled pause, replay, rewind and related playback controls can support L2 comprehension repair and lower-level processing, but learners vary in how purposefully they use these controls and may need training.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0111"],
+      "status": "accepted-with-learner-variation"
+    },
+    {
+      "id": "CLM-PAU-002",
+      "statement": "Automatically repeating or slowing bounded speech segments predicted to be difficult can improve local recognition/comprehension under assisted conditions, but current evidence does not establish delayed transfer to unseen continuous speech.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0112"],
+      "status": "accepted-with-transfer-limit"
+    },
+    {
+      "id": "CLM-PAU-003",
+      "statement": "Artificial pause placement changes the temporal/prosodic structure available to L2 listeners, and its processing effects can vary with pause location and learner proficiency.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0113", "SRC-0117"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-PAU-004",
+      "statement": "In dynamic multimedia outside L2 listening, both system-determined and learner-controlled pausing can improve learning relative to uninterrupted presentation under some complexity conditions; this supports a processing-time mechanism but cannot by itself justify an L2 auto-pause policy.",
+      "evidence_level": "C",
+      "source_ids": ["SRC-0114"],
+      "status": "accepted-as-mechanism-boundary-evidence"
+    },
+    {
+      "id": "CLM-PAU-005",
+      "statement": "Paused transcription can diagnose word-recognition and segmentation breakdowns while keeping target phrases embedded in connected discourse, making pausing useful as a diagnostic microtask.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0115"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-PAU-006",
+      "statement": "Temporal phenomena in natural unscripted speech, including filled pauses, have context-dependent effects on L2 comprehension rather than a uniformly beneficial or harmful effect.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0116"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-PAU-007",
+      "statement": "Adding processing time through pauses can improve comprehension in some L2 conditions, but pause benefits depend on placement, material and listener characteristics rather than following a universal frequency or duration rule.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0113", "SRC-0117"],
+      "status": "accepted-with-moderators"
+    },
+    {
+      "id": "CLM-PAU-008",
+      "statement": "A Vietnamese beginner EFL intervention provides population-relevant evidence that self-regulated prosody-focused listening practice can improve listening outcomes, but it does not isolate auto-pause as the causal mechanism.",
+      "evidence_level": "C",
+      "source_ids": ["SRC-0118"],
+      "status": "accepted-with-causal-limit"
+    },
+    {
+      "id": "CLM-PAU-009",
+      "statement": "Success after system-inserted pauses or segmented repair is not equivalent to success under first-seen continuous natural temporal flow because the intervention changes exposure and processing conditions.",
+      "evidence_level": "C",
+      "source_ids": ["SRC-0112", "SRC-0113", "SRC-0115"],
+      "status": "accepted-as-measurement-synthesis"
+    },
+    {
+      "id": "CLM-PAU-010",
+      "statement": "Current evidence does not justify automatically pausing every predicted unknown word or every sentence in authentic video; such policies can introduce unnecessary interruptions and alter natural segmentation cues.",
+      "evidence_level": "D",
+      "source_ids": ["SRC-0111", "SRC-0113", "SRC-0115"],
+      "status": "product-inference"
+    },
+    {
+      "id": "CLM-PAU-011",
+      "statement": "Failure-contingent temporal repair is a plausible way to preserve first-pass continuous-listening evidence while still offering replay or bounded pause support after breakdown, but comparative efficacy has not been established for Vietnamese near-A0 learners.",
+      "evidence_level": "D",
+      "source_ids": ["SRC-0111", "SRC-0112", "SRC-0115"],
+      "status": "open-product-assumption"
+    },
+    {
+      "id": "CLM-PAU-012",
+      "statement": "If automated difficulty detection triggers temporal support, detector errors create pedagogical errors: false positives interrupt learnable speech and false negatives miss repair opportunities.",
+      "evidence_level": "D",
+      "source_ids": ["SRC-0112"],
+      "status": "product-validity-inference"
+    },
+    {
+      "id": "CLM-PAU-013",
+      "statement": "The optimal pause boundary type, duration, trigger threshold and fading policy for Vietnamese near-A0 Nếp learners must be validated against delayed unseen continuous listening rather than immediate assisted comprehension alone.",
+      "evidence_level": "D",
+      "source_ids": ["SRC-0111", "SRC-0112", "SRC-0113", "SRC-0118"],
+      "status": "open-product-assumption"
+    }
+  ]
+}

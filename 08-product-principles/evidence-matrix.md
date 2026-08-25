@@ -13,3 +13,8 @@ This file is a human-readable bridge between research and product. Machine-reada
 | Auto-pausing every unknown word improves learning. | none sufficient | low | Experiment before shipping as default. | open |
 | FSRS state means a learner has mastered an item. | no | rejected | Use FSRS for scheduling only. | rejected |
 | Global ASR pronunciation score is valid for Vietnamese near-A0 learners. | insufficient | low | Do not launch as mastery/proficiency score. | open/rejected for current scope |
+| A lexical item is not adequately represented by one known/unknown flag. | construct + assessment literature (`SRC-0008`, `SRC-0009`, `SRC-0014`) | moderate-high | Derive graded lexical state from attempts. | accepted |
+| Recognition success establishes recall/productive ability. | evidence contradicts this (`SRC-0008`, `SRC-0010`, `SRC-0016`) | low/rejected | Recognition-only tasks cannot mark recall/productive state. | rejected |
+| Immediate success establishes retention. | meta-analyses show delayed decline (`SRC-0011`, `SRC-0012`) | high evidence against | Require delayed re-demonstration. | rejected |
+| Nếp evidence categories are four independent psychological vocabulary dimensions. | construct evidence does not support this claim (`SRC-0009`) | low/rejected wording | Keep them as task/time evidence categories only. | rejected as scientific claim |
+| Partial phrase/first-letter cues prove independent chunk production. | collocation measurement review (`SRC-0015`) | moderate evidence against | Store cue level; label as scaffolded evidence. | rejected |

@@ -11,7 +11,7 @@
 | R05 Speaking/output | When and how should controlled production expand into guided interaction? | open | speaking tasks |
 | R06 Pronunciation | What improves intelligibility, especially for Vietnamese learners? | open | pronunciation layer |
 | R07 Reading/writing | How should receptive and productive literacy support the same communicative goals? | open | later A0/A1 packs |
-| R08 Assessment | How should `understood`, `recalled`, `transferred`, `retained` be measured? | seeded | progress model |
+| R08 Assessment | How should `understood`, `recalled`, `transferred`, `retained` be measured? | RQ-005 initial transfer synthesis complete | progress model |
 | R09 Video-based learning | When is authentic video usable, and which scaffolds help rather than replace listening? | seeded | later source path |
 | R10 Vietnamese learners | Which L1-specific problems deserve targeted support? | RQ-002 general L1 scaffold synthesis complete; Vietnamese-specific calibration open | personalization |
 | R11 Motivation/product behavior | Which session designs cause useful return without substituting engagement for learning? | open | UX and retention |
@@ -25,7 +25,7 @@
 - `RQ-002`: What amount/type of Vietnamese scaffold supports comprehension without becoming the task itself? → **initial synthesis complete** (`SYN-SCF-001`, `FEAT-SCF-001`, `EXP-002`)
 - `RQ-003`: How should short listening tasks separate sound perception from meaning comprehension? → **initial synthesis complete** (`SYN-LIS-002`, `FEAT-LIS-001`, `EXP-003`)
 - `RQ-004`: What retrieval schedule gives useful delayed retention while keeping time-on-task reasonable? → **initial synthesis complete** (`SYN-REV-001`, `FEAT-REV-001`, `EXP-004`)
-- `RQ-005`: What changed-context probe is feasible enough to measure transfer repeatedly?
+- `RQ-005`: What changed-context probe is feasible enough to measure transfer repeatedly? → **initial synthesis complete** (`SYN-TRN-001`, `FEAT-TRN-001`, `EXP-005`)
 
 ### P1 — before expanding speaking and pronunciation
 
@@ -44,6 +44,7 @@
 - Session length that fits the target learner's real schedule.
 - Exact support-fading threshold.
 - Exact vocabulary count required before authentic video.
+- Exact transfer novelty ladder and probe-sampling frequency for near-A0.
 - Best beginner voice/ accent mix.
 - Whether learners value and return for delayed review.
 - Exact review workload / desired-retention policy for the target learner.

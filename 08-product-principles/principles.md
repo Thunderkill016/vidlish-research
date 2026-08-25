@@ -41,3 +41,13 @@
 | `PRN-037` | Keep scheduler state and language-capability evidence as separate data models. | high | Recall prediction/due timing is not mastery. |
 | `PRN-038` | Derive scheduler outcomes from observable attempts/support provenance; treat FSRS grade mapping as product calibration. | moderate | Scheduler labels are not validated language-assessment categories. |
 | `PRN-039` | Calibrate desired retention against learning gain, review workload and backlog. | moderate | Higher retention has a cost; the Nếp optimum is unvalidated. |
+| `PRN-040` | Exact trained-context retests are retention evidence, not transfer. | high | Transfer requires a meaningful change in task/cue/context. |
+| `PRN-041` | Near A0, begin transfer with unseen parallel items and one bounded change. | high | Too much novelty can turn a transfer probe into overload. |
+| `PRN-042` | Increase context diversity from demonstrated capability rather than maximizing variation. | high | L2 benefits of contextual diversity are proficiency- and task-dependent. |
+| `PRN-043` | Keep non-target language and interface demands inside a controlled novelty budget. | high | Transfer failure should be attributable to the intended target as narrowly as possible. |
+| `PRN-044` | Keep comprehension/recognition/controlled-production/open-production transfer evidence distinct. | high | Different response demands support different inferences. |
+| `PRN-045` | Productive transfer requires a productive changed-context attempt. | high | Receptive success cannot certify independent production. |
+| `PRN-046` | Use constrained production near A0 when it isolates the target; do not require free conversation for every probe. | moderate | Free output adds many confounds and substantial learner cost. |
+| `PRN-047` | Record which context, speaker, modality, cue and response dimensions changed. | high | “Transfer” without a defined change is uninterpretable. |
+| `PRN-048` | Preserve first-seen provenance for transfer probes. | high | Once attempted, a probe becomes learning exposure and is no longer unseen. |
+| `PRN-049` | Sample transfer according to evidence need and time budget, then calibrate against later unseen performance. | moderate | Exact probe frequency and novelty thresholds are product assumptions. |

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "claims": [
+    {
+      "id": "CLM-FND-001",
+      "statement": "CEFR is useful as a descriptive communicative-capability framework but is not a teaching algorithm.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0001"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-FND-002",
+      "statement": "A balanced language course should include meaning-focused input, meaning-focused output, language-focused learning and fluency development.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0007"],
+      "status": "accepted-with-heuristic-limits"
+    },
+    {
+      "id": "CLM-VOC-001",
+      "statement": "Spacing and repeated retrieval can support second-language vocabulary retention; no single fixed repetition rule is justified for all learners/items.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0002", "SRC-0003", "SRC-0004"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-VID-001",
+      "statement": "Captions can function as a scaffold for second-language video learning, but exact support policy should depend on learner/task/outcome.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0006"],
+      "status": "accepted-with-scope-limits"
+    }
+  ]
+}

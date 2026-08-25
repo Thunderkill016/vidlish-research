@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "principles": [
+    {"id":"PRN-001","statement":"Measure capability, not completion.","confidence":"high","claim_ids":["CLM-FND-001"]},
+    {"id":"PRN-002","statement":"Keep understood, recalled, transferred and retained as separate evidence dimensions.","confidence":"high","claim_ids":[]},
+    {"id":"PRN-003","statement":"Attempt before reveal when the task is intended to practice or measure retrieval.","confidence":"high","claim_ids":["CLM-VOC-001"]},
+    {"id":"PRN-005","statement":"Use spaced review without interpreting scheduler state as mastery.","confidence":"high","claim_ids":["CLM-VOC-001"]},
+    {"id":"PRN-006","statement":"Treat captions and L1 translation as scaffolds whose visibility should match the learning objective.","confidence":"moderate","claim_ids":["CLM-VID-001"]}
+  ]
+}

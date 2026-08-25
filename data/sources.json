@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {"id":"SRC-0001","title":"CEFR Companion Volume","type":"framework","publisher":"Council of Europe","url":"https://rm.coe.int/common-european-framework-of-reference-for-languages-learning-teaching/16809ea0d4","status":"verified-seed"},
+    {"id":"SRC-0002","title":"Learning Vocabulary in Another Language","type":"book","author":"I. S. P. Nation","url":"https://www.cambridge.org/core/books/learning-vocabulary-in-another-language/97C1293EBC8716EA70B77626E00740AA","status":"verified-seed"},
+    {"id":"SRC-0003","title":"Spaced practice in second language vocabulary learning","type":"meta-analysis","authors":"Kim & Webb","url":"https://onlinelibrary.wiley.com/doi/10.1111/lang.12479","status":"verified-seed"},
+    {"id":"SRC-0004","title":"Within-session repeated retrieval in L2 vocabulary learning","type":"study","author":"Nakata","url":"https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/abs/does-repeated-practice-make-perfect-the-effects-of-withinsession-repeated-retrieval-on-second-language-vocabulary-learning/F14BA8A576CD2563D14CEA46E35D842E","status":"verified-seed"},
+    {"id":"SRC-0005","title":"Teaching and Learning Second Language Listening","type":"book","authors":"Goh & Vandergrift","url":"https://www.routledge.com/Teaching-and-Learning-Second-Language-Listening-Metacognition-in-Action/Goh-Vandergrift/p/book/9780367254254","status":"verified-seed"},
+    {"id":"SRC-0006","title":"Captioned video research seed","type":"research-article","url":"https://www.sciencedirect.com/science/article/abs/pii/S0346251X13001012","status":"needs-deeper-extraction"},
+    {"id":"SRC-0007","title":"The Four Strands","type":"framework-article","author":"I. S. P. Nation","url":"https://www.wgtn.ac.nz/lals/resources/paul-nations-resources/paul-nations-publications/publications/documents/2007-Four-strands.pdf","status":"verified-seed"}
+  ]
+}

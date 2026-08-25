@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "features": [
+    {
+      "id": "FEAT-A0-001",
+      "name": "A0 learning loop",
+      "status": "candidate-core",
+      "principle_ids": ["PRN-001", "PRN-002", "PRN-003", "PRN-005"],
+      "path": "09-vidlish-features/a0-learning-loop.md"
+    },
+    {
+      "id": "FEAT-VID-001",
+      "name": "Smart captions",
+      "status": "later-stage-experiment",
+      "principle_ids": ["PRN-006"],
+      "path": "09-vidlish-features/smart-captions.md"
+    }
+  ]
+}

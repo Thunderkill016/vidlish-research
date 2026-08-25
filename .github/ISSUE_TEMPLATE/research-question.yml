@@ -1,0 +1,34 @@
+name: Research question
+description: Investigate a learning/product research question before promoting it to a claim.
+title: "[RQ] "
+labels: ["research"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Research question
+      description: Make it narrow enough to answer with evidence.
+    validations:
+      required: true
+  - type: textarea
+    id: learner
+    attributes:
+      label: Target learner / context
+      placeholder: Vietnamese-speaking adult near A0, short mobile session...
+    validations:
+      required: true
+  - type: textarea
+    id: current_hypothesis
+    attributes:
+      label: Current hypothesis
+      description: State it as an assumption, not a conclusion.
+  - type: textarea
+    id: product_dependency
+    attributes:
+      label: Product decision this research may change
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Candidate sources

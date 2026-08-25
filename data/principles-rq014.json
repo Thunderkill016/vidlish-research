@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "principles": [
+    {
+      "id": "PRN-165",
+      "statement": "Capture the learner's own first written response before exposing a full target model, translation, sentence rewrite or AI-generated answer whenever the task is intended to measure productive writing.",
+      "confidence": "high",
+      "claim_ids": ["CLM-WRI-005", "CLM-WRI-009", "CLM-WRI-013"]
+    },
+    {
+      "id": "PRN-166",
+      "statement": "Separate communicative message success from lexical retrieval, construction use, organization, linguistic accuracy and mechanics instead of using one undifferentiated writing score.",
+      "confidence": "high",
+      "claim_ids": ["CLM-WRI-001", "CLM-WRI-015"]
+    },
+    {
+      "id": "PRN-167",
+      "statement": "Preserve planning, first-draft production and revision as separate writing-process evidence because instructional conditions can affect them and their outcomes differently.",
+      "confidence": "high",
+      "claim_ids": ["CLM-WRI-001", "CLM-WRI-002", "CLM-WRI-010"]
+    },
+    {
+      "id": "PRN-168",
+      "statement": "Progress writing from bounded reconstruction to guided sentence generation, changed-content independent sentences, connected micro-writing and short functional writing by gradually increasing generative demand and reducing support.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-WRI-001", "CLM-WRI-010", "CLM-WRI-016"]
+    },
+    {
+      "id": "PRN-169",
+      "statement": "Judge feedback by whether it improves later new writing, not only whether it improves the current corrected draft.",
+      "confidence": "high",
+      "claim_ids": ["CLM-WRI-003", "CLM-WRI-005", "CLM-WRI-006"]
+    },
+    {
+      "id": "PRN-170",
+      "statement": "When learner history suggests a target form is already available, use a bounded retrieval/self-repair cue before supplying the corrected form.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-WRI-003", "CLM-WRI-004", "CLM-WRI-016"]
+    },
+    {
+      "id": "PRN-171",
+      "statement": "When the needed form is unavailable or repeated self-repair fails, provide bounded positive evidence or direct correction rather than forcing unproductive guessing.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-WRI-003", "CLM-WRI-004", "CLM-WRI-016"]
+    },
+    {
+      "id": "PRN-172",
+      "statement": "Prioritize a small set of high-value writing problems—message blocking, current targets and recurrent high-frequency errors—rather than correcting every surface error by default.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-WRI-004", "CLM-WRI-011", "CLM-WRI-016"]
+    },
+    {
+      "id": "PRN-173",
+      "statement": "Use model texts primarily as post-draft comparators: establish learner ownership first, then provide positive evidence for noticing and comparison.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-WRI-012", "CLM-WRI-013"]
+    },
+    {
+      "id": "PRN-174",
+      "statement": "After comparator/model exposure, remove the model and require revision or new-content production so copying is distinguishable from retained language use.",
+      "confidence": "high",
+      "claim_ids": ["CLM-WRI-005", "CLM-WRI-012", "CLM-WRI-013"]
+    },
+    {
+      "id": "PRN-175",
+      "statement": "Do not let AI or automated tools rewrite the target response before independent evidence capture when the educational objective is learner-generated writing.",
+      "confidence": "high",
+      "claim_ids": ["CLM-WRI-007", "CLM-WRI-008", "CLM-WRI-009"]
+    },
+    {
+      "id": "PRN-176",
+      "statement": "Record the provenance and strength of every automated writing intervention, including hints, alternatives, direct corrections and rewrites, because resulting text quality has different evidential value at different support levels.",
+      "confidence": "high",
+      "claim_ids": ["CLM-WRI-007", "CLM-WRI-009", "CLM-WRI-015"]
+    },
+    {
+      "id": "PRN-177",
+      "statement": "Store same-draft revision, immediate new-task transfer and delayed new-task writing as separate outcomes; never promote revised-draft quality directly to independent mastery.",
+      "confidence": "high",
+      "claim_ids": ["CLM-WRI-005", "CLM-WRI-006", "CLM-WRI-015"]
+    },
+    {
+      "id": "PRN-178",
+      "statement": "Require delayed unsupported writing on unseen/new content before treating a writing capability or target construction as retained and independently usable.",
+      "confidence": "high",
+      "claim_ids": ["CLM-WRI-003", "CLM-WRI-005", "CLM-WRI-010"]
+    },
+    {
+      "id": "PRN-179",
+      "statement": "Use automated feedback as an adjunct with confidence and scope gates, especially for near-A0 learners; do not present uncertain machine judgments or unvalidated holistic scores as objective writing ability.",
+      "confidence": "high",
+      "claim_ids": ["CLM-WRI-007", "CLM-WRI-008", "CLM-WRI-009", "CLM-WRI-015"]
+    },
+    {
+      "id": "PRN-180",
+      "statement": "Keep sentence-frame fading, micro-writing length, feedback scope, prompt-versus-correction policy, model timing, AI/AWE assistance limits, revision dose and delayed-transfer thresholds falsifiable until EXP-014 validates them with Vietnamese near-A0 learners.",
+      "confidence": "high",
+      "claim_ids": ["CLM-WRI-016"]
+    }
+  ]
+}

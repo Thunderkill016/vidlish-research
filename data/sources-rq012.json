@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "SRC-0119",
+      "title": "Effectiveness of L2 instruction: A research synthesis and quantitative meta-analysis",
+      "type": "meta-analysis",
+      "authors": "John M. Norris; Lourdes Ortega",
+      "year": 2000,
+      "doi": "10.1111/0023-8333.00136",
+      "url": "https://doi.org/10.1111/0023-8333.00136",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0120",
+      "title": "Interactions Between Type of Instruction and Type of Language Feature: A Meta-Analysis",
+      "type": "meta-analysis",
+      "authors": "Nina Spada; Yasuyo Tomita",
+      "year": 2010,
+      "doi": "10.1111/j.1467-9922.2010.00562.x",
+      "url": "https://doi.org/10.1111/j.1467-9922.2010.00562.x",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0121",
+      "title": "Thirty-five years of ISLA on form-focused instruction: A meta-analysis",
+      "type": "meta-analysis",
+      "authors": "Eun Young Kang; Sarah Sok; ZhaoHong Han",
+      "year": 2019,
+      "doi": "10.1177/1362168818776671",
+      "url": "https://doi.org/10.1177/1362168818776671",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0122",
+      "title": "Implicit and explicit instruction in L2 learning: Norris and Ortega (2000) revisited and updated",
+      "type": "meta-analytic-review-chapter",
+      "authors": "Jaemyung Goo; Gisela Granena; Yucel Yilmaz; Matthew Novella",
+      "year": 2015,
+      "doi": "10.1075/sibil.48.18goo",
+      "url": "https://doi.org/10.1075/sibil.48.18goo",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0123",
+      "title": "Comprehension-Based Versus Production-Based Grammar Instruction: A Meta-Analysis of Comparative Studies",
+      "type": "meta-analysis",
+      "authors": "Natsuko Shintani; Shaofeng Li; Rod Ellis",
+      "year": 2013,
+      "doi": "10.1111/lang.12001",
+      "url": "https://doi.org/10.1111/lang.12001",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0124",
+      "title": "The Effectiveness of Processing Instruction and Production-Based Instruction on L2 Grammar Acquisition: A Meta-Analysis",
+      "type": "meta-analysis",
+      "authors": "Natsuko Shintani",
+      "year": 2015,
+      "doi": "10.1093/applin/amu067",
+      "url": "https://doi.org/10.1093/applin/amu067",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0125",
+      "title": "Visual Input Enhancement and Grammar Learning: A Meta-Analytic Review",
+      "type": "meta-analysis",
+      "authors": "Sang-Ki Lee; Hsien-Tzu Huang",
+      "year": 2008,
+      "doi": "10.1017/S0272263108080479",
+      "url": "https://doi.org/10.1017/S0272263108080479",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0126",
+      "title": "Second language learning of morphology",
+      "type": "usage-based-keynote-review",
+      "authors": "Nick C. Ellis",
+      "year": 2022,
+      "doi": "10.22599/jesla.85",
+      "url": "https://doi.org/10.22599/jesla.85",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0127",
+      "title": "The interface of explicit and implicit second-language knowledge: A longitudinal study",
+      "type": "longitudinal-knowledge-study",
+      "authors": "Kathy MinHye Kim; Aline Godfroid",
+      "year": 2023,
+      "doi": "10.1017/S1366728922000773",
+      "url": "https://doi.org/10.1017/S1366728922000773",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0128",
+      "title": "Comparing Elicited Imitation and Word Monitoring as Measures of Implicit Knowledge",
+      "type": "measurement-validation-study",
+      "authors": "Yuichi Suzuki; Robert M. DeKeyser",
+      "year": 2015,
+      "doi": "10.1111/lang.12138",
+      "url": "https://doi.org/10.1111/lang.12138",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0129",
+      "title": "Oral Feedback in Classroom SLA: A Meta-Analysis",
+      "type": "meta-analysis",
+      "authors": "Roy Lyster; Kazuya Saito",
+      "year": 2010,
+      "doi": "10.1017/S0272263109990520",
+      "url": "https://doi.org/10.1017/S0272263109990520",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0130",
+      "title": "The Effectiveness of Corrective Feedback in SLA: A Meta-Analysis",
+      "type": "meta-analysis",
+      "authors": "Shaofeng Li",
+      "year": 2010,
+      "doi": "10.1111/j.1467-9922.2010.00561.x",
+      "url": "https://doi.org/10.1111/j.1467-9922.2010.00561.x",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0131",
+      "title": "Image-schema-based-instruction enhanced L2 construction learning with the optimal balance between attention to form and meaning",
+      "type": "construction-instruction-experiment",
+      "authors": "Hyun-Bin Hwang",
+      "year": 2023,
+      "doi": "10.1515/iral-2023-0015",
+      "url": "https://doi.org/10.1515/iral-2023-0015",
+      "status": "verified"
+    }
+  ]
+}

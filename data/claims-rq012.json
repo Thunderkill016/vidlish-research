@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "claims": [
+    {
+      "id": "CLM-GRM-001",
+      "statement": "Focused second-language instruction produces substantial target-oriented learning gains, and explicit treatments often show larger effects than implicit treatments in meta-analytic research.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0119", "SRC-0120", "SRC-0121", "SRC-0122"],
+      "status": "accepted-with-measurement-caveat"
+    },
+    {
+      "id": "CLM-GRM-002",
+      "statement": "The apparent advantage of explicit grammar instruction is sensitive to outcome measurement: constrained, selected-response and metalinguistic tasks can favor explicit/controlled knowledge, so grammar-test performance cannot by itself establish communicative use.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0119", "SRC-0122", "SRC-0127", "SRC-0128"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-GRM-003",
+      "statement": "Comprehension-based and production-based grammar instruction both produce substantial receptive and productive learning gains; their relative advantages depend on outcome type and test timing.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0123", "SRC-0124"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-GRM-004",
+      "statement": "Comprehension-based/Processing Instruction tends to show an advantage for receptive form–meaning knowledge, especially in earlier measurement, while production-based instruction can show an advantage for delayed productive knowledge.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0123", "SRC-0124"],
+      "status": "accepted-with-task-moderators"
+    },
+    {
+      "id": "CLM-GRM-005",
+      "statement": "Within Processing Instruction research, structured input that requires accurate form–meaning processing appears to be a major active component; explicit rule information is not consistently necessary for the observed learning effect.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0124"],
+      "status": "accepted-with-method-boundary"
+    },
+    {
+      "id": "CLM-GRM-006",
+      "statement": "Visual/textual enhancement alone has only small or inconsistent effects on grammar learning; making a form visually salient does not guarantee that learners process its meaning or acquire it.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0125"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-GRM-007",
+      "statement": "L2 grammatical knowledge is not well represented by one binary construct: explicit, automatized and implicit/use-based knowledge are related but distinguishable, and their measurement remains methodologically difficult.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0127", "SRC-0128"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-GRM-008",
+      "statement": "Time pressure or elicited imitation does not automatically isolate implicit grammatical knowledge; real-time meaning-focused processing and freer production provide additional, non-equivalent evidence.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0127", "SRC-0128"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-GRM-009",
+      "statement": "A usage-based account treats morphology, chunks and syntactic frames as learned form–function/form–meaning constructions whose development is shaped by frequency, contingency, salience, contextual usage and prior-language attention.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0126"],
+      "status": "accepted-as-theory-supported-synthesis"
+    },
+    {
+      "id": "CLM-GRM-010",
+      "statement": "Repeated meaningful exemplars can support construction learning and gradual abstraction, but raw token frequency alone is insufficient because variation, semantic prototypicality, contingency and salience also affect learning.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0126", "SRC-0131"],
+      "status": "accepted-with-generalization-limit"
+    },
+    {
+      "id": "CLM-GRM-011",
+      "statement": "Low-salience, redundant or L1-blocked grammatical form–meaning mappings can remain difficult despite exposure; targeted form focus can help learners notice and establish these mappings, but later meaningful usage is still required for fluent access.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0126"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-GRM-012",
+      "statement": "A controlled EFL construction-learning study found instruction integrating construction form with core meaning and imagery more effective on its measures than metalanguage-only or input-flood alternatives, including evidence of generalization; the result is construction- and population-specific.",
+      "evidence_level": "C",
+      "source_ids": ["SRC-0131"],
+      "status": "accepted-with-scope-limit"
+    },
+    {
+      "id": "CLM-GRM-013",
+      "statement": "Corrective feedback can produce durable L2 development, including grammatical development, but its effectiveness varies by feedback type, learner, target feature, context and outcome measure.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0129", "SRC-0130"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-GRM-014",
+      "statement": "No single corrective-feedback type is established as universally optimal: one classroom meta-analysis favored prompts over recasts while a broader meta-analysis found maintenance advantages for implicit feedback under some conditions.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0129", "SRC-0130"],
+      "status": "accepted-as-moderated-evidence"
+    },
+    {
+      "id": "CLM-GRM-015",
+      "statement": "Rule explanation, grammaticality judgment and fill-in-the-blank success are useful evidence of explicit or controlled grammar knowledge but are insufficient to establish independent interpretation, production, transfer or retention of a construction.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0119", "SRC-0127", "SRC-0128"],
+      "status": "accepted-as-measurement-synthesis"
+    },
+    {
+      "id": "CLM-GRM-016",
+      "statement": "The optimal sequencing of meaning-first input, structured interpretation, explicit explanation, production, exemplar variation and corrective feedback for Vietnamese near-A0 learners is not established by the literature and requires direct product validation.",
+      "evidence_level": "D",
+      "source_ids": ["SRC-0123", "SRC-0124", "SRC-0126", "SRC-0131"],
+      "status": "open-product-assumption"
+    }
+  ]
+}

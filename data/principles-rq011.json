@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "principles": [
+    {
+      "id": "PRN-120",
+      "statement": "Preserve an uninterrupted first pass whenever natural-flow listening evidence is the target and the clip is within readiness bounds.",
+      "confidence": "high",
+      "claim_ids": ["CLM-PAU-003", "CLM-PAU-009"]
+    },
+    {
+      "id": "PRN-121",
+      "statement": "Treat learner pause/replay as a repair affordance, not as evidence-free UI; record every temporal intervention and exposure count.",
+      "confidence": "high",
+      "claim_ids": ["CLM-PAU-001", "CLM-PAU-009"]
+    },
+    {
+      "id": "PRN-122",
+      "statement": "Use paused transcription or similarly bounded tasks to diagnose local decoding/segmentation failure after a breakdown rather than chopping every listening task by default.",
+      "confidence": "high",
+      "claim_ids": ["CLM-PAU-005", "CLM-PAU-010"]
+    },
+    {
+      "id": "PRN-123",
+      "statement": "Keep continuous, learner-paused, system-paused and segmented-repair successes as distinct evidence states.",
+      "confidence": "high",
+      "claim_ids": ["CLM-PAU-009"]
+    },
+    {
+      "id": "PRN-124",
+      "statement": "Do not auto-pause every sentence or predicted unknown word; trigger system interruption only for an explicit diagnostic/repair objective.",
+      "confidence": "high",
+      "claim_ids": ["CLM-PAU-010", "CLM-PAU-011"]
+    },
+    {
+      "id": "PRN-125",
+      "statement": "When system pausing is used, preserve boundary provenance because pause placement changes the linguistic signal and can interact with proficiency.",
+      "confidence": "high",
+      "claim_ids": ["CLM-PAU-003", "CLM-PAU-007"]
+    },
+    {
+      "id": "PRN-126",
+      "statement": "Prefer the smallest temporal repair that resolves the detected breakdown, then return the learner to continuous playback.",
+      "confidence": "moderate",
+      "claim_ids": ["CLM-PAU-001", "CLM-PAU-002", "CLM-PAU-011"]
+    },
+    {
+      "id": "PRN-127",
+      "statement": "Learner-controlled playback should remain available and obvious; train purposeful use when behavior shows indiscriminate or absent control use.",
+      "confidence": "high",
+      "claim_ids": ["CLM-PAU-001"]
+    },
+    {
+      "id": "PRN-128",
+      "statement": "Automated difficult-segment replay/slowdown is a candidate repair mechanism, not proof of improved independent listening.",
+      "confidence": "high",
+      "claim_ids": ["CLM-PAU-002", "CLM-PAU-009"]
+    },
+    {
+      "id": "PRN-129",
+      "statement": "Validate any automated pause trigger as a classifier with false-positive, false-negative and subgroup performance, not only end-task average score.",
+      "confidence": "high",
+      "claim_ids": ["CLM-PAU-012"]
+    },
+    {
+      "id": "PRN-130",
+      "statement": "Do not infer a universal pause duration or frequency from general multimedia or older input-modification studies.",
+      "confidence": "high",
+      "claim_ids": ["CLM-PAU-004", "CLM-PAU-007"]
+    },
+    {
+      "id": "PRN-131",
+      "statement": "Use Vietnamese beginner evidence to justify direct calibration of prosody/temporal-support policies, not to claim that auto-pause itself has been validated for this population.",
+      "confidence": "high",
+      "claim_ids": ["CLM-PAU-008"]
+    },
+    {
+      "id": "PRN-132",
+      "statement": "Ship system-triggered pausing only if EXP-011 shows better delayed unseen continuous listening or equal learning with materially lower time/effort without unacceptable dependence or false interruptions.",
+      "confidence": "high",
+      "claim_ids": ["CLM-PAU-011", "CLM-PAU-012", "CLM-PAU-013"]
+    }
+  ]
+}

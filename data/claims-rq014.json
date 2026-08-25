@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "claims": [
+    {
+      "id": "CLM-WRI-001",
+      "statement": "L2 writing performance is multi-dimensional and multi-process; planning conditions can affect fluency, accuracy and complexity differently rather than producing a uniform change in one global writing ability.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0144", "SRC-0145"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-WRI-002",
+      "statement": "Pre-task planning generally supports L2 writing fluency, but evidence that it reliably improves overall rated writing quality or linguistic complexity is inconsistent.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0144", "SRC-0145"],
+      "status": "accepted-with-outcome-moderators"
+    },
+    {
+      "id": "CLM-WRI-003",
+      "statement": "Written corrective feedback can improve L2 written grammatical accuracy, including effects that persist beyond immediate revision, although effect size and durability vary across studies, tasks and learners.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0146", "SRC-0147"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-WRI-004",
+      "statement": "Current meta-analytic evidence does not establish one universally superior written corrective-feedback type such as direct, indirect or metalinguistic feedback for all learners, targets and contexts.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0146", "SRC-0147"],
+      "status": "accepted"
+    },
+    {
+      "id": "CLM-WRI-005",
+      "statement": "Improvement when revising a feedback-treated text is not sufficient evidence of transferable writing development; learning should also be evaluated with new compositions and delayed new-task performance.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0148", "SRC-0149", "SRC-0146"],
+      "status": "accepted-as-measurement-principle"
+    },
+    {
+      "id": "CLM-WRI-006",
+      "statement": "Peer feedback has a positive average effect on L2 writing, but its effects are larger for revisions than new compositions and appear stronger for content than for language outcomes in the available meta-analysis.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0148"],
+      "status": "accepted-with-comparison-limit"
+    },
+    {
+      "id": "CLM-WRI-007",
+      "statement": "Automated writing evaluation/feedback has positive average effects on writing performance in meta-analyses, but effects are heterogeneous across tools, durations, learners, tasks and outcome measures.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0149", "SRC-0150", "SRC-0155"],
+      "status": "accepted-with-high-heterogeneity"
+    },
+    {
+      "id": "CLM-WRI-008",
+      "statement": "Automated writing support has stronger and more consistent evidence for surface-level features such as grammar, mechanics and some vocabulary outcomes than for higher-order writing such as argumentation, organization or discourse-level quality.",
+      "evidence_level": "A",
+      "source_ids": ["SRC-0150", "SRC-0155"],
+      "status": "accepted-with-system-variation"
+    },
+    {
+      "id": "CLM-WRI-009",
+      "statement": "A text that has been substantially rewritten or supplied by an automated/AI system cannot by itself provide valid evidence that the learner independently generated the language in that text.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0149", "SRC-0155"],
+      "status": "accepted-as-evidence-provenance-synthesis"
+    },
+    {
+      "id": "CLM-WRI-010",
+      "statement": "Longitudinal EFL interventions that explicitly teach self-regulated writing strategies can improve writing performance, strategy use and some self-efficacy outcomes, including evidence at delayed measurement.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0151", "SRC-0152"],
+      "status": "accepted-with-population-limit"
+    },
+    {
+      "id": "CLM-WRI-011",
+      "statement": "Feedback aimed at writing process and self-regulation can support later writing performance and feedback-handling behavior, although gains may differ across content, organization, vocabulary and language accuracy.",
+      "evidence_level": "C",
+      "source_ids": ["SRC-0152"],
+      "status": "accepted-with-study-limit"
+    },
+    {
+      "id": "CLM-WRI-012",
+      "statement": "Model/comparator texts shown after an initial learner draft can provide positive evidence and support noticing, revision and some later writing gains, but effects depend on guidance, learner characteristics, task and what features learners notice.",
+      "evidence_level": "C",
+      "source_ids": ["SRC-0153", "SRC-0154"],
+      "status": "accepted-with-population-and-task-limits"
+    },
+    {
+      "id": "CLM-WRI-013",
+      "statement": "Providing an ideal model before the learner has generated an initial response risks changing the task from independent generation to imitation, so model timing affects the evidential meaning of the resulting text.",
+      "evidence_level": "D",
+      "source_ids": ["SRC-0153", "SRC-0154"],
+      "status": "product-inference-to-test"
+    },
+    {
+      "id": "CLM-WRI-014",
+      "statement": "Task repetition alone does not consistently produce broad improvements across writing dimensions; direct correction and model feedback can produce different benefits from simple repetition in controlled EFL studies.",
+      "evidence_level": "C",
+      "source_ids": ["SRC-0154", "SRC-0144"],
+      "status": "accepted-with-scope-limit"
+    },
+    {
+      "id": "CLM-WRI-015",
+      "statement": "Valid beginner-writing evidence should preserve communicative success, lexical/construction retrieval, organization, accuracy, fluency/process measures and support provenance separately rather than inferring mastery from a polished final draft or one holistic score.",
+      "evidence_level": "B",
+      "source_ids": ["SRC-0144", "SRC-0148", "SRC-0149", "SRC-0155"],
+      "status": "accepted-as-measurement-synthesis"
+    },
+    {
+      "id": "CLM-WRI-016",
+      "statement": "The optimal writing-support ladder, feedback priority, model timing, AI/AWE scope, revision dose and support-fading thresholds for Vietnamese near-A0 adults are not established by the literature and require direct product validation.",
+      "evidence_level": "D",
+      "source_ids": ["SRC-0146", "SRC-0148", "SRC-0149", "SRC-0151", "SRC-0153", "SRC-0155"],
+      "status": "open-product-assumption"
+    }
+  ]
+}

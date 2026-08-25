@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "SRC-0111",
+      "title": "Learners' use of audio/video playback controls in technology-enhanced listening: a systematic review",
+      "type": "systematic-review",
+      "authors": "Natalia Roldán-Mora; Mónica S. Cárdenas-Claros",
+      "year": 2024,
+      "doi": "10.29140/jaltcall.v20n2.1159",
+      "url": "https://doi.org/10.29140/jaltcall.v20n2.1159",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0112",
+      "title": "Facilitating L2 listening through automatic detection of speech and lexical difficulties",
+      "type": "adaptive-listening-support-study",
+      "authors": "Maryam Sadat Mirzaei; Kourosh Meshgi",
+      "year": 2021,
+      "doi": "10.14705/rpnet.2021.54.1335",
+      "url": "https://doi.org/10.14705/rpnet.2021.54.1335",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0113",
+      "title": "An examination of prosody and second language sentence processing through pause insertion",
+      "type": "pause-insertion-processing-study",
+      "authors": "Lan Fang; Yiyang Xie; Keke Yu; Ruiming Wang; John W. Schwieter",
+      "year": 2021,
+      "doi": "10.1177/13670069211018753",
+      "url": "https://doi.org/10.1177/13670069211018753",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0114",
+      "title": "Effects of complexity-determined system pausing on learning from multimedia presentations",
+      "type": "multimedia-pausing-experiment",
+      "authors": "Tzu-Chien Liu; Yi-Chun Lin; Slava Kalyuga",
+      "year": 2021,
+      "doi": "10.14742/ajet.7267",
+      "url": "https://doi.org/10.14742/ajet.7267",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0115",
+      "title": "Insights Into Student Listening From Paused Transcription",
+      "type": "paused-transcription-diagnostic-study",
+      "authors": "Beth Sheppard; Brian E. Butler",
+      "year": 2017,
+      "doi": "10.5070/B5.35995",
+      "url": "https://doi.org/10.5070/B5.35995",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0116",
+      "title": "L2 comprehension of filled pauses and fillers in unscripted speech",
+      "type": "unscripted-listening-study",
+      "authors": "Nathaniel Carney",
+      "year": 2022,
+      "doi": "10.1016/j.system.2022.102726",
+      "url": "https://doi.org/10.1016/j.system.2022.102726",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0117",
+      "title": "The Effect of Syntax, Speed, and Pauses on Listening Comprehension",
+      "type": "input-modification-listening-study",
+      "authors": "Eileen K. Blau",
+      "year": 1990,
+      "doi": "10.2307/3587129",
+      "url": "https://doi.org/10.2307/3587129",
+      "status": "verified"
+    },
+    {
+      "id": "SRC-0118",
+      "title": "Developing EFL Learners' Listening Comprehension through a Computer-Assisted Self-Regulated Prosody-Based Listening Platform",
+      "type": "vietnamese-beginner-prosody-intervention",
+      "authors": "Vy T. M. Luu; Andrew P. Lian; P. Siriyothin",
+      "year": 2021,
+      "url": "https://callej.org/index.php/journal/article/view/330",
+      "status": "verified"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "principles": [
+    {"id":"PRN-261","statement":"Declare the AI role before interpreting any output: generator, tutor, feedback provider, evaluator, conversation partner or TTS source.","confidence":"high","claim_ids":["CLM-AI-003","CLM-AI-015"]},
+    {"id":"PRN-262","statement":"Maintain separate validity scopes for AI generation, tutoring, feedback, evaluation, conversation and synthetic speech; success in one role does not authorize another.","confidence":"high","claim_ids":["CLM-AI-003","CLM-AI-005","CLM-AI-009","CLM-AI-015"]},
+    {"id":"PRN-263","statement":"Keep AI-generated tasks, examples and explanations downstream of curriculum prerequisites, target constraints and support-leakage checks.","confidence":"high","claim_ids":["CLM-AI-002","CLM-AI-003","CLM-AI-015"]},
+    {"id":"PRN-264","statement":"Prefer deterministic validators, curated keys and explicit constraint checks whenever the construct permits them instead of asking an LLM to validate its own output.","confidence":"high","claim_ids":["CLM-AI-004","CLM-AI-005","CLM-AI-006"]},
+    {"id":"PRN-265","statement":"Treat LLM corrective feedback as a candidate diagnosis unless that feedback type is validated for the learner population, task, construct and response mode.","confidence":"high","claim_ids":["CLM-AI-004","CLM-AI-006","CLM-AI-007"]},
+    {"id":"PRN-266","statement":"Do not infer complete error coverage from high precision among flagged issues; preserve opportunities for learner self-repair and independent later evidence.","confidence":"high","claim_ids":["CLM-AI-007"]},
+    {"id":"PRN-267","statement":"Do not allow a holistic LLM score or unvalidated AI judgment to set mastery, retention or capability state directly.","confidence":"high","claim_ids":["CLM-AI-005","CLM-AI-006","CLM-AI-015"]},
+    {"id":"PRN-268","statement":"For subjective, pragmatic or diagnostic criteria with weak validation, downgrade AI output to a hint, question, candidate label or supporting observation rather than a definitive correction.","confidence":"high","claim_ids":["CLM-AI-006","CLM-AI-008","CLM-AI-012"]},
+    {"id":"PRN-269","statement":"Store provider, model, model version or snapshot, prompt version, rubric version, decoding or scoring configuration and timestamp for every AI output that affects learning decisions or evidence.","confidence":"high","claim_ids":["CLM-AI-005","CLM-AI-013","CLM-AI-015"]},
+    {"id":"PRN-270","statement":"Run a fixed regression suite for Nếp-relevant tasks after any provider, model, prompt, rubric or scoring-pipeline change before restoring evidence-producing authority.","confidence":"high","claim_ids":["CLM-AI-013"]},
+    {"id":"PRN-271","statement":"Mark TTS provenance explicitly and quality-check voice, rate, pronunciation and target-form realization rather than treating all synthetic audio as interchangeable.","confidence":"high","claim_ids":["CLM-AI-009","CLM-AI-010"]},
+    {"id":"PRN-272","statement":"Use TTS for scalable controlled input or support where validated, but require unseen human or natural speech in transfer evidence before claiming robust listening capability.","confidence":"high","claim_ids":["CLM-AI-009","CLM-AI-010","CLM-AI-011"]},
+    {"id":"PRN-273","statement":"Treat AI conversation as supported practice and verify later interaction with less accommodating or human-like conditions before promoting human-interaction capability.","confidence":"high","claim_ids":["CLM-AI-008","CLM-AI-012"]},
+    {"id":"PRN-274","statement":"Minimize learner data sent to third-party AI services, separate raw dialogue or audio from durable evidence where feasible, and keep privacy/accountability controls explicit.","confidence":"high","claim_ids":["CLM-AI-014"]},
+    {"id":"PRN-275","statement":"When AI outputs disagree, fall outside validated scope or have insufficient confidence, fail to no-judgment, neutral retry, deterministic fallback or review rather than issuing a confident false correction.","confidence":"high","claim_ids":["CLM-AI-004","CLM-AI-006","CLM-AI-015"]},
+    {"id":"PRN-276","statement":"Keep provider mix, model scopes, feedback thresholds, TTS policy, escalation policy, privacy controls and regression cadence falsifiable until EXP-020 validates them with Vietnamese near-A0/A1 learners.","confidence":"high","claim_ids":["CLM-AI-016"]}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "principles": [
+    {"id":"PRN-277","statement":"Define cold-start placement by the product decision it must support: selecting a useful next learning region, not certifying one global English level.","confidence":"high","claim_ids":["CLM-PLC-001","CLM-PLC-014"]},
+    {"id":"PRN-278","statement":"Represent initial learner state as a provisional profile with uncertainty, not as a permanent CEFR label or mastered/not-mastered vector.","confidence":"high","claim_ids":["CLM-PLC-007","CLM-PLC-013","CLM-PLC-015"]},
+    {"id":"PRN-279","statement":"Use self-reported history, goals and can-do judgments only as routing priors or context; direct performance evidence must be able to override them immediately.","confidence":"high","claim_ids":["CLM-PLC-006"]},
+    {"id":"PRN-280","statement":"Maintain an item bank with genuinely informative near-A0 and low-A1 tasks; do not assume an A1-to-C1 bank can safely place a true beginner.","confidence":"high","claim_ids":["CLM-PLC-003"]},
+    {"id":"PRN-281","statement":"Start with a small common anchor set, then spend additional probes only near uncertain learner frontiers or high-cost placement boundaries.","confidence":"high","claim_ids":["CLM-PLC-002","CLM-PLC-004","CLM-PLC-011"]},
+    {"id":"PRN-282","statement":"Use both minimum and maximum stopping rules: do not terminate after an implausibly tiny sample, and do not trap uncertain learners in an open-ended placement test.","confidence":"high","claim_ids":["CLM-PLC-002","CLM-PLC-004","CLM-PLC-009"]},
+    {"id":"PRN-283","statement":"Balance adaptive information gain with construct coverage so a short test cannot become a narrow grammar/vocabulary quiz that masquerades as whole-language placement.","confidence":"high","claim_ids":["CLM-PLC-005","CLM-PLC-012"]},
+    {"id":"PRN-284","statement":"Keep listening, reading, lexical/construction, speaking and writing evidence separable; infer only what the administered task actually elicited.","confidence":"high","claim_ids":["CLM-PLC-007","CLM-PLC-012"]},
+    {"id":"PRN-285","statement":"Do not require every expensive productive probe at cold start; trigger speaking or writing probes when they can change the next-learning decision or resolve important uncertainty.","confidence":"medium","claim_ids":["CLM-PLC-004","CLM-PLC-012","CLM-PLC-014"]},
+    {"id":"PRN-286","statement":"Explain briefly that the assessment adapts and begin with comprehensible, confidence-preserving tasks rather than optimizing pure information at the expense of learner experience.","confidence":"high","claim_ids":["CLM-PLC-009"]},
+    {"id":"PRN-287","statement":"Treat ambiguous boundary cases as uncertainty to manage, not as forced precision; route conservatively or collect another targeted probe.","confidence":"high","claim_ids":["CLM-PLC-004","CLM-PLC-014"]},
+    {"id":"PRN-288","statement":"Validate placement by downstream consequences: first-session appropriateness, support dependence, skipped-known material, struggle, early learning gain and placement corrections.","confidence":"high","claim_ids":["CLM-PLC-008","CLM-PLC-014"]},
+    {"id":"PRN-289","statement":"After placement, continue low-stakes calibration from normal learning attempts using an explicit claim-evidence-task mapping; raw clicks, time or completion are not language evidence by themselves.","confidence":"high","claim_ids":["CLM-PLC-010","CLM-PLC-015"]},
+    {"id":"PRN-290","statement":"Allow early-session evidence to override the cold-start prior quickly so an initial misplacement does not contaminate the learner model for weeks.","confidence":"high","claim_ids":["CLM-PLC-013","CLM-PLC-015"]},
+    {"id":"PRN-291","statement":"Use CEFR or similar scales only as optional reporting mappings after the local capability decision; they do not define Nếp's curriculum starting node by themselves.","confidence":"high","claim_ids":["CLM-PLC-001","CLM-PLC-014"]},
+    {"id":"PRN-292","statement":"Keep anchor count, uncertainty thresholds, route modules, self-report weight, maximum time and recalibration window falsifiable until EXP-021 validates them for Vietnamese near-A0/A1 adults.","confidence":"high","claim_ids":["CLM-PLC-016"]}
+  ]
+}

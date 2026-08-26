@@ -62,15 +62,38 @@ Evidence level is attached to a **claim**, not to a whole source.
 - [`01-skills/`](./01-skills/) — listening, vocabulary, speaking, pronunciation, reading, writing.
 - [`02-video-learning/`](./02-video-learning/) — captions, transcripts, replay and video-specific questions.
 - [`04-learners/`](./04-learners/) — target learner constraints and Vietnamese-specific research.
-- [`05-products/`](./05-products/) — product benchmarks; never treated as efficacy evidence by default.
+- [`05-products/`](./05-products/) — integrated product decision/handoff specs plus benchmark rules.
 - [`06-evidence/`](./06-evidence/) — source registry and evidence handling rules.
-- [`07-syntheses/`](./07-syntheses/) — cross-source conclusions.
+- [`07-syntheses/`](./07-syntheses/) — cross-source conclusions and integrated system synthesis.
 - [`08-product-principles/`](./08-product-principles/) — principles and anti-patterns derived from evidence.
 - [`09-vidlish-features/`](./09-vidlish-features/) — research specs for concrete product features.
 - [`10-experiments/`](./10-experiments/) — product experiments that can confirm or reject assumptions.
 - [`decisions/`](./decisions/) — durable research/product decision records.
 - [`data/`](./data/) — machine-readable sources, claims, principles and feature links.
 - [`templates/`](./templates/) — required note formats.
+
+## Nếp v1 integrated product handoff
+
+`RQ-001` through `RQ-021` are now integrated into an implementation-facing product layer rather than remaining only as independent research feature specs.
+
+Start with:
+
+1. [`05-products/nep-v1-executable-product-spec.md`](./05-products/nep-v1-executable-product-spec.md) — what Nếp v1 is and how the learner experiences it.
+2. [`05-products/nep-v1-runtime-architecture.md`](./05-products/nep-v1-runtime-architecture.md) — engine/service boundaries and runtime contracts.
+3. [`05-products/nep-v1-learner-model-evidence-contract.md`](./05-products/nep-v1-learner-model-evidence-contract.md) — what learner evidence means and what the runtime may infer.
+4. [`05-products/nep-v1-build-slices.md`](./05-products/nep-v1-build-slices.md) — implementation order for proving the first complete learning loop before expanding content.
+
+Cross-RQ synthesis:
+
+- [`07-syntheses/SYN-SYS-001-nep-v1-integrated-learning-system.md`](./07-syntheses/SYN-SYS-001-nep-v1-integrated-learning-system.md)
+
+Accepted architecture decisions:
+
+- [`decisions/ADR-002-capability-evidence-runtime.md`](./decisions/ADR-002-capability-evidence-runtime.md)
+- [`decisions/ADR-003-progressive-placement-bootstrap.md`](./decisions/ADR-003-progressive-placement-bootstrap.md)
+- [`decisions/ADR-004-ai-is-mediated-not-authoritative.md`](./decisions/ADR-004-ai-is-mediated-not-authoritative.md)
+
+These docs do not replace the application codebase. They define the product/evidence contracts that implementation should preserve.
 
 ## Research workflow
 

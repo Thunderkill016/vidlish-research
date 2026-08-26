@@ -19,10 +19,10 @@ Meta-analysis of 71 studies on speech-fluency/proficiency relationships. Speed, 
 ### SRC-0170 — Suzuki, Kormos & Uchihara (2021)
 Meta-analysis of 263 effects from 22 studies linking objective utterance-fluency measures to perceived fluency. Listener judgments were most strongly related to speed and pause frequency, less strongly to pause duration, and weakly to repair. Methodological choices moderated relationships. Perceived fluency therefore cannot stand in for the whole construct.
 
-### SRC-0171 — Gao & Sun (2023)
+### SRC-0171 — Gao & Sun (2024; online 2023)
 Meta-analysis of L1–L2 utterance fluency. L1 and L2 fluency correlate, especially for breakdown fluency, showing that personal speaking style contributes to observed L2 fluency. Raw temporal behavior is therefore partly a speaker trait, not pure L2 mastery.
 
-### SRC-0177 — Suzuki & Kormos (2023)
+### SRC-0177 — Suzuki & Kormos (2023; online 2022)
 Multidimensional work connecting underlying cognitive fluency to observable utterance fluency. Processing speed and linguistic resources contribute differently to speed, breakdown and repair dimensions. This supports measuring underlying retrieval/encoding efficiency separately from surface speech timing.
 
 ## Practice, proceduralization and transfer
@@ -36,7 +36,7 @@ Skill-acquisition study showing gradual automatization of explicitly learned mor
 ### SRC-0175 — Suzuki (2021)
 Study comparing blocked and interleaved oral task repetition. Practice schedule changed fluency development and transfer to new tasks. Some benefits of concentrated repetition can transfer, but not all training advantages generalize.
 
-### SRC-0176 — Suzuki & Hanzawa (2022)
+### SRC-0176 — Suzuki & Hanzawa (2022; online 2021)
 Repeated oral narrative practice under massed/short-spaced/long-spaced schedules. Massed practice produced a trade-off: some breakdown-fluency gains but worse speed/repair characteristics on an immediate novel-task test, and limited schedule differences after delay. This is strong evidence against optimizing one temporal metric in isolation.
 
 ### SRC-0174 — Kakitani & Kormos (2024)
@@ -47,15 +47,20 @@ The research base broadly supports task repetition as a means of changing oral p
 
 ## Underlying automatic processing
 
-### SRC-0178 — Hanzawa & Suzuki (2023)
+### SRC-0178 — Hanzawa & Suzuki (2023; online 2024)
 Six-month EFL study of lexical/grammar processing automaticity and utterance-fluency development. Faster/more stable grammar processing predicted some reductions in mid-clause pausing. It provides direct evidence that underlying processing efficiency and observable speech fluency are related but not identical.
 
 ### SRC-0173 — DeKeyser (1997), reused
 Automaticity is practice- and skill-specific. Accuracy alone is insufficient; latency/processing efficiency needs converging evidence, while faster but error-prone responding is not successful automatization.
 
+## Direct listening automaticity evidence
+
+### SRC-0181 — Saito, Uchihara, Takizawa & Suzukida (2024; publisher corrigendum 2026)
+Training study with 133 Japanese EFL learners distinguishing declarative phonological vocabulary knowledge from prompt/contextualized access. The automatization condition produced robust target-knowledge gains, but the training conditions did **not** show clear differential gains on global listening proficiency. Follow-up analysis associated greater gains in automatized phonological vocabulary knowledge, rather than declarative recognition, with stronger listening proficiency. Product implication: prompt contextual access is relevant to listening, but faster target-item judgments cannot be promoted as proof that a drill caused global listening improvement.
+
 ## Formulaic language / chunks
 
-### SRC-0179 — Li & Lei (2024)
+### SRC-0179 — Li & Lei (2024; online 2022)
 Meta-analysis of collocation instruction. Collocation instruction was effective overall, with instructional method moderating outcomes. This supports deliberately strengthening high-value multiword language, though the meta-analysis targets collocation learning rather than proving generalized speech fluency.
 
 ### SRC-0180 — Tavakoli & Uchihara (2020)
@@ -63,6 +68,13 @@ Across assessed proficiency levels, multiword-sequence use was associated with s
 
 ### SRC-0061 — formulaic sequence evidence [existing registry]
 Existing Nếp research already treats chunks as meaningful language units. RQ-016 extends this by requiring fast retrieval to be demonstrated in changed contexts, not just memorized phrase playback.
+
+## Dialogue and interaction fluency
+
+### SRC-0182 — van Os, de Jong & Bosker (2020)
+Two controlled experiments manipulated turn gaps/overlap and answer speaking rate in dialogue. Turn-taking timing affected perceived fluency, including for nonnative speech, but the effect interacted with speech rate: longer gaps can lower ratings while overly eager overlap is not universally better. This supports treating dialogic timing as part of interactional fluency while rejecting the simplistic goal of minimizing response latency at all costs.
+
+RQ-015 remains necessary because interaction also includes response contingency, repair, shared-goal progress and partner behavior. Dialogue fluency therefore cannot be inferred from monologue speed alone.
 
 ## Reading fluency evidence already in RQ-013
 
@@ -124,7 +136,7 @@ Repair fluency has weaker/less stable relationships with proficiency than speed 
 
 ## Evidence gap
 
-The literature does not establish one cross-modal fluency algorithm for Vietnamese adults near A0.
+The literature now gives RQ-016 direct evidence for oral fluency, listening automaticity, reading fluency through RQ-013 and dialogic timing, but it still does **not** establish one cross-modal fluency algorithm for Vietnamese adults near A0.
 
 Still unresolved:
 - when an item is ready for fluency practice rather than initial learning;

@@ -15,7 +15,7 @@
 | R09 Video-based learning | When is authentic video usable, and which scaffolds help rather than replace listening? | RQ-009 readiness + RQ-010 support + RQ-011 temporal-repair syntheses complete | later source path |
 | R10 Vietnamese learners | Which L1-specific problems deserve targeted support? | RQ-002 scaffold + RQ-019 Vietnamese calibration initial syntheses complete | personalization |
 | R11 Motivation/product behavior | Which session designs cause useful return without substituting engagement for learning? | RQ-018 initial synthesis complete | UX, recovery, useful return |
-| R12 AI/technology | Where can ASR/LLMs/TTS help, and where do reliability/privacy limits dominate? | RQ-008 ASR + RQ-014 writing AI + RQ-015 interaction AI evidence seeded; broader calibration open | AI features |
+| R12 AI/technology | Where can ASR/LLMs/TTS help, and where do reliability/privacy limits dominate? | RQ-008 ASR + RQ-014 writing AI + RQ-015 interaction AI + RQ-020 cross-role AI reliability initial syntheses complete | AI features, evidence gates, audio generation |
 | R13 Grammar & constructions | How should form, meaning and use be learned together and evidenced beyond rule recall? | RQ-012 initial synthesis complete | curriculum, lesson engine, speaking/writing/review |
 | R14 Interaction & pragmatics | How should learners manage turns, responses, repair and socially appropriate language in real interaction? | RQ-015 initial synthesis complete | conversation engine, roleplay, transfer |
 | R15 Fluency & automaticity | How should accurate and meaningful language become faster and less effortful without turning raw speed into mastery? | RQ-016 initial synthesis complete | listening, speaking, reading, interaction, review |
@@ -71,6 +71,10 @@
 ### P9 — before Vietnamese-specific personalization becomes default
 
 - `RQ-019`: How should Nếp use Vietnamese-L1 evidence to calibrate pronunciation, listening, vocabulary/chunks, grammar and pragmatics for near-A0/A1 adults without treating population tendencies as individual truth? → **initial synthesis complete** (`SYN-VIE-001`, `FEAT-VIE-001`, `EXP-019`)
+
+### P10 — before AI becomes a hidden learning authority
+
+- `RQ-020`: How should Nếp use LLMs, TTS and AI-generated feedback/content/assessment without letting model errors, synthetic speech, over-accommodation, privacy risk or model drift create false learning evidence? → **initial synthesis complete** (`SYN-AI-001`, `FEAT-AIG-001`, `EXP-020`)
 
 ## Explicitly unresolved product assumptions
 
@@ -162,6 +166,17 @@
 - Exact acceptable false-positive remediation rate for Vietnamese-specific personalization.
 - Exact human-listener validation criteria for Vietnamese-sensitive pronunciation targets.
 - Exact gain-per-minute improvement required to justify maintaining the Vietnamese calibration layer.
+- Exact AI provider/model mix per AI role.
+- Exact deterministic validators for AI-generated tasks and feedback.
+- Exact LLM feedback confidence / abstention thresholds.
+- Exact human or secondary-check escalation policy for high-value AI judgments.
+- Exact TTS engine, voice, accent mix, speed policy and pronunciation QA.
+- Exact natural/human listening-probe frequency after TTS-supported learning.
+- Exact prompt/rubric/model regression suite and slice-level acceptance thresholds.
+- Exact revalidation trigger after provider, model, prompt, rubric or scoring-pipeline updates.
+- Exact third-party learner-data minimization, raw dialogue/audio retention and deletion policy.
+- Exact acceptable false-correction, missed-issue and AI-generated-content violation rates.
+- Exact AI cost and latency ceiling per retained/transfer learning gain.
 - Exact machine-feedback confidence / false-correction thresholds outside writing.
 - Exact automated feature detectors safe enough for Vietnamese near-A0.
 - Exact authentic-video lexical-coverage bands and learner × clip readiness thresholds.

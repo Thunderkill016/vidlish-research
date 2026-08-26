@@ -20,6 +20,7 @@
 | R14 Interaction & pragmatics | How should learners manage turns, responses, repair and socially appropriate language in real interaction? | RQ-015 initial synthesis complete | conversation engine, roleplay, transfer |
 | R15 Fluency & automaticity | How should accurate and meaningful language become faster and less effortful without turning raw speed into mastery? | RQ-016 initial synthesis complete | listening, speaking, reading, interaction, review |
 | R16 Curriculum integration & sequencing | How should capabilities, modalities, language components, task complexity and course balance be sequenced into a comprehensive system without overloading near-A0 learners? | RQ-017 initial synthesis complete | curriculum orchestrator, all learner engines |
+| R17 Placement & onboarding | How should a new learner be routed into useful learning quickly without turning onboarding into a long exam or false-precision level label? | RQ-021 initial synthesis complete | onboarding, learner-model bootstrap, curriculum entry |
 
 ## Priority research questions
 
@@ -75,6 +76,10 @@
 ### P10 — before AI becomes a hidden learning authority
 
 - `RQ-020`: How should Nếp use LLMs, TTS and AI-generated feedback/content/assessment without letting model errors, synthetic speech, over-accommodation, privacy risk or model drift create false learning evidence? → **initial synthesis complete** (`SYN-AI-001`, `FEAT-AIG-001`, `EXP-020`)
+
+### P11 — before onboarding becomes a fixed product funnel
+
+- `RQ-021`: How should Nếp bootstrap a new learner's starting profile quickly enough to begin useful learning while preserving uncertainty and avoiding harmful over-placement or under-placement? → **initial synthesis complete** (`SYN-PLC-001`, `FEAT-ONB-001`, `EXP-021`)
 
 ## Explicitly unresolved product assumptions
 
@@ -177,6 +182,16 @@
 - Exact third-party learner-data minimization, raw dialogue/audio retention and deletion policy.
 - Exact acceptable false-correction, missed-issue and AI-generated-content violation rates.
 - Exact AI cost and latency ceiling per retained/transfer learning gain.
+- Exact cold-start common anchor set and minimum anchor count.
+- Exact near-A0/Pre-A1 item-bank coverage and low-end calibration policy.
+- Exact cold-start uncertainty threshold, minimum sample rule and hard stopping ceiling.
+- Exact maximum onboarding burden before Nếp must start teaching and continue calibration in-session.
+- Exact self-assessment prior weight and how quickly direct evidence overrides it.
+- Exact speaking/writing cold-start trigger and productive-probe scoring policy.
+- Exact relative cost weighting for over-placement versus under-placement.
+- Exact early-session recalibration window and cold-start prior decay rule.
+- Exact route-correction threshold and learner-facing repair behavior after misplacement.
+- Exact timing and evidence requirement for any learner-facing CEFR mapping.
 - Exact machine-feedback confidence / false-correction thresholds outside writing.
 - Exact automated feature detectors safe enough for Vietnamese near-A0.
 - Exact authentic-video lexical-coverage bands and learner × clip readiness thresholds.

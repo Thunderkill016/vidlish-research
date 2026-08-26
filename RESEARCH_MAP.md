@@ -14,7 +14,7 @@
 | R08 Assessment | How should `understood`, `recalled`, `transferred`, `retained` be measured? | RQ-005 initial transfer synthesis complete | progress model |
 | R09 Video-based learning | When is authentic video usable, and which scaffolds help rather than replace listening? | RQ-009 readiness + RQ-010 support + RQ-011 temporal-repair syntheses complete | later source path |
 | R10 Vietnamese learners | Which L1-specific problems deserve targeted support? | RQ-002 general L1 scaffold synthesis complete; Vietnamese-specific calibration open | personalization |
-| R11 Motivation/product behavior | Which session designs cause useful return without substituting engagement for learning? | open | UX and retention |
+| R11 Motivation/product behavior | Which session designs cause useful return without substituting engagement for learning? | RQ-018 initial synthesis complete | UX, recovery, useful return |
 | R12 AI/technology | Where can ASR/LLMs/TTS help, and where do reliability/privacy limits dominate? | RQ-008 ASR + RQ-014 writing AI + RQ-015 interaction AI evidence seeded; broader calibration open | AI features |
 | R13 Grammar & constructions | How should form, meaning and use be learned together and evidenced beyond rule recall? | RQ-012 initial synthesis complete | curriculum, lesson engine, speaking/writing/review |
 | R14 Interaction & pragmatics | How should learners manage turns, responses, repair and socially appropriate language in real interaction? | RQ-015 initial synthesis complete | conversation engine, roleplay, transfer |
@@ -63,6 +63,10 @@
 ### P7 — before calling the system comprehensive
 
 - `RQ-017`: How should Nếp sequence and integrate listening, vocabulary/chunks, constructions, pronunciation, speaking, reading, writing, interaction and fluency across beginner development without either siloing skills or overloading the learner? → **initial synthesis complete** (`SYN-CUR-001`, `FEAT-CUR-001`, `EXP-017`)
+
+### P8 — before optimizing retention mechanics
+
+- `RQ-018`: Which product/session behaviors increase useful return and sustained practice for near-A0 adults without substituting streaks, XP, app use or time spent for delayed language learning? → **initial synthesis complete** (`SYN-MOT-001`, `FEAT-MOT-001`, `EXP-018`)
 
 ## Explicitly unresolved product assumptions
 
@@ -130,6 +134,18 @@
 - Exact task-first versus model-first routing policy.
 - Exact amount of learner choice in capability/scenario selection.
 - Exact evidence threshold for expanding a capability or merging several capabilities into a larger scenario.
+- Exact minimum evidence required for a session return to count as useful.
+- Exact distribution of minimum-useful versus normal session lengths.
+- Exact reminder cadence, preferred-time policy and suppression after repeated ignores.
+- Whether Nếp should show a streak at all; if so, daily versus weekly continuity and what qualifies.
+- Exact missed-day grace, streak-repair or continuity-recovery policy.
+- Exact capability/evidence progress visualization and how much activity telemetry to expose.
+- Exact reward type, frequency and whether social/leaderboard mechanics are useful for this population.
+- Exact short-break and extended-break thresholds.
+- Exact overdue-review compression policy after a break.
+- Exact smallest valid re-entry action and when new content may resume.
+- Exact amount of learner choice and self-regulation prompting before it becomes friction.
+- Exact engagement-learning guardrail for rejecting retention features that increase return but reduce delayed gain per minute.
 - Exact machine-feedback confidence / false-correction thresholds outside writing.
 - Exact automated feature detectors safe enough for Vietnamese near-A0.
 - Exact authentic-video lexical-coverage bands and learner × clip readiness thresholds.

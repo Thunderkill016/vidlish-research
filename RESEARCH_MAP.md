@@ -18,7 +18,7 @@
 | R12 AI/technology | Where can ASR/LLMs/TTS help, and where do reliability/privacy limits dominate? | RQ-008 ASR + RQ-014 writing AI + RQ-015 interaction AI evidence seeded; broader calibration open | AI features |
 | R13 Grammar & constructions | How should form, meaning and use be learned together and evidenced beyond rule recall? | RQ-012 initial synthesis complete | curriculum, lesson engine, speaking/writing/review |
 | R14 Interaction & pragmatics | How should learners manage turns, responses, repair and socially appropriate language in real interaction? | RQ-015 initial synthesis complete | conversation engine, roleplay, transfer |
-| R15 Fluency & automaticity | How should accurate and meaningful language become faster and less effortful without turning raw speed into mastery? | open | listening, speaking, reading, interaction, review |
+| R15 Fluency & automaticity | How should accurate and meaningful language become faster and less effortful without turning raw speed into mastery? | RQ-016 initial synthesis complete | listening, speaking, reading, interaction, review |
 
 ## Priority research questions
 
@@ -57,7 +57,7 @@
 
 ### P6 — before treating faster performance as fluent language use
 
-- `RQ-016`: How should Nếp develop fluency/automaticity across listening, reading, speaking and interaction without confusing faster performance on practiced material with flexible retained use? → **open**
+- `RQ-016`: How should Nếp develop fluency/automaticity across listening, reading, speaking and interaction without confusing faster performance on practiced material with flexible retained use? → **initial synthesis complete** (`SYN-FLU-001`, `FEAT-FLU-001`, `EXP-016`)
 
 ## Explicitly unresolved product assumptions
 
@@ -102,6 +102,16 @@
 - Exact automated response-contingency and pragmatic-scoring thresholds.
 - Minimum human-listener/human-partner validation sample and AI-to-human transfer criteria.
 - Exact interaction review schedule and delayed-probe interval.
+- Exact fluency-readiness threshold for entering deliberate automaticity practice.
+- Exact same-item repetition count, plateau detector and stop rule.
+- Exact switch point from same-task stabilization to changed-content/context variation.
+- Exact fluency spacing policy and delayed-probe interval by capability/modality.
+- Exact time-pressure policy and quality-collapse backoff rules for near-A0.
+- Minimum response/text length required for reliable temporal fluency metrics.
+- Exact normalization policy for task conditions and personal/L1 speaking style.
+- Best practical proxy for listening automaticity without turning comprehension into reaction-time gaming.
+- Exact formulaic-sequence flexibility/script-dependence threshold.
+- Exact delayed changed-task evidence threshold for stage progression based on fluency.
 - Exact machine-feedback confidence / false-correction thresholds outside writing.
 - Exact automated feature detectors safe enough for Vietnamese near-A0.
 - Exact authentic-video lexical-coverage bands and learner × clip readiness thresholds.

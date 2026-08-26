@@ -19,6 +19,7 @@
 | R13 Grammar & constructions | How should form, meaning and use be learned together and evidenced beyond rule recall? | RQ-012 initial synthesis complete | curriculum, lesson engine, speaking/writing/review |
 | R14 Interaction & pragmatics | How should learners manage turns, responses, repair and socially appropriate language in real interaction? | RQ-015 initial synthesis complete | conversation engine, roleplay, transfer |
 | R15 Fluency & automaticity | How should accurate and meaningful language become faster and less effortful without turning raw speed into mastery? | RQ-016 initial synthesis complete | listening, speaking, reading, interaction, review |
+| R16 Curriculum integration & sequencing | How should capabilities, modalities, language components, task complexity and course balance be sequenced into a comprehensive system without overloading near-A0 learners? | RQ-017 initial synthesis complete | curriculum orchestrator, all learner engines |
 
 ## Priority research questions
 
@@ -58,6 +59,10 @@
 ### P6 — before treating faster performance as fluent language use
 
 - `RQ-016`: How should Nếp develop fluency/automaticity across listening, reading, speaking and interaction without confusing faster performance on practiced material with flexible retained use? → **initial synthesis complete** (`SYN-FLU-001`, `FEAT-FLU-001`, `EXP-016`)
+
+### P7 — before calling the system comprehensive
+
+- `RQ-017`: How should Nếp sequence and integrate listening, vocabulary/chunks, constructions, pronunciation, speaking, reading, writing, interaction and fluency across beginner development without either siloing skills or overloading the learner? → **initial synthesis complete** (`SYN-CUR-001`, `FEAT-CUR-001`, `EXP-017`)
 
 ## Explicitly unresolved product assumptions
 
@@ -112,6 +117,19 @@
 - Best practical proxy for listening automaticity without turning comprehension into reaction-time gaming.
 - Exact formulaic-sequence flexibility/script-dependence threshold.
 - Exact delayed changed-task evidence threshold for stage progression based on fluency.
+- Exact first capability set for Vietnamese adults near A0.
+- Exact capability prerequisite graph and prerequisite evidence thresholds.
+- Exact number of active capabilities to maintain concurrently.
+- Exact rolling horizon for Four-Strands curriculum-balance auditing.
+- Exact target strand distribution by learner stage; whether any near-equal distribution is useful in Nếp.
+- Exact number and combination of primary/secondary modalities per session.
+- Exact task-complexity dimensions, scales and increment policy.
+- Exact criteria for switching the primary modality of a capability.
+- Exact planning, model, word-bank and rehearsal dose by learner state.
+- Exact order for introducing reading/writing relative to listening/speaking for each capability.
+- Exact task-first versus model-first routing policy.
+- Exact amount of learner choice in capability/scenario selection.
+- Exact evidence threshold for expanding a capability or merging several capabilities into a larger scenario.
 - Exact machine-feedback confidence / false-correction thresholds outside writing.
 - Exact automated feature detectors safe enough for Vietnamese near-A0.
 - Exact authentic-video lexical-coverage bands and learner × clip readiness thresholds.

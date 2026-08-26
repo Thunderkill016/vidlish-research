@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {"id":"SRC-0183","title":"TBLT implementation and evaluation: A meta-analysis","type":"meta-analysis","authors":"Lara Bryfonski; Todd H. McKay","year":2019,"doi":"10.1177/1362168817744389","url":"https://doi.org/10.1177/1362168817744389","status":"verified-online-first-2017"},
+    {"id":"SRC-0184","title":"How effective is task-based language teaching to enhance second language learning? A technical comment on Bryfonski and McKay (2019)","type":"meta-analytic-reanalysis","authors":"Qianying Xuan; Alan Cheung; Jinhong Liu","year":2022,"doi":"10.1177/13621688221131127","url":"https://doi.org/10.1177/13621688221131127","status":"verified-online-first-2022-issue-2025"},
+    {"id":"SRC-0185","title":"Meta-analysis to estimate the relative effectiveness of TBLT programs: Are we there yet?","type":"methodological-critical-review","authors":"Frank Boers; Farahnaz Faez","year":2023,"doi":"10.1177/13621688231167573","url":"https://doi.org/10.1177/13621688231167573","status":"verified"},
+    {"id":"SRC-0186","title":"Task Sequencing and L2 Production: A Research Synthesis and Meta-Analysis","type":"research-synthesis-meta-analysis","authors":"Mahmoud Abdi Tabari; Mark D. Johnson; Mahsa Farahanynia","year":2024,"doi":"10.1111/ijal.12670","url":"https://doi.org/10.1111/ijal.12670","status":"verified"},
+    {"id":"SRC-0187","title":"The effects of task complexity and task sequencing on L2 performance: a systematic review","type":"systematic-review","authors":"Chaoyang Jin; Jing Yan","year":2025,"doi":"10.1080/09571736.2024.2345911","url":"https://doi.org/10.1080/09571736.2024.2345911","status":"verified-online-first-2024"},
+    {"id":"SRC-0188","title":"Task Planning and Oral L2 Production: A Research Synthesis and Meta-analysis","type":"research-synthesis-meta-analysis","authors":"Mark D. Johnson; Mahmoud Abdi Tabari","year":2022,"doi":"10.1093/applin/amac026","url":"https://doi.org/10.1093/applin/amac026","status":"verified"},
+    {"id":"SRC-0189","title":"Cognitive task complexity and L2 written syntactic complexity, accuracy, lexical complexity, and fluency: A research synthesis and meta-analysis","type":"research-synthesis-meta-analysis","authors":"Mark D. Johnson","year":2017,"doi":"10.1016/j.jslw.2017.06.001","url":"https://doi.org/10.1016/j.jslw.2017.06.001","status":"verified"}
+  ]
+}

@@ -1,8 +1,9 @@
 # Research Map
 
-**Current phase:** meta-foundation before `SYN-METHOD-001`  
+**Current phase:** P13 — `SYN-METHOD-001` method synthesis  
 **Decision:** `ADR-005`  
-**Audit:** `META-001`
+**Audit:** `META-001`  
+**Evidence protocol:** `00-foundations/EVIDENCE_GRADING_PROTOCOL.md`
 
 ## 1. Research objective
 
@@ -21,37 +22,37 @@ research coverage
 
 The existing Vidlish application is a **legacy prototype**, not a pedagogical source of truth.
 
-## 2. Coverage status
+## 2. Coverage status after P12
 
 | Track | Current state | Next dependency |
 | --- | --- | --- |
-| Foundational SLA / ISLA | RQ-022 initial meta-foundation synthesis complete | revisit after RQ-028 |
-| Vocabulary / formulaic language | RQ-001 evidence-of-knowing + **RQ-027 content selection** | method integration + target validation |
+| Foundational SLA / ISLA | RQ-022 initial meta-foundation synthesis complete | `SYN-METHOD-001` |
+| Vocabulary / formulaic language | RQ-001 evidence-of-knowing + RQ-027 content selection | method integration + target validation |
 | Listening | RQ-003 + RQ-009/010/011 initial syntheses; inference bounded by RQ-024 | method integration |
-| Retrieval / spacing / retention | RQ-004 initial synthesis; retention claims bounded by RQ-024 | target validation |
-| Speaking / output | RQ-006 initial synthesis; validity RQ-024; feedback RQ-025 | method integration |
-| Pronunciation | RQ-007 + RQ-019 initial syntheses | target validation |
-| Reading | RQ-013 initial synthesis; content selection RQ-027 | method integration |
-| Writing | RQ-014 initial synthesis; scorer validity RQ-024; feedback RQ-025 | method integration |
-| Interaction / pragmatics | RQ-015 initial synthesis; feedback RQ-025; routines RQ-027 | method integration |
-| Fluency / automaticity | RQ-016 + RQ-022 initial synthesis | method integration |
-| Grammar / constructions | RQ-012 + RQ-022; feedback RQ-025; content selection RQ-027 | method integration |
-| Corrective feedback | RQ-025 initial meta-foundation synthesis complete | EXP-025 + method integration |
-| Curriculum / sequencing | RQ-017 is **provisional**; RQ-023 target needs + RQ-027 content contract now available | resynthesize after RQ-028 |
-| Needs / target language use | RQ-023 initial meta-foundation synthesis complete | EXP-023 + curriculum validation |
-| Assessment / learner-state inference | RQ-024 initial meta-foundation synthesis complete | EXP-024 + method integration |
-| Individual differences / affect / SRL | RQ-026 initial meta-foundation synthesis complete | EXP-026 + method integration |
-| Vietnamese L1 / multilingual support | RQ-002 + RQ-019 initial syntheses | integrate with method/content |
-| AI / ASR / TTS | RQ-008 + RQ-020; subordinated to RQ-024 validity | subordinate to method |
-| Motivation / sustained participation | RQ-018 + RQ-026 cover product return and key L2 affect/ID boundaries | EXP-026 |
-| Placement / onboarding | RQ-021; interpretation bounded by RQ-024 | target validation |
-| Research methodology / evidence synthesis | **only remaining P12 foundation gap** | **RQ-028** |
+| Retrieval / spacing / retention | RQ-004 initial synthesis; retention claims bounded by RQ-024 | method integration + target validation |
+| Speaking / output | RQ-006; validity RQ-024; feedback RQ-025 | method integration |
+| Pronunciation | RQ-007 + RQ-019 | method integration + target validation |
+| Reading | RQ-013 + content selection RQ-027 | method integration |
+| Writing | RQ-014; scorer validity RQ-024; feedback RQ-025 | method integration |
+| Interaction / pragmatics | RQ-015; feedback RQ-025; routines RQ-027 | method integration |
+| Fluency / automaticity | RQ-016 + RQ-022 | method integration |
+| Grammar / constructions | RQ-012 + RQ-022 + RQ-025 + RQ-027 | method integration |
+| Corrective feedback | RQ-025 initial meta-foundation synthesis complete | method integration + EXP-025 |
+| Curriculum / sequencing | RQ-017 **provisional**; RQ-023/RQ-027 now supply missing needs/content foundations | resynthesize only after method |
+| Needs / target language use | RQ-023 initial meta-foundation synthesis complete | method + EXP-023 |
+| Assessment / learner-state inference | RQ-024 initial meta-foundation synthesis complete | method + EXP-024 |
+| Individual differences / affect / SRL | RQ-026 initial meta-foundation synthesis complete | method + EXP-026 |
+| Vietnamese L1 / multilingual support | RQ-002 + RQ-019 | method/content integration |
+| AI / ASR / TTS | RQ-008 + RQ-020; subordinated to validity | subordinate to method |
+| Motivation / sustained participation | RQ-018 + RQ-026 | subordinate to learning outcomes |
+| Placement / onboarding | RQ-021; interpretation bounded by RQ-024 | after method/curriculum |
+| Research methodology / evidence synthesis | **RQ-028 initial protocol complete** | apply during `SYN-METHOD-001` |
 
 Full field checklist: `00-foundations/ISLA_FIELD_COVERAGE_FRAMEWORK.md`.
 
 ## 3. Completed focused cycles
 
-All items below are useful evidence modules. They are **not collectively a final Nếp Method**.
+All cycles are evidence modules. Completion means an **initial synthesis exists**, not that the intervention/product rule is proven for Nếp.
 
 | RQ | Topic | Status |
 | --- | --- | --- |
@@ -71,7 +72,7 @@ All items below are useful evidence modules. They are **not collectively a final
 | RQ-014 | writing progression | initial synthesis complete |
 | RQ-015 | interaction / pragmatics | initial synthesis complete |
 | RQ-016 | fluency / automaticity | initial synthesis complete |
-| RQ-017 | integrated curriculum sequencing | **provisional; revisit after P12** |
+| RQ-017 | integrated curriculum sequencing | **provisional; must be resynthesized after method** |
 | RQ-018 | useful return / product behavior | initial synthesis complete |
 | RQ-019 | Vietnamese-specific calibration | initial synthesis complete |
 | RQ-020 | AI / TTS / LLM reliability | initial synthesis complete |
@@ -82,141 +83,39 @@ All items below are useful evidence modules. They are **not collectively a final
 | RQ-025 | corrective feedback / self-repair | **initial meta-foundation synthesis complete** (`CLM-CF-001`–`019`); `EXP-025` planned |
 | RQ-026 | individual differences / affect / SRL | **initial meta-foundation synthesis complete** (`CLM-ID-001`–`020`); `EXP-026` planned |
 | RQ-027 | corpus-informed content selection | **initial meta-foundation synthesis complete** (`CLM-CONT-001`–`026`); `EXP-027` planned |
+| RQ-028 | evidence grading / contradiction / update protocol | **initial meta-foundation synthesis complete** (`CLM-META-001`–`022`); `EXP-028` audit planned |
 
 All `EXP-*` artifacts are experiment/research-study **plans** unless a corresponding result artifact exists.
 
-## 4. P12 meta-foundation results so far
+## 4. P12 closure decision
 
-### RQ-022 — SLA mechanisms ✅
+P12 is **closed to the documented initial-synthesis level** required to begin method synthesis.
 
-No single exclusive mechanism is sufficient as a complete adult instructed-L2 method. Current convergence supports complementary roles for meaningful input, form–meaning processing, targeted explicit help, production/practice for productive outcomes, interaction/feedback for contingent communication, rich exemplars, deliberate + incidental learning, automatization practice and mediated support kept distinct from independent performance.
+This means:
 
-### RQ-023 — Target needs ✅
+- major SLA mechanisms have been compared rather than selecting one branded method;
+- target needs have a methodological contract;
+- learner-state inference has a validity framework;
+- corrective-feedback boundaries have been synthesized;
+- individual-difference/personalization limits are explicit;
+- content selection has needs + corpus + learnability constraints;
+- evidence quality/directness and contradictions now have first-class representation.
 
-Curriculum priority must come from target learners, target situations/tasks, importance/frequency/difficulty/training need and authentic target discourse—not CEFR order, textbook topics, grammar inventory or owner/AI intuition.
-
-Provisional architecture:
-
-```text
-portable cross-domain capability core
-↓
-learner target situations
-↓
-domain branches
-```
-
-Exact first capabilities remain provisional pending direct target-population work.
-
-### RQ-024 — Assessment validity ✅
-
-Learner state is an inference from evidence under known conditions, not a property read directly from one answer.
-
-Current evidence taxonomy:
+It does **not** mean:
 
 ```text
-task-bound observation
-→ generalization candidate
-→ independent current capability
-
-mediated/emerging capability   [separate]
-
-delayed-retention evidence    [requires time]
-changed-context transfer       [requires meaningful novelty]
+Nếp is proven effective
+or
+all earlier claims are high confidence
+or
+all target-population experiments are complete
 ```
 
-These are epistemic evidence categories, not psychological acquisition stages.
+RQ-028 specifically requires strategic reappraisal of claims promoted into the core method.
 
-### RQ-025 — Corrective feedback ✅
+## 5. RQ-028 evidence-governance result ✅
 
-Corrective feedback is beneficial on average, but no single type/timing is universally best. Candidate policy:
-
-```text
-preserve original attempt
-↓
-judge target/error consequence + repair readiness
-↓
-smallest useful feedback
-↓
-bounded self-repair when feasible
-↓
-escalate information if repair is not feasible
-↓
-store post-feedback response separately
-↓
-later independent/delayed/changed-context evidence
-```
-
-Immediate repair is a learning event, not retroactive proof of original mastery.
-
-### RQ-026 — Individual differences / affect / SRL ✅
-
-Learner differences matter, but a difference only justifies personalization when the chain is defensible:
-
-```text
-valid learner variable
-→ plausible mechanism
-→ treatment-relevant difference
-→ reversible adaptation
-→ better relevant outcome
-```
-
-Key results:
-
-- anxiety, WTC and self-efficacy are meaningful but task/context-sensitive;
-- motivation/participation remain separate from language mastery;
-- SRL can be taught rather than treated as a fixed learner quality;
-- aptitude and working memory predict some outcomes but do not justify permanent ability ceilings;
-- trait-based routing requires learner × treatment evidence;
-- VARK/learning-style matching is rejected as a default;
-- prior literacy/schooling must be represented separately from English proficiency;
-- neurotype-specific foreign-language intervention evidence is too sparse for inferred diagnosis/routing;
-- accessibility should start from declared needs and observable barriers.
-
-### RQ-027 — Corpus-informed content selection ✅
-
-Content selection and teaching order are separate decisions.
-
-The content prior should combine:
-
-```text
-target-task value
-+ portable general utility
-+ frequency
-+ range / dispersion
-+ corpus / modality / register fit
-+ multiword / construction / pragmatic value
-+ coverage contribution
-+ learning cost / Vietnamese-L1 prior
-+ generative / prerequisite value
-+ individual learner gap evidence
-```
-
-The curriculum must represent more than single words and grammar labels:
-
-```text
-lexeme / sense
-multiword unit / collocation
-construction / form–function pattern
-pragmatic / interaction routine
-```
-
-No published word list, CEFR profile, vocabulary-size threshold or corpus rank is allowed to become the teaching order by itself.
-
-Artifacts:
-- `06-evidence/RQ-027-source-digest.md`
-- `07-syntheses/RQ-027-corpus-informed-content-selection.md`
-- `10-experiments/EXP-027-content-selection-policy.md`
-- `data/sources-rq027.json`
-- `data/claims-rq027.json`
-
-## 5. Remaining P12 blocker
-
-### RQ-028 — Evidence grading, contradiction and update protocol ← NEXT / FINAL P12 BLOCKER
-
-**Question**  
-How should the knowledge base separately grade methodological quality and directness, represent competing/null findings and boundary conditions, and revise earlier syntheses when stronger/newer evidence appears?
-
-Required axes should include at least:
+High-impact claims can now receive an `EVA-*` appraisal across:
 
 ```text
 methodological_quality
@@ -226,22 +125,25 @@ replication_consistency
 product_transfer_directness
 ```
 
-Required behavior:
+Credible disagreements are stored as `CTR-*` records containing competing positions, boundary conditions, current bounded resolution and revision triggers.
 
-- distinguish study quality from relevance/directness;
-- preserve null/negative evidence;
-- represent contradictions/controversies as first-class records;
-- encode population/task/treatment/outcome boundary conditions;
-- avoid vote-counting studies as equally informative;
-- support superseding/revising claims without deleting history;
-- detect when a product principle rests on low-directness evidence;
-- trigger resynthesis when stronger or more direct evidence changes confidence.
+The legacy `A–E` claim level remains a retrieval shorthand; it is no longer sufficient on its own for a high-confidence Nếp Method rule.
 
-## 6. P13 — `SYN-METHOD-001` gate
+Artifacts:
 
-Only after RQ-028 is closed to a documented satisfactory level.
+- `00-foundations/EVIDENCE_GRADING_PROTOCOL.md`
+- `06-evidence/RQ-028-source-digest.md`
+- `07-syntheses/RQ-028-evidence-grading-contradiction-update.md`
+- `10-experiments/EXP-028-evidence-protocol-audit.md`
+- `data/sources-rq028.json`
+- `data/claims-rq028.json`
+- `data/evidence-assessments-rq028.json`
+- `data/controversies-rq028.json`
+- updated `scripts/validate.py`
 
-`SYN-METHOD-001 — Nếp Method v0` must define:
+## 6. P13 — `SYN-METHOD-001 — Nếp Method v0` ← CURRENT
+
+The method synthesis must define:
 
 1. target learner and target-language-use domain;
 2. what usable English ability means;
@@ -255,25 +157,41 @@ Only after RQ-028 is closed to a documented satisfactory level.
 10. explicitly rejected universal claims;
 11. falsification and target-learner validation plan.
 
-**No UI, database schema, routes or app architecture in the core method.**
+### Promotion rule
+
+A core high-confidence method statement must pass:
+
+```text
+verified sources
++ atomic supporting claims
++ RQ-024 construct/inference check
++ EVA appraisal
++ CTR contradiction check where relevant
++ explicit boundary/directness statement
++ falsification/validation path
+```
+
+Statements that do not pass may still appear as provisional constraints or validation hypotheses.
+
+**No UI, database schema, route, framework choice or app architecture belongs in the core method.**
 
 ## 7. After method synthesis
 
 ```text
 SYN-METHOD-001
 → curriculum specification
-→ target-population validation
+→ direct target-population validation
 → product specification
 → new implementation
 ```
 
-Current `05-products/` files and `SYN-SYS-001` are retained as **pre-meta-foundation hypotheses/design history** and may be mined selectively, not executed as the current build plan.
+Current `05-products/` files and `SYN-SYS-001` remain **pre-meta-foundation hypotheses/design history**. They may be mined selectively only after the method/curriculum contract says what the product needs.
 
 ## 8. Active high-confidence guardrails
 
 - CEFR is descriptive, not a teaching algorithm.
 - engagement/completion/streaks are not learning evidence.
-- a scheduler state is not mastery.
+- scheduler state is not mastery.
 - recognition is not productive recall.
 - supported success is not unsupported success.
 - supported performance may still be mediated/emerging evidence if provenance is retained.
@@ -293,17 +211,18 @@ Current `05-products/` files and `SYN-SYS-001` are retained as **pre-meta-founda
 - human agreement is not sufficient to prove an automated judgment construct-valid or unbiased.
 - experiments remain hypotheses until results exist.
 
-## 9. Research stop condition
+## 9. Research stop rule during P13
 
-The goal is not to read every document ever published.
+Do not reopen broad literature collection merely because more papers exist.
 
-Research is sufficient for `SYN-METHOD-001` when:
+Open new research only when method synthesis identifies a **decision-critical unresolved claim** whose uncertainty could materially change the method.
 
-1. every important domain in `ISLA_FIELD_COVERAGE_FRAMEWORK.md` is covered or explicitly scoped out;
-2. important competing theories have been compared;
-3. target needs and content selection have an evidence basis;
-4. core learner-state inferences have a validity argument;
-5. feedback and individual-difference boundaries are specified;
-6. evidence directness to Vietnamese near-A0 is explicit;
-7. contradictions/evidence quality are represented systematically;
-8. unresolved product choices are labeled validation questions rather than scientific facts.
+Otherwise:
+
+```text
+synthesize
+→ expose uncertainty
+→ define target validation
+```
+
+instead of researching indefinitely.

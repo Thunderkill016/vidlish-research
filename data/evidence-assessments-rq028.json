@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "evidence_assessments": [
+    {
+      "id":"EVA-SLA-001",
+      "claim_id":"CLM-SLA-002",
+      "methodological_quality":"high",
+      "population_directness":"low",
+      "construct_directness":"moderate",
+      "replication_consistency":"moderate",
+      "product_transfer_directness":"low",
+      "certainty_summary":"moderate",
+      "source_ids":["SRC-0235","SRC-0236","SRC-0237","SRC-0238"],
+      "rationale":"Multiple syntheses support an average explicit-instruction advantage on studied outcomes, but many samples/tasks are not Vietnamese near-A0 self-study and controlled outcome measures can favor explicitly accessible knowledge.",
+      "reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-SLA-002",
+      "claim_id":"CLM-SLA-017",
+      "methodological_quality":"moderate",
+      "population_directness":"low",
+      "construct_directness":"moderate",
+      "replication_consistency":"moderate",
+      "product_transfer_directness":"low",
+      "certainty_summary":"moderate",
+      "source_ids":["SRC-0235","SRC-0239","SRC-0241","SRC-0243","SRC-0245","SRC-0251"],
+      "rationale":"The complementarity conclusion triangulates several mature evidence families, but it is a cross-theory synthesis rather than a direct trial of one integrated self-study method for the target population.",
+      "reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-CF-001",
+      "claim_id":"CLM-CF-002",
+      "methodological_quality":"high",
+      "population_directness":"low",
+      "construct_directness":"moderate",
+      "replication_consistency":"moderate",
+      "product_transfer_directness":"low",
+      "certainty_summary":"moderate",
+      "source_ids":["SRC-0294","SRC-0296"],
+      "rationale":"Classroom meta-analytic evidence favors prompts on average for some outcomes, but feedback categories, targets and learner readiness vary; near-A0 AI-mediated self-study has not been directly tested.",
+      "reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-CF-002",
+      "claim_id":"CLM-CF-005",
+      "methodological_quality":"moderate",
+      "population_directness":"low",
+      "construct_directness":"moderate",
+      "replication_consistency":"low",
+      "product_transfer_directness":"low",
+      "certainty_summary":"low",
+      "source_ids":["SRC-0299"],
+      "rationale":"Timing research suggests an immediate-feedback advantage in some task conditions, but the literature is comparatively sparse and definitions/treatments differ, making a global product timing rule premature.",
+      "reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-CONT-001",
+      "claim_id":"CLM-CONT-008",
+      "methodological_quality":"high",
+      "population_directness":"low",
+      "construct_directness":"high",
+      "replication_consistency":"high",
+      "product_transfer_directness":"moderate",
+      "certainty_summary":"high-for-direction-moderate-for-threshold",
+      "source_ids":["SRC-0329","SRC-0330","SRC-0332"],
+      "rationale":"The direction of the coverage-comprehension relationship is well supported for reading, while an exact 95/98 threshold is context- and criterion-dependent and the target population is not directly represented.",
+      "reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-CONT-002",
+      "claim_id":"CLM-CONT-024",
+      "methodological_quality":"moderate",
+      "population_directness":"moderate",
+      "construct_directness":"moderate",
+      "replication_consistency":"low",
+      "product_transfer_directness":"moderate",
+      "certainty_summary":"low-to-moderate",
+      "source_ids":["SRC-0321","SRC-0323","SRC-0324","SRC-0328","SRC-0340"],
+      "rationale":"Each proposed content-selection dimension has support, but their integrated weighting has not been directly validated as a curriculum selector for Vietnamese near-A0 adults.",
+      "reviewed_on":"2026-08-27"
+    }
+  ]
+}

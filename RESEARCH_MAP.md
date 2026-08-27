@@ -1,206 +1,254 @@
 # Research Map
 
-## Research tracks
+**Current phase:** meta-foundation before `SYN-METHOD-001`  
+**Decision:** `ADR-005`  
+**Audit:** `META-001`
 
-| Track | Core question | Current status | Product dependency |
+## 1. Research objective
+
+Derive an evidence-backed English-learning method for Vietnamese-speaking adults beginning near zero / Pre-A1, then specify curriculum and product behavior from that method.
+
+Required order:
+
+```text
+research coverage
+→ competing evidence
+→ Nếp Method
+→ curriculum
+→ product
+→ implementation
+```
+
+The existing Vidlish application is a legacy prototype, not a pedagogical source of truth.
+
+## 2. Coverage tracks
+
+| Track | Core question | Current state | Next dependency |
 | --- | --- | --- | --- |
-| R01 Second-language acquisition | What mechanisms and constraints matter for adults near A0? | seeded | whole curriculum |
-| R02 Vocabulary & chunks | What should be learned, in what contexts, and how is knowledge evidenced? | RQ-001 initial synthesis complete | starter catalogue, review |
-| R03 Listening | How should perception, segmentation and comprehension progress? | RQ-003 initial synthesis complete | audio-first sessions |
-| R04 Retrieval & spacing | How should recall and delayed review be designed without pretending one scheduler proves mastery? | RQ-004 initial synthesis complete | review engine |
-| R05 Speaking/output | When and how should controlled production expand into guided interaction? | RQ-006 controlled speaking + RQ-015 interaction initial syntheses complete | speaking tasks, conversation engine |
-| R06 Pronunciation | What improves intelligibility, especially for Vietnamese learners? | RQ-007 initial synthesis complete | pronunciation layer |
-| R07 Reading/writing | How should receptive and productive literacy support the same communicative goals? | RQ-013 reading + RQ-014 writing initial syntheses complete | A0/A1 literacy engine |
-| R08 Assessment | How should `understood`, `recalled`, `transferred`, `retained` be measured? | RQ-005 initial transfer synthesis complete | progress model |
-| R09 Video-based learning | When is authentic video usable, and which scaffolds help rather than replace listening? | RQ-009 readiness + RQ-010 support + RQ-011 temporal-repair syntheses complete | later source path |
-| R10 Vietnamese learners | Which L1-specific problems deserve targeted support? | RQ-002 scaffold + RQ-019 Vietnamese calibration initial syntheses complete | personalization |
-| R11 Motivation/product behavior | Which session designs cause useful return without substituting engagement for learning? | RQ-018 initial synthesis complete | UX, recovery, useful return |
-| R12 AI/technology | Where can ASR/LLMs/TTS help, and where do reliability/privacy limits dominate? | RQ-008 ASR + RQ-014 writing AI + RQ-015 interaction AI + RQ-020 cross-role AI reliability initial syntheses complete | AI features, evidence gates, audio generation |
-| R13 Grammar & constructions | How should form, meaning and use be learned together and evidenced beyond rule recall? | RQ-012 initial synthesis complete | curriculum, lesson engine, speaking/writing/review |
-| R14 Interaction & pragmatics | How should learners manage turns, responses, repair and socially appropriate language in real interaction? | RQ-015 initial synthesis complete | conversation engine, roleplay, transfer |
-| R15 Fluency & automaticity | How should accurate and meaningful language become faster and less effortful without turning raw speed into mastery? | RQ-016 initial synthesis complete | listening, speaking, reading, interaction, review |
-| R16 Curriculum integration & sequencing | How should capabilities, modalities, language components, task complexity and course balance be sequenced into a comprehensive system without overloading near-A0 learners? | RQ-017 initial synthesis complete | curriculum orchestrator, all learner engines |
-| R17 Placement & onboarding | How should a new learner be routed into useful learning quickly without turning onboarding into a long exam or false-precision level label? | RQ-021 initial synthesis complete | onboarding, learner-model bootstrap, curriculum entry |
+| R01 Foundational SLA / ISLA | What mechanisms and instructional theories best explain adult L2 development? | **critical gap — only seeded before META-001** | RQ-022 |
+| R02 Vocabulary & formulaic language | What should be learned, how, and what counts as lexical knowledge? | RQ-001 strong on evidence-of-knowing; **content selection incomplete** | RQ-027 |
+| R03 Listening | How should perception, lexical access, segmentation and comprehension progress? | RQ-003 + video support work complete at initial synthesis level | integrate after RQ-022/024 |
+| R04 Retrieval, spacing & longitudinal retention | How should retrieval/review improve delayed retention efficiently? | RQ-004 initial synthesis complete | later target validation |
+| R05 Speaking/output | How should bounded production become flexible speech? | RQ-006 initial synthesis complete | RQ-022, RQ-024, RQ-025 |
+| R06 Pronunciation | What improves intelligibility/comprehensibility? | RQ-007 + Vietnamese calibration initial syntheses complete | later target validation |
+| R07 Reading | How does supported decoding/comprehension become independent connected reading? | RQ-013 initial synthesis complete | integrate after RQ-022/024/027 |
+| R08 Writing | How does controlled writing become independent useful writing? | RQ-014 initial synthesis complete | RQ-024, RQ-025 |
+| R09 Interaction & pragmatics | How should learners manage contingent turns, repair and appropriateness? | RQ-015 initial synthesis complete | RQ-022, RQ-025 |
+| R10 Fluency & automaticity | How does accurate/meaningful language become efficient without confusing repetition with general fluency? | RQ-016 initial synthesis complete | RQ-022, RQ-024 |
+| R11 Grammar / constructions / form | How should form, meaning and use develop? | RQ-012 initial synthesis complete | **foundational theory comparison still missing** RQ-022 |
+| R12 Corrective feedback | What feedback type/timing/focus helps which learner/feature/task? | **critical gap — fragmented across skills** | RQ-025 |
+| R13 Curriculum / tasks / sequencing | What capabilities, task progression and course balance should define the curriculum? | RQ-017 provisional integration | **needs/content foundation missing** RQ-023/027 |
+| R14 Needs analysis / target language use | What English does the target learner actually need to do? | **critical gap** | RQ-023 |
+| R15 Assessment / diagnosis / inference | What task observations justify what learner-state claims? | RQ-005 transfer work only; **critical validity gap** | RQ-024 |
+| R16 Individual differences / affect / SRL | Which learner differences justify adaptation? | product-return RQ-018 only; **major SLA gap** | RQ-026 |
+| R17 Vietnamese L1 / multilingual support | How should Vietnamese/L1 evidence guide support without stereotyping? | RQ-002 + RQ-019 initial syntheses complete | integrate with RQ-022/026/027 |
+| R18 Technology / AI / ASR / TTS | Where does technology improve learning and where are its judgments invalid? | RQ-008 + RQ-020 initial syntheses complete | subordinate to method |
+| R19 Authentic/video-mediated input | When and how can authentic audiovisual material support learning? | RQ-009/010/011 initial syntheses complete | lower priority than P12 foundations |
+| R20 Motivation / sustained participation | How should language motivation, anxiety, autonomy and product return interact? | RQ-018 covers product behavior; **L2 affect incomplete** | RQ-026 |
+| R21 Placement / onboarding | How should the initial learner model be bootstrapped? | RQ-021 initial synthesis complete | RQ-024 validity work |
+| R22 Research methodology / evidence synthesis | How should evidence quality, directness, contradiction and revision be represented? | **critical gap** | RQ-028 |
 
-## Priority research questions
+For the full field checklist see `00-foundations/ISLA_FIELD_COVERAGE_FRAMEWORK.md`.
 
-### P0 — before expanding the A0 engine
+## 3. Completed focused cycles — useful but not collectively a final method
 
-- `RQ-001`: What counts as independent evidence that an A0 learner knows a word/chunk? → **initial synthesis complete** (`SYN-VOC-002`, `FEAT-VOC-001`, `EXP-001`)
-- `RQ-002`: What amount/type of Vietnamese scaffold supports comprehension without becoming the task itself? → **initial synthesis complete** (`SYN-SCF-001`, `FEAT-SCF-001`, `EXP-002`)
-- `RQ-003`: How should short listening tasks separate sound perception from meaning comprehension? → **initial synthesis complete** (`SYN-LIS-002`, `FEAT-LIS-001`, `EXP-003`)
-- `RQ-004`: What retrieval schedule gives useful delayed retention while keeping time-on-task reasonable? → **initial synthesis complete** (`SYN-REV-001`, `FEAT-REV-001`, `EXP-004`)
-- `RQ-005`: What changed-context probe is feasible enough to measure transfer repeatedly? → **initial synthesis complete** (`SYN-TRN-001`, `FEAT-TRN-001`, `EXP-005`)
+| RQ | Topic | Status |
+| --- | --- | --- |
+| RQ-001 | independent evidence of word/chunk knowledge | initial synthesis complete |
+| RQ-002 | Vietnamese scaffolding | initial synthesis complete |
+| RQ-003 | listening perception vs comprehension | initial synthesis complete |
+| RQ-004 | retrieval / spacing / review | initial synthesis complete |
+| RQ-005 | changed-context transfer | initial synthesis complete |
+| RQ-006 | controlled speaking near A0 | initial synthesis complete |
+| RQ-007 | Vietnamese pronunciation / intelligibility | initial synthesis complete |
+| RQ-008 | ASR evidence validity | initial synthesis complete |
+| RQ-009 | authentic-video readiness | initial synthesis complete |
+| RQ-010 | adaptive caption/support | initial synthesis complete |
+| RQ-011 | temporal repair / auto-pause | initial synthesis complete |
+| RQ-012 | grammar / constructions | initial synthesis complete |
+| RQ-013 | reading progression | initial synthesis complete |
+| RQ-014 | writing progression | initial synthesis complete |
+| RQ-015 | interaction / pragmatics | initial synthesis complete |
+| RQ-016 | fluency / automaticity | initial synthesis complete |
+| RQ-017 | integrated curriculum sequencing | **provisional; must be revisited after P12** |
+| RQ-018 | useful return / product behavior | initial synthesis complete; does not cover full L2 affect/ID domain |
+| RQ-019 | Vietnamese-specific calibration | initial synthesis complete |
+| RQ-020 | AI/TTS/LLM reliability | initial synthesis complete |
+| RQ-021 | cold-start placement | initial synthesis complete; validity work pending RQ-024 |
 
-### P1 — before expanding speaking and pronunciation
+All `EXP-001`–`EXP-021` are experiment **plans** unless/until corresponding result artifacts exist.
 
-- `RQ-006`: Which controlled speaking tasks are valid for near-A0 learners? → **initial synthesis complete** (`SYN-SPK-001`, `FEAT-SPK-001`, `EXP-006`)
-- `RQ-007`: Which pronunciation targets most affect intelligibility for Vietnamese L1 learners? → **initial synthesis complete** (`SYN-PRN-001`, `FEAT-PRN-001`, `EXP-007`)
-- `RQ-008`: What can ASR score reliably for this population, if anything? → **initial synthesis complete** (`SYN-ASR-001`, `FEAT-ASR-001`, `EXP-008`)
+## 4. P12 — Meta-foundation blocker before Nếp Method or new build
 
-### P2 — before making video central to any stage
+### RQ-022 — Foundational SLA mechanisms and competing instructional theories
 
-- `RQ-009`: What vocabulary coverage and speech characteristics make a short authentic clip usable? → **initial synthesis complete** (`SYN-VID-002`, `FEAT-VID-002`, `EXP-009`)
-- `RQ-010`: When should English captions, Vietnamese support, transcript and replay appear? → **initial synthesis complete** (`SYN-CAP-001`, `FEAT-VID-001`, `EXP-010`)
-- `RQ-011`: Does auto-pause improve learning or simply fragment comprehension? → **initial synthesis complete** (`SYN-PAU-001`, `FEAT-VID-003`, `EXP-011`)
+**Question**  
+Which learning mechanisms and instructional theories have the strongest converging evidence for adult instructed L2 development, which predictions conflict, and what does each imply for Vietnamese near-A0 self-study?
 
-### P3 — before treating grammar as a comprehensive learning dimension
+Must compare at minimum:
 
-- `RQ-012`: How should near-A0 learners learn and demonstrate grammar/construction knowledge without reducing grammar to rule memorization and decontextualized drills? → **initial synthesis complete** (`SYN-GRM-001`, `FEAT-GRM-001`, `EXP-012`)
+- comprehensible/meaningful input;
+- interaction;
+- output;
+- attention/noticing/depth of processing;
+- explicit vs implicit learning/instruction;
+- intentional vs incidental learning;
+- Input Processing / Processing Instruction;
+- Skill Acquisition Theory;
+- usage-based / construction learning;
+- Sociocultural Theory;
+- form-focused instruction.
 
-### P4 — before expanding literacy from sentences to independent text production
+**Why first:** R01 is currently seeded while almost every later learning feature depends on assumptions from this layer.
 
-- `RQ-013`: How should near-A0 learners progress from supported sentence-level reading to independent connected-text reading without confusing word recognition, comprehension, fluency and support-assisted success? → **initial synthesis complete** (`SYN-READ-001`, `FEAT-READ-001`, `EXP-013`)
-- `RQ-014`: How should near-A0 learners progress from controlled written production to independent meaningful writing, with feedback that improves future writing rather than merely correcting the current text? → **initial synthesis complete** (`SYN-WRI-001`, `FEAT-WRI-001`, `EXP-014`)
+### RQ-023 — Target needs and capability selection
 
-### P5 — before calling speaking a real interaction capability
+**Question**  
+What real-world English tasks/capabilities are highest-value for the target population, and how should current needs, target situations, learner goals and general-English portability determine the first curriculum?
 
-- `RQ-015`: How should near-A0 learners progress from controlled speaking to real turn-by-turn interaction, including response relevance, turn-taking, clarification/repair and pragmatic appropriateness, without letting AI roleplay hide comprehension or production weaknesses? → **initial synthesis complete** (`SYN-INT-001`, `FEAT-INT-001`, `EXP-015`)
+Must use triangulated needs analysis rather than one owner/AI intuition.
 
-### P6 — before treating faster performance as fluent language use
+### RQ-024 — Language-assessment validity and learner-state inference
 
-- `RQ-016`: How should Nếp develop fluency/automaticity across listening, reading, speaking and interaction without confusing faster performance on practiced material with flexible retained use? → **initial synthesis complete** (`SYN-FLU-001`, `FEAT-FLU-001`, `EXP-016`)
+**Question**  
+What observations under what task/support/scorer conditions justify what learner-state inference, with what uncertainty, reliability and generalizability?
 
-### P7 — before calling the system comprehensive
+Must revisit:
 
-- `RQ-017`: How should Nếp sequence and integrate listening, vocabulary/chunks, constructions, pronunciation, speaking, reading, writing, interaction and fluency across beginner development without either siloing skills or overloading the learner? → **initial synthesis complete** (`SYN-CUR-001`, `FEAT-CUR-001`, `EXP-017`)
+- `understood`;
+- `recalled`;
+- `transferred`;
+- `retained`;
+- modality-specific claims;
+- support contamination;
+- diagnostic classification;
+- changed-context generalization;
+- automated/human scoring.
 
-### P8 — before optimizing retention mechanics
+### RQ-025 — Corrective feedback and self-repair policy
 
-- `RQ-018`: Which product/session behaviors increase useful return and sustained practice for near-A0 adults without substituting streaks, XP, app use or time spent for delayed language learning? → **initial synthesis complete** (`SYN-MOT-001`, `FEAT-MOT-001`, `EXP-018`)
+**Question**  
+Which corrective-feedback type, explicitness, timing, focus and repair opportunity best serve which construct, learner, linguistic feature and task?
 
-### P9 — before Vietnamese-specific personalization becomes default
+Must compare oral/written feedback, recasts, prompts, explicit/metalinguistic feedback, self-repair, focused/unfocused and immediate/delayed policies.
 
-- `RQ-019`: How should Nếp use Vietnamese-L1 evidence to calibrate pronunciation, listening, vocabulary/chunks, grammar and pragmatics for near-A0/A1 adults without treating population tendencies as individual truth? → **initial synthesis complete** (`SYN-VIE-001`, `FEAT-VIE-001`, `EXP-019`)
+### RQ-026 — Individual differences, affect and self-regulated learning
 
-### P10 — before AI becomes a hidden learning authority
+**Question**  
+Which learner differences materially affect learning/participation, and which adaptations are justified rather than personalization theater?
 
-- `RQ-020`: How should Nếp use LLMs, TTS and AI-generated feedback/content/assessment without letting model errors, synthetic speech, over-accommodation, privacy risk or model drift create false learning evidence? → **initial synthesis complete** (`SYN-AI-001`, `FEAT-AIG-001`, `EXP-020`)
+Must cover at minimum:
 
-### P11 — before onboarding becomes a fixed product funnel
+- language-learning anxiety;
+- willingness to communicate;
+- self-efficacy;
+- autonomous/controlled motivation;
+- self-regulated learning / metacognition;
+- aptitude;
+- working-memory/cognitive-resource evidence;
+- prior literacy/education;
+- accessibility/neurodiversity only to the level evidence supports.
 
-- `RQ-021`: How should Nếp bootstrap a new learner's starting profile quickly enough to begin useful learning while preserving uncertainty and avoiding harmful over-placement or under-placement? → **initial synthesis complete** (`SYN-PLC-001`, `FEAT-ONB-001`, `EXP-021`)
+### RQ-027 — Corpus-informed beginner language/content selection
 
-## Explicitly unresolved product assumptions
+**Question**  
+Which words, chunks, constructions, functions and pragmatic routines should be prioritized by combining target needs with real-language frequency/range/dispersion/coverage, formulaicity, learnability and prerequisite value?
 
-- Session length that fits the target learner's real schedule.
-- Exact support-fading threshold.
-- Exact speaking support-fading / task-unlock threshold.
-- Exact pronunciation target priority / practice dose for Vietnamese near-A0.
-- Listener-panel mix and minimum intelligibility criterion for pronunciation validation.
-- Exact ASR provider/model mix and maintenance policy.
-- Exact caption/support fading policy and transcript/replay thresholds for Vietnamese learners.
-- Exact auto-pause trigger, pause-boundary, duration and temporal-support fading policy.
-- Exact construction sequencing for Vietnamese near-A0 learners.
-- Exact explanation timing and Vietnamese/English grammar-support policy.
-- Exact exemplar count, lexical variation and abstraction threshold for each construction.
-- Exact interpretation-to-production and controlled-to-transfer progression thresholds.
-- Exact grammar corrective-feedback policy by construction, error type and learner state.
-- Exact reading message/microtext/graded-text length progression for Vietnamese near-A0.
-- Exact lexical and construction readiness bands for each reading stage.
-- Exact reading audio/gloss/translation fading policy.
-- Exact repeated-reading dose and criteria for using repeated reading as repair rather than routine.
-- Exact point at which reading-strategy instruction becomes worth the learning time.
-- Exact sustained/extensive-reading unlock threshold, text-choice freedom and accountability policy.
-- Exact reading fluency metrics and any useful rate targets for Vietnamese adults.
-- Exact balance of practical, narrative, dialogue and informational reading material.
-- Exact transition from writing reconstruction to independent sentence production.
-- Exact writing sentence-frame / word-bank fading thresholds.
-- Exact micro-writing length and proposition load for Vietnamese near-A0.
-- Exact use of Vietnamese in writing planning versus feedback explanation.
-- Exact writing feedback priority and maximum issue count per draft.
-- Exact self-repair-prompt versus direct-correction policy.
-- Exact comparator/model timing and number of revision cycles before a new writing task.
-- Exact AI/AWE assistance limits, confidence gates and false-correction thresholds in writing.
-- Exact writing component weights, if any composite score is ever justified.
-- Exact practical writing-genre order and mobile typing/mechanics policy.
-- Exact first interaction stage for true A0 learners and turns per stage.
-- Exact interaction response-latency expectations by task/device.
-- Exact listener-support/backchannel teaching timing.
-- Exact repair repertoire, sequence, engineered-breakdown frequency and difficulty.
-- Exact partner rephrasing/rescue thresholds that should count as interaction support.
-- Exact pragmatic-function order and treatment of cultural variation in appropriateness.
-- Exact AI interaction strictness/accommodation policy and whether intentional misunderstanding is useful for repair practice.
-- Exact automated response-contingency and pragmatic-scoring thresholds.
-- Minimum human-listener/human-partner validation sample and AI-to-human transfer criteria.
-- Exact interaction review schedule and delayed-probe interval.
-- Exact fluency-readiness threshold for entering deliberate automaticity practice.
-- Exact same-item repetition count, plateau detector and stop rule.
-- Exact switch point from same-task stabilization to changed-content/context variation.
-- Exact fluency spacing policy and delayed-probe interval by capability/modality.
-- Exact time-pressure policy and quality-collapse backoff rules for near-A0.
-- Minimum response/text length required for reliable temporal fluency metrics.
-- Exact normalization policy for task conditions and personal/L1 speaking style.
-- Best practical proxy for listening automaticity without turning comprehension into reaction-time gaming.
-- Exact formulaic-sequence flexibility/script-dependence threshold.
-- Exact delayed changed-task evidence threshold for stage progression based on fluency.
-- Exact first capability set for Vietnamese adults near A0.
-- Exact capability prerequisite graph and prerequisite evidence thresholds.
-- Exact number of active capabilities to maintain concurrently.
-- Exact rolling horizon for Four-Strands curriculum-balance auditing.
-- Exact target strand distribution by learner stage; whether any near-equal distribution is useful in Nếp.
-- Exact number and combination of primary/secondary modalities per session.
-- Exact task-complexity dimensions, scales and increment policy.
-- Exact criteria for switching the primary modality of a capability.
-- Exact planning, model, word-bank and rehearsal dose by learner state.
-- Exact order for introducing reading/writing relative to listening/speaking for each capability.
-- Exact task-first versus model-first routing policy.
-- Exact amount of learner choice in capability/scenario selection.
-- Exact evidence threshold for expanding a capability or merging several capabilities into a larger scenario.
-- Exact minimum evidence required for a session return to count as useful.
-- Exact distribution of minimum-useful versus normal session lengths.
-- Exact reminder cadence, preferred-time policy and suppression after repeated ignores.
-- Whether Nếp should show a streak at all; if so, daily versus weekly continuity and what qualifies.
-- Exact missed-day grace, streak-repair or continuity-recovery policy.
-- Exact capability/evidence progress visualization and how much activity telemetry to expose.
-- Exact reward type, frequency and whether social/leaderboard mechanics are useful for this population.
-- Exact short-break and extended-break thresholds.
-- Exact overdue-review compression policy after a break.
-- Exact smallest valid re-entry action and when new content may resume.
-- Exact amount of learner choice and self-regulation prompting before it becomes friction.
-- Exact engagement-learning guardrail for rejecting retention features that increase return but reduce delayed gain per minute.
-- Exact near-A0 Vietnamese risk-prior weights by target family.
-- Exact cheap Vietnamese-calibration probe set and probe ordering.
-- Exact coda/final-cluster priority tiers and learnability tiers for the target population.
-- Exact word- and phrase-prominence probe design for Vietnamese near-A0/A1 learners.
-- Exact threshold for routing a written-known but audio-missed target into phonological-decoding repair.
-- Exact L1-L2 chunk-congruency labeling policy and whether it materially improves prediction.
-- Exact stage for probing article, number, copula and tense-time mappings.
-- Exact Vietnamese dialect/background variables worth collecting and their predictive value.
-- Exact suppression or decay rule for an L1 prior after disconfirming learner evidence.
-- Exact acceptable false-positive remediation rate for Vietnamese-specific personalization.
-- Exact human-listener validation criteria for Vietnamese-sensitive pronunciation targets.
-- Exact gain-per-minute improvement required to justify maintaining the Vietnamese calibration layer.
-- Exact AI provider/model mix per AI role.
-- Exact deterministic validators for AI-generated tasks and feedback.
-- Exact LLM feedback confidence / abstention thresholds.
-- Exact human or secondary-check escalation policy for high-value AI judgments.
-- Exact TTS engine, voice, accent mix, speed policy and pronunciation QA.
-- Exact natural/human listening-probe frequency after TTS-supported learning.
-- Exact prompt/rubric/model regression suite and slice-level acceptance thresholds.
-- Exact revalidation trigger after provider, model, prompt, rubric or scoring-pipeline updates.
-- Exact third-party learner-data minimization, raw dialogue/audio retention and deletion policy.
-- Exact acceptable false-correction, missed-issue and AI-generated-content violation rates.
-- Exact AI cost and latency ceiling per retained/transfer learning gain.
-- Exact cold-start common anchor set and minimum anchor count.
-- Exact near-A0/Pre-A1 item-bank coverage and low-end calibration policy.
-- Exact cold-start uncertainty threshold, minimum sample rule and hard stopping ceiling.
-- Exact maximum onboarding burden before Nếp must start teaching and continue calibration in-session.
-- Exact self-assessment prior weight and how quickly direct evidence overrides it.
-- Exact speaking/writing cold-start trigger and productive-probe scoring policy.
-- Exact relative cost weighting for over-placement versus under-placement.
-- Exact early-session recalibration window and cold-start prior decay rule.
-- Exact route-correction threshold and learner-facing repair behavior after misplacement.
-- Exact timing and evidence requirement for any learner-facing CEFR mapping.
-- Exact machine-feedback confidence / false-correction thresholds outside writing.
-- Exact automated feature detectors safe enough for Vietnamese near-A0.
-- Exact authentic-video lexical-coverage bands and learner × clip readiness thresholds.
-- Exact authentic-video window length / segmentation policy.
-- Exact speech-load and visual-grounding weights for Vietnamese near-A0.
-- Exact transfer novelty ladder and probe-sampling frequency for near-A0.
-- Best beginner voice/ accent mix.
-- Whether learners value and return for delayed review.
-- Exact review workload / desired-retention policy for the target learner.
-- Whether learning gains are large enough to support willingness to pay.
+This RQ decides **what English is worth spending learning time on**. It must not turn a wordlist, grammar profile or corpus ranking into a teaching order by itself.
 
-These remain product experiments even if related educational literature exists.
+### RQ-028 — Evidence grading, contradiction and update protocol
+
+**Question**  
+How should the knowledge base separately grade methodological quality and directness, represent competing/null findings and boundary conditions, and revise earlier syntheses when stronger/newer evidence appears?
+
+Required output should add explicit axes such as:
+
+```text
+methodological_quality
+population_directness
+construct_directness
+replication_consistency
+product_transfer_directness
+```
+
+and a first-class controversy/contradiction representation.
+
+## 5. P13 — Method synthesis gate
+
+Only after P12 is closed to a documented satisfactory level:
+
+### SYN-METHOD-001 — Nếp Method v0
+
+Must define:
+
+1. target learner and target-language-use domain;
+2. what usable English ability means;
+3. minimum learning conditions supported by converging evidence;
+4. where conditions change by learner/skill/linguistic feature;
+5. content-selection rules;
+6. task/support/feedback rules;
+7. assessment and inference rules;
+8. what remains uncertain/optional;
+9. explicitly rejected universal claims;
+10. falsification and target-learner validation plan.
+
+**No UI, database schema, routes or app architecture in the core method.**
+
+## 6. P14 — Curriculum specification
+
+After `SYN-METHOD-001`:
+
+- define first target capability set from RQ-023;
+- define vocabulary/chunk/construction content from RQ-027;
+- define prerequisite relationships;
+- define task families and skill/modal progression from the method;
+- define assessment probes and confidence from RQ-024;
+- define feedback from RQ-025;
+- define learner adaptations from RQ-026;
+- define target-population validation before scale.
+
+## 7. P15 — Product specification and implementation
+
+Only after the curriculum contract exists:
+
+```text
+Nếp Method
+→ curriculum
+→ product UX/runtime
+→ implementation
+```
+
+The current files in `05-products/` and `SYN-SYS-001` are retained as pre-meta-foundation hypotheses/design history and may be mined selectively, not executed as the present plan.
+
+## 8. Current high-confidence guardrails that remain active
+
+These are not the full Nếp Method, but they are strong enough to keep as research guardrails while P12 proceeds:
+
+- CEFR is descriptive, not a teaching algorithm.
+- engagement/completion/streaks are not learning evidence.
+- a scheduler state is not language mastery.
+- recognition is not productive recall.
+- supported success is not unsupported success.
+- first-seen performance differs from repeated/replayed performance.
+- exact-task repetition is not transfer.
+- immediate success is not delayed retention.
+- a skill claim requires a task that actually elicits that skill.
+- Vietnamese population evidence is a prior, not an individual diagnosis.
+- strong accent is not synonymous with low intelligibility.
+- AI/ASR/TTS outputs do not automatically justify learner-state claims.
+- experiments remain hypotheses until results exist.
+
+## 9. Research stop condition
+
+The goal is **not** to research forever or literally read every document ever published.
+
+Research becomes sufficient for `SYN-METHOD-001` when:
+
+1. every field domain in `ISLA_FIELD_COVERAGE_FRAMEWORK.md` is covered or explicitly scoped out;
+2. the important competing theories have been compared;
+3. target needs/content selection have an evidence basis;
+4. core learner-state inferences have a validity argument;
+5. evidence directness to Vietnamese near-A0 is explicit;
+6. unresolved product-specific choices are labeled as validation questions rather than scientific facts.
+
+That is the gate between a research program and an endlessly expanding literature collection.

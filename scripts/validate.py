@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Integrity checks for Vidlish Research machine-readable indexes and cycle fragments."""
+"""Integrity checks for Vidlish Research machine-readable indexes and core method references."""
 from pathlib import Path
 import json
+import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -129,6 +130,20 @@ for controversy in collections["controversies"]:
         errors.append(f"{controversy_id}: current_resolution is required")
     if not controversy.get("would_change_if"):
         errors.append(f"{controversy_id}: would_change_if is required")
+
+# Core method citations are part of the executable research contract. A typo or
+# stale CLM/EVA/CTR reference should fail CI instead of silently degrading traceability.
+method_path = ROOT / "07-syntheses" / "SYN-METHOD-001-nep-method-v0.md"
+if method_path.exists():
+    method_text = method_path.read_text(encoding="utf-8")
+    method_refs = set(
+        re.findall(r"\b(?:CLM|EVA|CTR)-[A-Z0-9]+(?:-[A-Z0-9]+)+\b", method_text)
+    )
+    for ref in sorted(method_refs):
+        if ref not in ids:
+            errors.append(f"{method_path.relative_to(ROOT)}: missing method evidence reference {ref}")
+else:
+    errors.append("missing core method file 07-syntheses/SYN-METHOD-001-nep-method-v0.md")
 
 if errors:
     print("Validation failed:")

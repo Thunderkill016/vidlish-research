@@ -25,23 +25,23 @@ The existing Vidlish application is a legacy prototype, not a pedagogical source
 
 | Track | Core question | Current state | Next dependency |
 | --- | --- | --- | --- |
-| R01 Foundational SLA / ISLA | What mechanisms and instructional theories best explain adult L2 development? | **critical gap — only seeded before META-001** | RQ-022 |
+| R01 Foundational SLA / ISLA | What mechanisms and instructional theories best explain adult L2 development? | **RQ-022 initial synthesis complete** | revisit after RQ-024/026/028 if validity/moderator evidence changes integration |
 | R02 Vocabulary & formulaic language | What should be learned, how, and what counts as lexical knowledge? | RQ-001 strong on evidence-of-knowing; **content selection incomplete** | RQ-027 |
-| R03 Listening | How should perception, lexical access, segmentation and comprehension progress? | RQ-003 + video support work complete at initial synthesis level | integrate after RQ-022/024 |
+| R03 Listening | How should perception, lexical access, segmentation and comprehension progress? | RQ-003 + video support work complete at initial synthesis level | integrate after RQ-024 |
 | R04 Retrieval, spacing & longitudinal retention | How should retrieval/review improve delayed retention efficiently? | RQ-004 initial synthesis complete | later target validation |
-| R05 Speaking/output | How should bounded production become flexible speech? | RQ-006 initial synthesis complete | RQ-022, RQ-024, RQ-025 |
+| R05 Speaking/output | How should bounded production become flexible speech? | RQ-006 initial synthesis complete | RQ-024, RQ-025 |
 | R06 Pronunciation | What improves intelligibility/comprehensibility? | RQ-007 + Vietnamese calibration initial syntheses complete | later target validation |
-| R07 Reading | How does supported decoding/comprehension become independent connected reading? | RQ-013 initial synthesis complete | integrate after RQ-022/024/027 |
+| R07 Reading | How does supported decoding/comprehension become independent connected reading? | RQ-013 initial synthesis complete | integrate after RQ-024/027 |
 | R08 Writing | How does controlled writing become independent useful writing? | RQ-014 initial synthesis complete | RQ-024, RQ-025 |
-| R09 Interaction & pragmatics | How should learners manage contingent turns, repair and appropriateness? | RQ-015 initial synthesis complete | RQ-022, RQ-025 |
-| R10 Fluency & automaticity | How does accurate/meaningful language become efficient without confusing repetition with general fluency? | RQ-016 initial synthesis complete | RQ-022, RQ-024 |
-| R11 Grammar / constructions / form | How should form, meaning and use develop? | RQ-012 initial synthesis complete | **foundational theory comparison still missing** RQ-022 |
+| R09 Interaction & pragmatics | How should learners manage contingent turns, repair and appropriateness? | RQ-015 initial synthesis complete | RQ-025 |
+| R10 Fluency & automaticity | How does accurate/meaningful language become efficient without confusing repetition with general fluency? | RQ-016 initial synthesis complete | RQ-024 |
+| R11 Grammar / constructions / form | How should form, meaning and use develop? | RQ-012 + RQ-022 foundational comparison complete at initial synthesis level | RQ-025/027 |
 | R12 Corrective feedback | What feedback type/timing/focus helps which learner/feature/task? | **critical gap — fragmented across skills** | RQ-025 |
 | R13 Curriculum / tasks / sequencing | What capabilities, task progression and course balance should define the curriculum? | RQ-017 provisional integration | **needs/content foundation missing** RQ-023/027 |
 | R14 Needs analysis / target language use | What English does the target learner actually need to do? | **critical gap** | RQ-023 |
 | R15 Assessment / diagnosis / inference | What task observations justify what learner-state claims? | RQ-005 transfer work only; **critical validity gap** | RQ-024 |
 | R16 Individual differences / affect / SRL | Which learner differences justify adaptation? | product-return RQ-018 only; **major SLA gap** | RQ-026 |
-| R17 Vietnamese L1 / multilingual support | How should Vietnamese/L1 evidence guide support without stereotyping? | RQ-002 + RQ-019 initial syntheses complete | integrate with RQ-022/026/027 |
+| R17 Vietnamese L1 / multilingual support | How should Vietnamese/L1 evidence guide support without stereotyping? | RQ-002 + RQ-019 initial syntheses complete | integrate with RQ-026/027 |
 | R18 Technology / AI / ASR / TTS | Where does technology improve learning and where are its judgments invalid? | RQ-008 + RQ-020 initial syntheses complete | subordinate to method |
 | R19 Authentic/video-mediated input | When and how can authentic audiovisual material support learning? | RQ-009/010/011 initial syntheses complete | lower priority than P12 foundations |
 | R20 Motivation / sustained participation | How should language motivation, anxiety, autonomy and product return interact? | RQ-018 covers product behavior; **L2 affect incomplete** | RQ-026 |
@@ -75,33 +75,29 @@ For the full field checklist see `00-foundations/ISLA_FIELD_COVERAGE_FRAMEWORK.m
 | RQ-019 | Vietnamese-specific calibration | initial synthesis complete |
 | RQ-020 | AI/TTS/LLM reliability | initial synthesis complete |
 | RQ-021 | cold-start placement | initial synthesis complete; validity work pending RQ-024 |
+| RQ-022 | foundational SLA mechanisms / competing theories | **initial meta-foundation synthesis complete** (`CLM-FND-001`–`019`) |
 
 All `EXP-001`–`EXP-021` are experiment **plans** unless/until corresponding result artifacts exist.
 
 ## 4. P12 — Meta-foundation blocker before Nếp Method or new build
 
-### RQ-022 — Foundational SLA mechanisms and competing instructional theories
+### RQ-022 — Foundational SLA mechanisms and competing instructional theories ✅ initial synthesis
 
 **Question**  
 Which learning mechanisms and instructional theories have the strongest converging evidence for adult instructed L2 development, which predictions conflict, and what does each imply for Vietnamese near-A0 self-study?
 
-Must compare at minimum:
+**Result:** no single exclusive theory/mechanism is sufficient as a complete method. Current convergence supports complementary roles for meaningful input, form–meaning processing, targeted explicit help, production/practice for productive outcomes, interaction/feedback for contingent communication, rich exemplars, deliberate + incidental learning, automatization practice, and mediated support kept distinct from independent performance.
 
-- comprehensible/meaningful input;
-- interaction;
-- output;
-- attention/noticing/depth of processing;
-- explicit vs implicit learning/instruction;
-- intentional vs incidental learning;
-- Input Processing / Processing Instruction;
-- Skill Acquisition Theory;
-- usage-based / construction learning;
-- Sociocultural Theory;
-- form-focused instruction.
+Artifacts:
 
-**Why first:** R01 is currently seeded while almost every later learning feature depends on assumptions from this layer.
+- `06-evidence/RQ-022-source-digest.md`
+- `07-syntheses/RQ-022-foundational-sla-mechanisms.md`
+- `data/sources-rq022.json`
+- `data/claims-rq022.json`
 
-### RQ-023 — Target needs and capability selection
+No `PRN-*`, feature or product policy was created because RQ-022 is a foundation synthesis.
+
+### RQ-023 — Target needs and capability selection ← NEXT
 
 **Question**  
 What real-world English tasks/capabilities are highest-value for the target population, and how should current needs, target situations, learner goals and general-English portability determine the first curriculum?

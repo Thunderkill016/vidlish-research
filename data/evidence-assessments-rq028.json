@@ -2,82 +2,73 @@
   "schema_version": 1,
   "evidence_assessments": [
     {
-      "id":"EVA-SLA-001",
-      "claim_id":"CLM-SLA-002",
-      "methodological_quality":"high",
-      "population_directness":"low",
-      "construct_directness":"moderate",
-      "replication_consistency":"moderate",
-      "product_transfer_directness":"low",
-      "certainty_summary":"moderate",
-      "source_ids":["SRC-0235","SRC-0236","SRC-0237","SRC-0238"],
-      "rationale":"Multiple syntheses support an average explicit-instruction advantage on studied outcomes, but many samples/tasks are not Vietnamese near-A0 self-study and controlled outcome measures can favor explicitly accessible knowledge.",
-      "reviewed_on":"2026-08-27"
+      "id":"EVA-SLA-001","claim_id":"CLM-SLA-002","methodological_quality":"high","population_directness":"low","construct_directness":"moderate","replication_consistency":"moderate","product_transfer_directness":"low","certainty_summary":"moderate","source_ids":["SRC-0235","SRC-0236","SRC-0237","SRC-0238"],"rationale":"Multiple syntheses support an average explicit-instruction advantage on studied outcomes, but many samples/tasks are not Vietnamese near-A0 self-study and controlled outcome measures can favor explicitly accessible knowledge.","reviewed_on":"2026-08-27"
     },
     {
-      "id":"EVA-SLA-002",
-      "claim_id":"CLM-SLA-017",
-      "methodological_quality":"moderate",
-      "population_directness":"low",
-      "construct_directness":"moderate",
-      "replication_consistency":"moderate",
-      "product_transfer_directness":"low",
-      "certainty_summary":"moderate",
-      "source_ids":["SRC-0235","SRC-0239","SRC-0241","SRC-0243","SRC-0245","SRC-0251"],
-      "rationale":"The complementarity conclusion triangulates several mature evidence families, but it is a cross-theory synthesis rather than a direct trial of one integrated self-study method for the target population.",
-      "reviewed_on":"2026-08-27"
+      "id":"EVA-SLA-002","claim_id":"CLM-SLA-017","methodological_quality":"moderate","population_directness":"low","construct_directness":"moderate","replication_consistency":"moderate","product_transfer_directness":"low","certainty_summary":"moderate","source_ids":["SRC-0235","SRC-0239","SRC-0241","SRC-0243","SRC-0245","SRC-0251"],"rationale":"The complementarity conclusion triangulates several mature evidence families, but it is a cross-theory synthesis rather than a direct trial of one integrated self-study method for the target population.","reviewed_on":"2026-08-27"
     },
     {
-      "id":"EVA-CF-001",
-      "claim_id":"CLM-CF-002",
-      "methodological_quality":"high",
-      "population_directness":"low",
-      "construct_directness":"moderate",
-      "replication_consistency":"moderate",
-      "product_transfer_directness":"low",
-      "certainty_summary":"moderate",
-      "source_ids":["SRC-0294","SRC-0296"],
-      "rationale":"Classroom meta-analytic evidence favors prompts on average for some outcomes, but feedback categories, targets and learner readiness vary; near-A0 AI-mediated self-study has not been directly tested.",
-      "reviewed_on":"2026-08-27"
+      "id":"EVA-CF-001","claim_id":"CLM-CF-002","methodological_quality":"high","population_directness":"low","construct_directness":"moderate","replication_consistency":"moderate","product_transfer_directness":"low","certainty_summary":"moderate","source_ids":["SRC-0294","SRC-0296"],"rationale":"Classroom meta-analytic evidence favors prompts on average for some outcomes, but feedback categories, targets and learner readiness vary; near-A0 AI-mediated self-study has not been directly tested.","reviewed_on":"2026-08-27"
     },
     {
-      "id":"EVA-CF-002",
-      "claim_id":"CLM-CF-005",
-      "methodological_quality":"moderate",
-      "population_directness":"low",
-      "construct_directness":"moderate",
-      "replication_consistency":"low",
-      "product_transfer_directness":"low",
-      "certainty_summary":"low",
-      "source_ids":["SRC-0299"],
-      "rationale":"Timing research suggests an immediate-feedback advantage in some task conditions, but the literature is comparatively sparse and definitions/treatments differ, making a global product timing rule premature.",
-      "reviewed_on":"2026-08-27"
+      "id":"EVA-CF-002","claim_id":"CLM-CF-005","methodological_quality":"moderate","population_directness":"low","construct_directness":"moderate","replication_consistency":"low","product_transfer_directness":"low","certainty_summary":"low","source_ids":["SRC-0299"],"rationale":"Timing research suggests an immediate-feedback advantage in some task conditions, but the literature is comparatively sparse and definitions/treatments differ, making a global product timing rule premature.","reviewed_on":"2026-08-27"
     },
     {
-      "id":"EVA-CONT-001",
-      "claim_id":"CLM-CONT-008",
-      "methodological_quality":"high",
-      "population_directness":"low",
-      "construct_directness":"high",
-      "replication_consistency":"high",
-      "product_transfer_directness":"moderate",
-      "certainty_summary":"high-for-direction-moderate-for-threshold",
-      "source_ids":["SRC-0329","SRC-0330","SRC-0332"],
-      "rationale":"The direction of the coverage-comprehension relationship is well supported for reading, while an exact 95/98 threshold is context- and criterion-dependent and the target population is not directly represented.",
-      "reviewed_on":"2026-08-27"
+      "id":"EVA-CONT-001","claim_id":"CLM-CONT-008","methodological_quality":"high","population_directness":"low","construct_directness":"high","replication_consistency":"high","product_transfer_directness":"moderate","certainty_summary":"high-for-direction-moderate-for-threshold","source_ids":["SRC-0329","SRC-0330","SRC-0332"],"rationale":"The direction of the coverage-comprehension relationship is well supported for reading, while an exact 95/98 threshold is context- and criterion-dependent and the target population is not directly represented.","reviewed_on":"2026-08-27"
     },
     {
-      "id":"EVA-CONT-002",
-      "claim_id":"CLM-CONT-024",
-      "methodological_quality":"moderate",
-      "population_directness":"moderate",
-      "construct_directness":"moderate",
-      "replication_consistency":"low",
-      "product_transfer_directness":"moderate",
-      "certainty_summary":"low-to-moderate",
-      "source_ids":["SRC-0321","SRC-0323","SRC-0324","SRC-0328","SRC-0340"],
-      "rationale":"Each proposed content-selection dimension has support, but their integrated weighting has not been directly validated as a curriculum selector for Vietnamese near-A0 adults.",
-      "reviewed_on":"2026-08-27"
+      "id":"EVA-CONT-002","claim_id":"CLM-CONT-024","methodological_quality":"moderate","population_directness":"moderate","construct_directness":"moderate","replication_consistency":"low","product_transfer_directness":"moderate","certainty_summary":"low-to-moderate","source_ids":["SRC-0321","SRC-0323","SRC-0324","SRC-0328","SRC-0340"],"rationale":"Each proposed content-selection dimension has support, but their integrated weighting has not been directly validated as a curriculum selector for Vietnamese near-A0 adults.","reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-MTH-001","claim_id":"CLM-NEED-003","methodological_quality":"moderate","population_directness":"moderate","construct_directness":"high","replication_consistency":"moderate","product_transfer_directness":"moderate","certainty_summary":"moderate","source_ids":["SRC-0268","SRC-0269","SRC-0271"],"rationale":"Task-based needs analysis provides a strong actionable unit for specifying real-world purpose/context, including Vietnamese workplace evidence, but the exact cross-domain task set for a general near-A0 consumer population remains unmeasured.","reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-MTH-002","claim_id":"CLM-VAL-003","methodological_quality":"high","population_directness":"moderate","construct_directness":"high","replication_consistency":"high","product_transfer_directness":"high","certainty_summary":"high","source_ids":["SRC-0281","SRC-0283"],"rationale":"The principle that broader interpretations require additional inferential support is foundational assessment-validity reasoning and applies directly to Nếp learner-state claims, even though exact evidence thresholds remain local decisions.","reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-MTH-003","claim_id":"CLM-VOC-007","methodological_quality":"high","population_directness":"low","construct_directness":"high","replication_consistency":"high","product_transfer_directness":"moderate","certainty_summary":"moderate-to-high","source_ids":["SRC-0013","SRC-0003","SRC-0004"],"rationale":"Converging vocabulary/retrieval evidence supports establishing form/meaning representations with retrieval, spacing and elaboration rather than massed repetition alone; exact dosage and Vietnamese near-A0 transfer remain indirect.","reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-MTH-004","claim_id":"CLM-REV-001","methodological_quality":"high","population_directness":"low","construct_directness":"high","replication_consistency":"high","product_transfer_directness":"moderate","certainty_summary":"high-for-spacing-direction","source_ids":["SRC-0003","SRC-0037"],"rationale":"Spacing benefits over massing are well replicated in L2 learning, especially for delayed outcomes, while exact intervals depend on retention horizon and target conditions.","reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-MTH-005","claim_id":"CLM-TRN-001","methodological_quality":"high","population_directness":"low","construct_directness":"high","replication_consistency":"high","product_transfer_directness":"high","certainty_summary":"high-as-inference-boundary","source_ids":["SRC-0041"],"rationale":"The distinction between same-task retention and transfer is directly relevant to Nếp's claims; transfer requires a meaningful change, though exact novelty requirements are capability-specific.","reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-MTH-006","claim_id":"CLM-SCF-002","methodological_quality":"high","population_directness":"moderate","construct_directness":"high","replication_consistency":"moderate","product_transfer_directness":"moderate","certainty_summary":"moderate-to-high","source_ids":["SRC-0017","SRC-0024","SRC-0025"],"rationale":"Meta-analytic gloss evidence supports L1 meaning support, often with larger relative benefits for lower proficiency, but exact Vietnamese delivery/fading policy and broader skill transfer remain unvalidated.","reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-MTH-007","claim_id":"CLM-LIS-004","methodological_quality":"high","population_directness":"low","construct_directness":"high","replication_consistency":"moderate","product_transfer_directness":"moderate","certainty_summary":"moderate","source_ids":["SRC-0026","SRC-0027"],"rationale":"Synthesized L2 evidence supports decoding-focused listening instruction, but intervention forms are heterogeneous and direct near-A0 Vietnamese mobile evidence is limited.","reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-MTH-008","claim_id":"CLM-SPK-002","methodological_quality":"high","population_directness":"low","construct_directness":"moderate","replication_consistency":"moderate","product_transfer_directness":"moderate","certainty_summary":"moderate","source_ids":["SRC-0054"],"rationale":"Comparative instructional evidence supports production practice when productive knowledge is the target, but the strongest source is grammar-focused and does not directly define near-A0 conversational speaking practice.","reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-MTH-009","claim_id":"CLM-GRM-004","methodological_quality":"high","population_directness":"low","construct_directness":"high","replication_consistency":"moderate","product_transfer_directness":"low","certainty_summary":"moderate","source_ids":["SRC-0123","SRC-0124"],"rationale":"Comparative evidence supports different receptive/productive advantages for comprehension/production-based grammar instruction, but target features, populations and tests are narrower than a full Nếp communicative curriculum.","reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-MTH-010","claim_id":"CLM-PRN-001","methodological_quality":"high","population_directness":"moderate","construct_directness":"high","replication_consistency":"high","product_transfer_directness":"high","certainty_summary":"high","source_ids":["SRC-0063","SRC-0064"],"rationale":"The distinction among accentedness, comprehensibility and intelligibility is well established and directly prevents Nếp from equating native-likeness with communicative pronunciation success.","reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-MTH-011","claim_id":"CLM-READ-006","methodological_quality":"high","population_directness":"low","construct_directness":"high","replication_consistency":"high","product_transfer_directness":"moderate","certainty_summary":"moderate-to-high","source_ids":["SRC-0132","SRC-0133"],"rationale":"Multiple meta-analyses support extensive reading benefits, but intervention populations/material systems vary and near-A0 implementation requires level-attuned material plus independent-text validation.","reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-MTH-012","claim_id":"CLM-WRI-005","methodological_quality":"high","population_directness":"low","construct_directness":"high","replication_consistency":"moderate","product_transfer_directness":"high","certainty_summary":"moderate-to-high","source_ids":["SRC-0148","SRC-0149","SRC-0146"],"rationale":"The distinction between successful revision of a treated text and transferable writing development is directly relevant to Nếp evidence semantics; exact beginner writing tasks remain population-indirect.","reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-MTH-013","claim_id":"CLM-INT-001","methodological_quality":"high","population_directness":"low","construct_directness":"high","replication_consistency":"high","product_transfer_directness":"moderate","certainty_summary":"moderate-to-high","source_ids":["SRC-0156","SRC-0060"],"rationale":"Interaction research supports meaningful contingent interaction as a learning condition, but exact AI/self-study implementation and near-A0 sequencing are indirect.","reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-MTH-014","claim_id":"CLM-FLU-015","methodological_quality":"moderate","population_directness":"low","construct_directness":"high","replication_consistency":"moderate","product_transfer_directness":"high","certainty_summary":"moderate","source_ids":["SRC-0058","SRC-0172","SRC-0175","SRC-0176","SRC-0177","SRC-0181"],"rationale":"Multiple practice/fluency literatures support separating practiced-item speed-up from portable fluency, but the integrated quality-plus-transfer-plus-delay criterion is a synthesis rather than one directly validated metric.","reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-MTH-015","claim_id":"CLM-CF-018","methodological_quality":"high","population_directness":"low","construct_directness":"high","replication_consistency":"high","product_transfer_directness":"high","certainty_summary":"high-as-evaluation-rule","source_ids":["SRC-0293","SRC-0294","SRC-0297"],"rationale":"Corrective-feedback syntheses support evaluating acquisition beyond immediate corrected output; using later independent performance is directly aligned with Nếp's learning claim even though exact feedback policy remains indirect.","reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-MTH-016","claim_id":"CLM-ID-017","methodological_quality":"high","population_directness":"low","construct_directness":"high","replication_consistency":"moderate","product_transfer_directness":"high","certainty_summary":"high-as-personalization-boundary","source_ids":["SRC-0315","SRC-0316","SRC-0313"],"rationale":"The requirement for learner-by-treatment evidence before assigning different methods is a strong boundary against personalization theater; exact moderators for Nếp remain to be discovered.","reviewed_on":"2026-08-27"
+    },
+    {
+      "id":"EVA-MTH-017","claim_id":"CLM-CONT-025","methodological_quality":"moderate","population_directness":"moderate","construct_directness":"high","replication_consistency":"moderate","product_transfer_directness":"high","certainty_summary":"moderate-to-high","source_ids":["SRC-0321","SRC-0327","SRC-0272","SRC-0337"],"rationale":"Selection-versus-sequencing is strongly supported as a conceptual boundary by word-list, needs and construction evidence; exact sequencing criteria require method/curriculum validation.","reviewed_on":"2026-08-27"
     }
   ]
 }

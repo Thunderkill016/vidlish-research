@@ -53,6 +53,8 @@ The compact `A–E` claim label may remain, but meta-foundation work must separa
 
 Do not mechanically average these into one score.
 
+`00-foundations/EVIDENCE_GRADING_PROTOCOL.md` owns the detailed appraisal protocol. High-impact method claims should receive an `EVA-*` assessment and be checked against any relevant `CTR-*` controversy before being promoted into `SYN-METHOD-001`.
+
 ## 7. CEFR is descriptive, not a teaching algorithm
 
 CEFR can define communicative activities, proficiency descriptors and can-do goals. Do not treat CEFR levels, grammar profiles or inventory coverage as proof of a learning sequence or scheduling algorithm.
@@ -96,7 +98,7 @@ what construct?
 → how far may it generalize?
 ```
 
-`RQ-024` owns the comprehensive validity framework. Until it is complete, preserve conservative learner-state claims.
+`RQ-024` owns the comprehensive validity framework. Preserve conservative learner-state claims when validity evidence is incomplete.
 
 ## 14. Do not over-generalize Vietnamese learner research
 
@@ -175,8 +177,10 @@ Use these prefixes:
 - `PRN-` product principle
 - `FEAT-` feature research spec
 - `RQ-` research question
-- `EXP-` experiment
+- `EXP-` experiment / validation plan
 - `ADR-` decision record
+- `EVA-` multidimensional evidence assessment
+- `CTR-` controversy / contradiction record
 
 Never reuse an ID after deletion. Deprecate instead.
 
@@ -185,6 +189,8 @@ Never reuse an ID after deletion. Deprecate instead.
 `data/*.json` contains concise representations for retrieval and validation. Markdown notes remain the place for nuance, contradictions, limitations and reasoning.
 
 A graph that passes referential validation is not automatically scientifically valid.
+
+`EVA-*` and `CTR-*` records make evidence quality/directness and unresolved disagreement machine-readable; they still require substantive human/agent reasoning and source verification.
 
 ## 22. Current meta-foundation gate
 

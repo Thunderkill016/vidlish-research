@@ -1,135 +1,20 @@
 {
   "schema_version": 1,
   "sources": [
-    {
-      "id": "SRC-0156",
-      "title": "Interaction and instructed second language acquisition",
-      "type": "state-of-the-art-review",
-      "authors": "Shawn Loewen; Masatoshi Sato",
-      "year": 2018,
-      "doi": "10.1017/S0261444818000125",
-      "url": "https://doi.org/10.1017/S0261444818000125",
-      "status": "verified"
-    },
-    {
-      "id": "SRC-0157",
-      "title": "A Meta-analysis of the Effectiveness of Second Language Pragmatics Instruction",
-      "type": "meta-analysis",
-      "authors": "Wei Ren; Shaofeng Li; Xiaoxuan Lü",
-      "year": 2023,
-      "doi": "10.1093/applin/amac055",
-      "url": "https://doi.org/10.1093/applin/amac055",
-      "status": "verified-online-first-2022"
-    },
-    {
-      "id": "SRC-0158",
-      "title": "Interactional Competence across Proficiency Levels: How do Learners Manage Interaction in Paired Speaking Tests?",
-      "type": "interactional-competence-study",
-      "authors": "Evelina D. Galaczi",
-      "year": 2014,
-      "doi": "10.1093/applin/amt017",
-      "url": "https://doi.org/10.1093/applin/amt017",
-      "status": "verified"
-    },
-    {
-      "id": "SRC-0159",
-      "title": "Speaking in turns and sequences: Interactional competence as a target construct in testing speaking",
-      "type": "interactional-competence-construct-paper",
-      "authors": "Carsten Roever; Gabriele Kasper",
-      "year": 2018,
-      "doi": "10.1177/0265532218758128",
-      "url": "https://doi.org/10.1177/0265532218758128",
-      "status": "verified"
-    },
-    {
-      "id": "SRC-0160",
-      "title": "What counts as ‘responding’? Contingency on previous speaker contribution as a feature of interactional competence",
-      "type": "conversation-analytic-interaction-study",
-      "authors": "Daniel M. K. Lam",
-      "year": 2018,
-      "doi": "10.1177/0265532218758126",
-      "url": "https://doi.org/10.1177/0265532218758126",
-      "status": "verified"
-    },
-    {
-      "id": "SRC-0161",
-      "title": "Assessing interactional competence: Exploring ratability challenges",
-      "type": "interactional-competence-assessment-analysis",
-      "authors": "Daniel M. K. Lam; Evelina Galaczi; Fumiyo Nakatsuhara; Lyn May",
-      "year": 2023,
-      "doi": "10.1075/ap.00014.lam",
-      "url": "https://doi.org/10.1075/ap.00014.lam",
-      "status": "verified"
-    },
-    {
-      "id": "SRC-0162",
-      "title": "Managing proposal sequences in role-play assessment: Validity evidence of interactional competence across levels",
-      "type": "roleplay-interactional-validity-study",
-      "authors": "Soo Jung Youn",
-      "year": 2020,
-      "doi": "10.1177/0265532219860077",
-      "url": "https://doi.org/10.1177/0265532219860077",
-      "status": "verified"
-    },
-    {
-      "id": "SRC-0163",
-      "title": "Developing tools for learning oriented assessment of interactional competence: Bridging theory and practice",
-      "type": "learning-oriented-interaction-assessment-study",
-      "authors": "Lyn May; Fumiyo Nakatsuhara; Daniel M. K. Lam; Evelina D. Galaczi",
-      "year": 2020,
-      "doi": "10.1177/0265532219879044",
-      "url": "https://doi.org/10.1177/0265532219879044",
-      "status": "verified"
-    },
-    {
-      "id": "SRC-0164",
-      "title": "The use of artificially intelligent chatbots in English language learning: A systematic meta-synthesis study of articles published between 2010 and 2024",
-      "type": "systematic-meta-synthesis",
-      "authors": "Fatma Şeyma Koç; Perihan Savaş",
-      "year": 2025,
-      "doi": "10.1017/S0958344024000168",
-      "url": "https://doi.org/10.1017/S0958344024000168",
-      "status": "verified-online-first-2024"
-    },
-    {
-      "id": "SRC-0165",
-      "title": "Transforming language education: A systematic review of AI-powered chatbots for English as a foreign language speaking practice",
-      "type": "systematic-review",
-      "authors": "Jinming Du; Ben Kei Daniel",
-      "year": 2024,
-      "doi": "10.1016/j.caeai.2024.100230",
-      "url": "https://doi.org/10.1016/j.caeai.2024.100230",
-      "status": "verified"
-    },
-    {
-      "id": "SRC-0166",
-      "title": "A meta-analysis of generative AI effects on language proficiency and affective–cognitive outcomes in language learning",
-      "type": "meta-analysis",
-      "authors": "Mirka Saarela; Sachini Gunasekara; Prabha Kumarage",
-      "year": 2026,
-      "doi": "10.1007/s10791-026-10015-1",
-      "url": "https://doi.org/10.1007/s10791-026-10015-1",
-      "status": "verified"
-    },
-    {
-      "id": "SRC-0167",
-      "title": "The Effects of an Artificial Intelligence Voice Chatbot on Improving Vietnamese Undergraduate Students’ English Speaking Skills",
-      "type": "vietnamese-ai-speaking-quasi-experiment",
-      "authors": "Tam Vo Thanh Duong; Suksan Suppasetseree",
-      "year": 2024,
-      "doi": "10.26803/ijlter.23.3.15",
-      "url": "https://doi.org/10.26803/ijlter.23.3.15",
-      "status": "verified"
-    },
-    {
-      "id": "SRC-0168",
-      "title": "Speech acts and interaction in second language pragmatics: A position paper",
-      "type": "l2-pragmatics-position-paper",
-      "authors": "Juliane House; Dániel Z. Kádár",
-      "year": 2023,
-      "doi": "10.1017/S0261444822000477",
-      "url": "https://doi.org/10.1017/S0261444822000477",
-      "status": "verified-online-first"
-    }
+    {"id":"SRC-0156","title":"Interaction and instructed second language acquisition","type":"state-of-the-art-review","authors":"Shawn Loewen; Masatoshi Sato","year":2018,"doi":"10.1017/S0261444818000125","url":"https://doi.org/10.1017/S0261444818000125","status":"verified"},
+    {"id":"SRC-0157","title":"A Meta-analysis of the Effectiveness of Second Language Pragmatics Instruction","type":"meta-analysis","authors":"Wei Ren; Shaofeng Li; Xiaoxuan Lü","year":2023,"doi":"10.1093/applin/amac055","url":"https://doi.org/10.1093/applin/amac055","status":"verified-online-first-2022"},
+    {"id":"SRC-0158","title":"Interactional Competence across Proficiency Levels: How do Learners Manage Interaction in Paired Speaking Tests?","type":"interactional-competence-study","authors":"Evelina D. Galaczi","year":2014,"doi":"10.1093/applin/amt017","url":"https://doi.org/10.1093/applin/amt017","status":"verified"},
+    {"id":"SRC-0159","title":"Speaking in turns and sequences: Interactional competence as a target construct in testing speaking","type":"interactional-competence-construct-paper","authors":"Carsten Roever; Gabriele Kasper","year":2018,"doi":"10.1177/0265532218758128","url":"https://doi.org/10.1177/0265532218758128","status":"verified"},
+    {"id":"SRC-0160","title":"What counts as ‘responding’? Contingency on previous speaker contribution as a feature of interactional competence","type":"conversation-analytic-interaction-study","authors":"Daniel M. K. Lam","year":2018,"doi":"10.1177/0265532218758126","url":"https://doi.org/10.1177/0265532218758126","status":"verified"},
+    {"id":"SRC-0161","title":"Assessing interactional competence: Exploring ratability challenges","type":"interactional-competence-assessment-analysis","authors":"Daniel M. K. Lam; Evelina Galaczi; Fumiyo Nakatsuhara; Lyn May","year":2023,"doi":"10.1075/ap.00014.lam","url":"https://doi.org/10.1075/ap.00014.lam","status":"verified"},
+    {"id":"SRC-0162","title":"Managing proposal sequences in role-play assessment: Validity evidence of interactional competence across levels","type":"roleplay-interactional-validity-study","authors":"Soo Jung Youn","year":2020,"doi":"10.1177/0265532219860077","url":"https://doi.org/10.1177/0265532219860077","status":"verified"},
+    {"id":"SRC-0163","title":"Developing tools for learning oriented assessment of interactional competence: Bridging theory and practice","type":"learning-oriented-interaction-assessment-study","authors":"Lyn May; Fumiyo Nakatsuhara; Daniel M. K. Lam; Evelina D. Galaczi","year":2020,"doi":"10.1177/0265532219879044","url":"https://doi.org/10.1177/0265532219879044","status":"verified"},
+    {"id":"SRC-0164","title":"The use of artificially intelligent chatbots in English language learning: A systematic meta-synthesis study of articles published between 2010 and 2024","type":"systematic-meta-synthesis","authors":"Fatma Şeyma Koç; Perihan Savaş","year":2025,"doi":"10.1017/S0958344024000168","url":"https://doi.org/10.1017/S0958344024000168","status":"verified-online-first-2024"},
+    {"id":"SRC-0165","title":"Transforming language education: A systematic review of AI-powered chatbots for English as a foreign language speaking practice","type":"systematic-review","authors":"Jinming Du; Ben Kei Daniel","year":2024,"doi":"10.1016/j.caeai.2024.100230","url":"https://doi.org/10.1016/j.caeai.2024.100230","status":"verified"},
+    {"id":"SRC-0166","title":"A meta-analysis of generative AI effects on language proficiency and affective–cognitive outcomes in language learning","type":"meta-analysis","authors":"Mirka Saarela; Sachini Gunasekara; Prabha Kumarage","year":2026,"doi":"10.1007/s10791-026-10015-1","url":"https://doi.org/10.1007/s10791-026-10015-1","status":"verified"},
+    {"id":"SRC-0167","title":"The Effects of an Artificial Intelligence Voice Chatbot on Improving Vietnamese Undergraduate Students’ English Speaking Skills","type":"vietnamese-ai-speaking-quasi-experiment","authors":"Tam Vo Thanh Duong; Suksan Suppasetseree","year":2024,"doi":"10.26803/ijlter.23.3.15","url":"https://doi.org/10.26803/ijlter.23.3.15","status":"verified"},
+    {"id":"SRC-0168","title":"Speech acts and interaction in second language pragmatics: A position paper","type":"l2-pragmatics-position-paper","authors":"Juliane House; Dániel Z. Kádár","year":2023,"doi":"10.1017/S0261444822000477","url":"https://doi.org/10.1017/S0261444822000477","status":"verified-online-first"},
+    {"id":"SRC-0357","title":"Other-initiated repair in English","type":"english-conversation-repair-corpus-study","authors":"Kobin H. Kendrick","year":2015,"doi":"10.2478/opli-2014-0009","url":"https://doi.org/10.2478/opli-2014-0009","status":"verified"},
+    {"id":"SRC-0358","title":"Universal Principles in the Repair of Communication Problems","type":"cross-linguistic-conversation-repair-corpus-study","authors":"Mark Dingemanse; Seán G. Roberts; Julija Baranova; Joe Blythe; Paul Drew; Simeon Floyd; Rosa S. Gisladottir; Kobin H. Kendrick; Stephen C. Levinson; Elizabeth Manrique; Giovanni Rossi; N. J. Enfield","year":2015,"doi":"10.1371/journal.pone.0136100","url":"https://doi.org/10.1371/journal.pone.0136100","status":"verified"}
   ]
 }

@@ -1,46 +1,94 @@
 # Vidlish Research
 
-> Evidence base for building **Nếp / Vidlish** into an English-learning product that can explain *why* each learning feature exists, what evidence supports it, what is still uncertain, and how the product should test the claim.
+> Evidence base for deriving **Nếp** from research before committing to a teaching method, curriculum or product implementation.
 
-This repository is **not** the product codebase. It is the product's research and decision layer.
+This repository is **not** the product codebase. It is the project's research and decision layer.
 
-## Core flow
+## Current phase — meta-foundation before Nếp Method
+
+`RQ-001` through `RQ-021` produced substantial feature-level evidence. A subsequent meta-audit found that several high-leverage foundations are still incomplete, especially:
+
+- competing SLA/instructional theories;
+- target-needs and capability selection;
+- language-assessment validity and learner-state inference;
+- corrective feedback;
+- individual differences / anxiety / motivation / self-regulation;
+- corpus-informed beginner content selection;
+- evidence grading, contradiction and update methodology.
+
+Therefore the current integrated Nếp v1 documents are **provisional hypotheses**, not the final teaching method and not implementation authority.
+
+Read first:
+
+1. [`00-foundations/ISLA_FIELD_COVERAGE_FRAMEWORK.md`](./00-foundations/ISLA_FIELD_COVERAGE_FRAMEWORK.md) — what a sufficiently comprehensive research program must cover.
+2. [`07-syntheses/META-001-research-coverage-validity-audit.md`](./07-syntheses/META-001-research-coverage-validity-audit.md) — what the first 21 RQs cover well and what is still missing.
+3. [`decisions/ADR-005-research-first-reset.md`](./decisions/ADR-005-research-first-reset.md) — why research now precedes any new build.
+4. [`RESEARCH_MAP.md`](./RESEARCH_MAP.md) — research tracks and open questions.
+
+The required order is now:
+
+```text
+VERIFIED SOURCES
+  ↓
+CLAIMS + COMPETING EVIDENCE
+  ↓
+FOUNDATIONAL / SKILL SYNTHESIS
+  ↓
+NẾP METHOD
+  ↓
+CURRICULUM SPECIFICATION
+  ↓
+PRODUCT SPECIFICATION
+  ↓
+NEW IMPLEMENTATION
+  ↓
+LEARNER OUTCOME DATA
+  ↓
+UPDATE THE KNOWLEDGE BASE
+```
+
+## Research flow
+
+For an individual research question or product hypothesis:
 
 ```text
 SOURCE
   ↓
 CLAIM
   ↓
-EVIDENCE QUALITY
+EVIDENCE QUALITY + DIRECTNESS + LIMITS
   ↓
-LEARNING PRINCIPLE
+SYNTHESIS / COMPETING EXPLANATIONS
   ↓
-PRODUCT IMPLICATION
+LEARNING PRINCIPLE OR OPEN ASSUMPTION
   ↓
-VIDLISH / NẾP FEATURE
-  ↓
-EXPERIMENT
+EXPERIMENT / VALIDATION
   ↓
 RESULT
   ↓
 UPDATE THE KNOWLEDGE BASE
 ```
 
-A paper, book, benchmark or opinion is not a feature requirement by itself. A product feature must be traceable through this chain.
+A paper, book, benchmark or opinion is not a feature requirement by itself. Likewise, a collection of individually sensible features is not automatically a validated teaching method.
 
 ## Why this repo exists
 
-The current Vidlish codebase already contains useful A0 research and a product master plan. This repository separates that knowledge from implementation so that:
+The earlier Vidlish application accumulated multiple AI-assisted product directions. This repository exists so that pedagogy can be reconstructed from evidence rather than inherited from implementation.
 
-- research can grow without being buried in application code;
-- agents can retrieve small, structured notes instead of a giant document;
-- claims, assumptions and product decisions do not get mixed together;
-- every learning feature can link back to evidence and explicit uncertainty;
-- experiments can change product beliefs without rewriting history.
+It allows:
+
+- research to grow independently of legacy application code;
+- agents to retrieve structured evidence instead of relying on persuasive prose;
+- claims, assumptions and product decisions to remain distinct;
+- competing theories and contradictory findings to be represented explicitly;
+- every later curriculum/product decision to trace back to evidence and uncertainty;
+- learner experiments to revise beliefs without rewriting history.
 
 ## Current target learner
 
-Initial research focuses on a Vietnamese-speaking adult beginning near A0 and progressing toward independent everyday/work English use. This is a product scope, not a claim that every learner has identical needs.
+Initial research focuses on a Vietnamese-speaking adult beginning near zero / Pre-A1 and progressing toward independent everyday/work English use. This is a research/product scope, not a claim that every Vietnamese learner has identical needs.
+
+The final target-capability set remains an open research question until needs-analysis work is completed.
 
 ## Evidence levels
 
@@ -54,85 +102,79 @@ Initial research focuses on a Vietnamese-speaking adult beginning near A0 and pr
 
 Evidence level is attached to a **claim**, not to a whole source.
 
+`META-001` found that this compact scale is not sufficient for final method synthesis. New foundation work must also preserve separate judgments of methodological quality, population directness, construct directness, replication/consistency and transfer to the product context.
+
 ## Repository map
 
 - [`RESEARCH_MAP.md`](./RESEARCH_MAP.md) — research tracks and open questions.
 - [`AGENTS.md`](./AGENTS.md) — mandatory rules for AI agents working with this knowledge base.
-- [`00-foundations/`](./00-foundations/) — frameworks and learning model.
+- [`00-foundations/`](./00-foundations/) — SLA/ISLA field coverage, frameworks and learning-model hypotheses.
 - [`01-skills/`](./01-skills/) — listening, vocabulary, speaking, pronunciation, reading, writing.
 - [`02-video-learning/`](./02-video-learning/) — captions, transcripts, replay and video-specific questions.
 - [`04-learners/`](./04-learners/) — target learner constraints and Vietnamese-specific research.
-- [`05-products/`](./05-products/) — integrated product decision/handoff specs plus benchmark rules.
+- [`05-products/`](./05-products/) — provisional product synthesis/history plus benchmark rules; not current build authority.
 - [`06-evidence/`](./06-evidence/) — source registry and evidence handling rules.
-- [`07-syntheses/`](./07-syntheses/) — cross-source conclusions and integrated system synthesis.
-- [`08-product-principles/`](./08-product-principles/) — principles and anti-patterns derived from evidence.
-- [`09-vidlish-features/`](./09-vidlish-features/) — research specs for concrete product features.
-- [`10-experiments/`](./10-experiments/) — product experiments that can confirm or reject assumptions.
+- [`07-syntheses/`](./07-syntheses/) — RQ syntheses, meta-audits and eventually `SYN-METHOD-*`.
+- [`08-product-principles/`](./08-product-principles/) — evidence-linked principles and anti-patterns.
+- [`09-vidlish-features/`](./09-vidlish-features/) — research specs for candidate features; feature existence does not imply it belongs in the final method/product.
+- [`10-experiments/`](./10-experiments/) — experiment plans; they remain hypotheses until result artifacts exist.
 - [`decisions/`](./decisions/) — durable research/product decision records.
 - [`data/`](./data/) — machine-readable sources, claims, principles and feature links.
 - [`templates/`](./templates/) — required note formats.
 
-## Nếp v1 integrated product handoff
+## Provisional pre-meta-foundation product artifacts
 
-`RQ-001` through `RQ-021` are now integrated into an implementation-facing product layer rather than remaining only as independent research feature specs.
-
-Start with:
-
-1. [`05-products/nep-v1-executable-product-spec.md`](./05-products/nep-v1-executable-product-spec.md) — what Nếp v1 is and how the learner experiences it.
-2. [`05-products/nep-v1-runtime-architecture.md`](./05-products/nep-v1-runtime-architecture.md) — engine/service boundaries and runtime contracts.
-3. [`05-products/nep-v1-learner-model-evidence-contract.md`](./05-products/nep-v1-learner-model-evidence-contract.md) — what learner evidence means and what the runtime may infer.
-4. [`05-products/nep-v1-build-slices.md`](./05-products/nep-v1-build-slices.md) — implementation order for proving the first complete learning loop before expanding content.
-
-Cross-RQ synthesis:
+The following documents integrated `RQ-001`–`RQ-021` before `META-001` identified missing foundations:
 
 - [`07-syntheses/SYN-SYS-001-nep-v1-integrated-learning-system.md`](./07-syntheses/SYN-SYS-001-nep-v1-integrated-learning-system.md)
+- [`05-products/nep-v1-executable-product-spec.md`](./05-products/nep-v1-executable-product-spec.md)
+- [`05-products/nep-v1-runtime-architecture.md`](./05-products/nep-v1-runtime-architecture.md)
+- [`05-products/nep-v1-learner-model-evidence-contract.md`](./05-products/nep-v1-learner-model-evidence-contract.md)
+- [`05-products/nep-v1-build-slices.md`](./05-products/nep-v1-build-slices.md)
 
-Accepted architecture decisions:
-
-- [`decisions/ADR-002-capability-evidence-runtime.md`](./decisions/ADR-002-capability-evidence-runtime.md)
-- [`decisions/ADR-003-progressive-placement-bootstrap.md`](./decisions/ADR-003-progressive-placement-bootstrap.md)
-- [`decisions/ADR-004-ai-is-mediated-not-authoritative.md`](./decisions/ADR-004-ai-is-mediated-not-authoritative.md)
-
-These docs do not replace the application codebase. They define the product/evidence contracts that implementation should preserve.
+Keep them as useful hypotheses and design history. Do **not** treat them as the final Nếp Method or instructions to begin a new build.
 
 ## Research workflow
 
-1. Open a research question (RQ).
-2. Search for high-quality sources and record provenance.
-3. Extract narrowly worded claims; do not summarize a whole paper into one sweeping conclusion.
-4. Record population, task, outcome, effect direction, limitations and transfer risk.
-5. Assign evidence level to the claim.
-6. Synthesize across sources.
-7. Translate the synthesis into a product implication.
-8. If the implication is still a product assumption, design an experiment instead of presenting it as truth.
-9. Update `data/*.json` so agents can retrieve the relationship programmatically.
+1. Define a research question and its decision relevance.
+2. Map competing positions before choosing search terms that favor one answer.
+3. Search for high-quality sources and record provenance.
+4. Extract narrowly worded claims; do not summarize a whole paper into one sweeping conclusion.
+5. Record population, task, outcome, effect direction, delayed/transfer evidence, limitations and target-population directness.
+6. Separate methodological quality from directness to the target learner/product.
+7. Record contradictory/null evidence and moderators, not only support.
+8. Synthesize across sources and competing explanations.
+9. Translate only justified conclusions into principles; keep product-specific choices as assumptions.
+10. Design validation where literature cannot answer the concrete product question.
+11. Update machine-readable indexes and preserve revision history.
 
-## Product contract
+## Current learner-evidence hypothesis
 
-Research should help Nếp answer four separate questions about learning evidence:
+Existing research has found it useful to keep at least these task/time evidence categories distinct:
 
-- `understood` — did the learner comprehend the target input?
-- `recalled` — could the learner retrieve/use the target without the full answer visible?
-- `transferred` — could the learner use/understand it in a changed or unseen context?
-- `retained` — could the learner still do it after a delay?
+- `understood` — meaning comprehension under recorded conditions;
+- `recalled` — retrieval/use without the full answer visible;
+- `transferred` — performance in a changed or unseen context;
+- `retained` — performance after a meaningful delay.
 
-Completion, streaks, watch time, number of cards, or an SRS schedule are not automatically evidence of any of those outcomes.
+These categories are **not accepted as four independent psychological traits**. `RQ-024` must establish what learner-state inferences they can validly support and with what uncertainty.
 
-## First research priorities
-
-1. A0 adult second-language acquisition.
-2. Vocabulary/chunk acquisition and coverage.
-3. Listening perception and comprehension.
-4. Retrieval practice and spaced review.
-5. Output progression from controlled to guided use.
-6. Pronunciation for intelligibility, including Vietnamese-specific difficulties.
-7. Graded reading/audio and when authentic input becomes usable.
-8. Caption/subtitle/replay behavior once video becomes appropriate.
-9. Assessment of transfer and retention.
-10. Motivation, session design and return behavior as product questions, not substitutes for learning outcomes.
+Completion, streaks, watch time, number of cards, SRS state, AI confidence or feature usage are not automatically evidence of any of those outcomes.
 
 ## Relationship to `Thunderkill016/vidlish`
 
-The application repository remains the implementation source of truth. This repository owns research rationale. Product documents should link to stable research IDs rather than duplicate full research notes.
+`Thunderkill016/vidlish` is now treated as a **legacy prototype**, not the pedagogical source of truth.
 
-Initial content here was normalized from the existing Vidlish A0 research dossier and master plan. It should be expanded source-by-source rather than copied forward as one monolithic document.
+It can later contribute selectively reusable engineering infrastructure, production lessons or code patterns. Its existing curriculum, UX, feature labels and learner-state logic do not constrain the new research-derived method.
+
+No legacy implementation behavior is evidence of teaching efficacy.
+
+## Next milestone
+
+Close the meta-foundation RQs defined by `META-001`, then produce:
+
+```text
+SYN-METHOD-001 — Nếp Method v0
+```
+
+Only after that synthesis passes the gates in `ISLA_FIELD_COVERAGE_FRAMEWORK.md` should the project freeze a curriculum specification and design a new implementation.

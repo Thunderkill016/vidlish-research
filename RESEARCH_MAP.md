@@ -25,27 +25,27 @@ The existing Vidlish application is a legacy prototype, not a pedagogical source
 
 | Track | Core question | Current state | Next dependency |
 | --- | --- | --- | --- |
-| R01 Foundational SLA / ISLA | What mechanisms and instructional theories best explain adult L2 development? | **RQ-022 initial synthesis complete** | revisit after RQ-024/026/028 if validity/moderator evidence changes integration |
-| R02 Vocabulary & formulaic language | What should be learned, how, and what counts as lexical knowledge? | RQ-001 strong on evidence-of-knowing; **content selection incomplete** | RQ-027 |
-| R03 Listening | How should perception, lexical access, segmentation and comprehension progress? | RQ-003 + video support work complete at initial synthesis level | integrate after RQ-024 |
-| R04 Retrieval, spacing & longitudinal retention | How should retrieval/review improve delayed retention efficiently? | RQ-004 initial synthesis complete | later target validation |
-| R05 Speaking/output | How should bounded production become flexible speech? | RQ-006 initial synthesis complete | RQ-024, RQ-025 |
+| R01 Foundational SLA / ISLA | What mechanisms and instructional theories best explain adult L2 development? | RQ-022 initial synthesis complete | revisit after RQ-026/028 if moderator/methodology evidence changes integration |
+| R02 Vocabulary & formulaic language | What should be learned, how, and what counts as lexical knowledge? | RQ-001 evidence-of-knowing complete at initial synthesis level; content selection incomplete | RQ-027 |
+| R03 Listening | How should perception, lexical access, segmentation and comprehension progress? | RQ-003 + video-support research complete at initial synthesis level; inference bounds consolidated by RQ-024 | later method integration |
+| R04 Retrieval, spacing & longitudinal retention | How should retrieval/review improve delayed retention efficiently? | RQ-004 initial synthesis complete; retention claims bounded by RQ-024 | later target validation |
+| R05 Speaking/output | How should bounded production become flexible speech? | RQ-006 initial synthesis complete; inference validity consolidated by RQ-024 | RQ-025 |
 | R06 Pronunciation | What improves intelligibility/comprehensibility? | RQ-007 + Vietnamese calibration initial syntheses complete | later target validation |
-| R07 Reading | How does supported decoding/comprehension become independent connected reading? | RQ-013 initial synthesis complete | integrate after RQ-024/027 |
-| R08 Writing | How does controlled writing become independent useful writing? | RQ-014 initial synthesis complete | RQ-024, RQ-025 |
-| R09 Interaction & pragmatics | How should learners manage contingent turns, repair and appropriateness? | RQ-015 initial synthesis complete | RQ-025 |
-| R10 Fluency & automaticity | How does accurate/meaningful language become efficient without confusing repetition with general fluency? | RQ-016 initial synthesis complete | RQ-024 |
+| R07 Reading | How does supported decoding/comprehension become independent connected reading? | RQ-013 initial synthesis complete; inference validity consolidated by RQ-024 | RQ-027 + method integration |
+| R08 Writing | How does controlled writing become independent useful writing? | RQ-014 initial synthesis complete; automated-scoring validity consolidated by RQ-024 | RQ-025 |
+| R09 Interaction & pragmatics | How should learners manage contingent turns, repair and appropriateness? | RQ-015 initial synthesis complete; task-sensitive inference reinforced by RQ-024 | RQ-025 |
+| R10 Fluency & automaticity | How does accurate/meaningful language become efficient without confusing repetition with general fluency? | RQ-016 initial synthesis complete; state inference bounded by RQ-024 | later method integration |
 | R11 Grammar / constructions / form | How should form, meaning and use develop? | RQ-012 + RQ-022 foundational comparison complete at initial synthesis level | RQ-025/027 |
 | R12 Corrective feedback | What feedback type/timing/focus helps which learner/feature/task? | **critical gap — fragmented across skills** | RQ-025 |
-| R13 Curriculum / tasks / sequencing | What capabilities, task progression and course balance should define the curriculum? | RQ-017 provisional integration | **needs/content foundation missing** RQ-023/027 |
-| R14 Needs analysis / target language use | What English does the target learner actually need to do? | **critical gap** | RQ-023 |
-| R15 Assessment / diagnosis / inference | What task observations justify what learner-state claims? | RQ-005 transfer work only; **critical validity gap** | RQ-024 |
-| R16 Individual differences / affect / SRL | Which learner differences justify adaptation? | product-return RQ-018 only; **major SLA gap** | RQ-026 |
+| R13 Curriculum / tasks / sequencing | What capabilities, task progression and course balance should define the curriculum? | RQ-017 provisional integration; RQ-023 now supplies target-needs contract | RQ-027 then resynthesis |
+| R14 Needs analysis / target language use | What English does the target learner actually need to do? | **RQ-023 initial synthesis complete; direct target-needs study planned** | EXP-023 + RQ-027 |
+| R15 Assessment / diagnosis / inference | What task observations justify what learner-state claims? | **RQ-024 initial synthesis complete** | EXP-024 + later method integration |
+| R16 Individual differences / affect / SRL | Which learner differences justify adaptation? | product-return RQ-018 only; major SLA gap | RQ-026 |
 | R17 Vietnamese L1 / multilingual support | How should Vietnamese/L1 evidence guide support without stereotyping? | RQ-002 + RQ-019 initial syntheses complete | integrate with RQ-026/027 |
-| R18 Technology / AI / ASR / TTS | Where does technology improve learning and where are its judgments invalid? | RQ-008 + RQ-020 initial syntheses complete | subordinate to method |
-| R19 Authentic/video-mediated input | When and how can authentic audiovisual material support learning? | RQ-009/010/011 initial syntheses complete | lower priority than P12 foundations |
-| R20 Motivation / sustained participation | How should language motivation, anxiety, autonomy and product return interact? | RQ-018 covers product behavior; **L2 affect incomplete** | RQ-026 |
-| R21 Placement / onboarding | How should the initial learner model be bootstrapped? | RQ-021 initial synthesis complete | RQ-024 validity work |
+| R18 Technology / AI / ASR / TTS | Where does technology improve learning and where are its judgments invalid? | RQ-008 + RQ-020; scorer inference now subordinated to RQ-024 validity contract | subordinate to method |
+| R19 Authentic/video-mediated input | When/how can authentic audiovisual material support learning? | RQ-009/010/011 initial syntheses complete | lower priority than remaining P12 foundations |
+| R20 Motivation / sustained participation | How should motivation, anxiety, autonomy and product return interact? | RQ-018 covers product behavior; L2 affect incomplete | RQ-026 |
+| R21 Placement / onboarding | How should initial learner model be bootstrapped? | RQ-021 initial synthesis complete; interpretation bounded by RQ-024 | later validation |
 | R22 Research methodology / evidence synthesis | How should evidence quality, directness, contradiction and revision be represented? | **critical gap** | RQ-028 |
 
 For the full field checklist see `00-foundations/ISLA_FIELD_COVERAGE_FRAMEWORK.md`.
@@ -74,54 +74,75 @@ For the full field checklist see `00-foundations/ISLA_FIELD_COVERAGE_FRAMEWORK.m
 | RQ-018 | useful return / product behavior | initial synthesis complete; does not cover full L2 affect/ID domain |
 | RQ-019 | Vietnamese-specific calibration | initial synthesis complete |
 | RQ-020 | AI/TTS/LLM reliability | initial synthesis complete |
-| RQ-021 | cold-start placement | initial synthesis complete; validity work pending RQ-024 |
-| RQ-022 | foundational SLA mechanisms / competing theories | **initial meta-foundation synthesis complete** (`CLM-FND-001`–`019`) |
+| RQ-021 | cold-start placement | initial synthesis complete |
+| RQ-022 | foundational SLA mechanisms / competing theories | **initial meta-foundation synthesis complete** (`CLM-SLA-001`–`019`) |
+| RQ-023 | target needs / capability selection | **initial meta-foundation synthesis complete** (`CLM-NEED-001`–`016`); `EXP-023` planned |
+| RQ-024 | assessment validity / learner-state inference | **initial meta-foundation synthesis complete** (`CLM-VAL-001`–`020`); `EXP-024` planned |
 
-All `EXP-001`–`EXP-021` are experiment **plans** unless/until corresponding result artifacts exist.
+All `EXP-*` artifacts are experiment/research-study **plans** unless a corresponding result artifact exists.
 
 ## 4. P12 — Meta-foundation blocker before Nếp Method or new build
 
 ### RQ-022 — Foundational SLA mechanisms and competing instructional theories ✅ initial synthesis
 
-**Question**  
-Which learning mechanisms and instructional theories have the strongest converging evidence for adult instructed L2 development, which predictions conflict, and what does each imply for Vietnamese near-A0 self-study?
-
 **Result:** no single exclusive theory/mechanism is sufficient as a complete method. Current convergence supports complementary roles for meaningful input, form–meaning processing, targeted explicit help, production/practice for productive outcomes, interaction/feedback for contingent communication, rich exemplars, deliberate + incidental learning, automatization practice, and mediated support kept distinct from independent performance.
 
 Artifacts:
-
 - `06-evidence/RQ-022-source-digest.md`
 - `07-syntheses/RQ-022-foundational-sla-mechanisms.md`
 - `data/sources-rq022.json`
 - `data/claims-rq022.json`
 
-No `PRN-*`, feature or product policy was created because RQ-022 is a foundation synthesis.
+### RQ-023 — Target needs and capability selection ✅ initial synthesis
 
-### RQ-023 — Target needs and capability selection ← NEXT
+**Result:** curriculum priorities should come from target learners, target situations/tasks, task importance/frequency/difficulty/training need and authentic target discourse—not CEFR order, textbook topics, a grammar sequence or owner/AI intuition.
 
-**Question**  
-What real-world English tasks/capabilities are highest-value for the target population, and how should current needs, target situations, learner goals and general-English portability determine the first curriculum?
+Published Vietnamese evidence supports a provisional architecture:
 
-Must use triangulated needs analysis rather than one owner/AI intuition.
+```text
+portable cross-domain capability core
+↓
+learner target situations
+↓
+domain branches
+```
 
-### RQ-024 — Language-assessment validity and learner-state inference
+but the exact first capability list remains provisional pending direct target-population research.
 
-**Question**  
-What observations under what task/support/scorer conditions justify what learner-state inference, with what uncertainty, reliability and generalizability?
+Artifacts:
+- `06-evidence/RQ-023-source-digest.md`
+- `07-syntheses/RQ-023-target-needs-capability-selection.md`
+- `10-experiments/EXP-023-target-needs-study.md`
+- `data/sources-rq023.json`
+- `data/claims-rq023.json`
 
-Must revisit:
+### RQ-024 — Language-assessment validity and learner-state inference ✅ initial synthesis
 
-- `understood`;
-- `recalled`;
-- `transferred`;
-- `retained`;
-- modality-specific claims;
-- support contamination;
-- diagnostic classification;
-- changed-context generalization;
-- automated/human scoring.
+**Result:** learner state is an inference from evidence under known conditions, not a direct property read from one answer. RQ-024 requires explicit links among claim, eliciting task, support/exposure conditions, evaluator, generalization, target-domain extrapolation, uncertainty, decision and consequence.
 
-### RQ-025 — Corrective feedback and self-repair policy
+Current evidence-state taxonomy:
+
+```text
+task-bound observation
+→ generalization candidate
+→ independent current capability
+
+mediated/emerging capability   [kept distinct]
+
+delayed-retention evidence    [requires time]
+changed-context transfer       [requires meaningful novelty]
+```
+
+These are epistemic evidence categories, not psychological acquisition stages.
+
+Artifacts:
+- `06-evidence/RQ-024-source-digest.md`
+- `07-syntheses/RQ-024-language-assessment-validity.md`
+- `10-experiments/EXP-024-learner-state-inference-validity.md`
+- `data/sources-rq024.json`
+- `data/claims-rq024.json`
+
+### RQ-025 — Corrective feedback and self-repair policy ← NEXT
 
 **Question**  
 Which corrective-feedback type, explicitness, timing, focus and repair opportunity best serve which construct, learner, linguistic feature and task?
@@ -134,7 +155,6 @@ Must compare oral/written feedback, recasts, prompts, explicit/metalinguistic fe
 Which learner differences materially affect learning/participation, and which adaptations are justified rather than personalization theater?
 
 Must cover at minimum:
-
 - language-learning anxiety;
 - willingness to communicate;
 - self-efficacy;
@@ -194,11 +214,11 @@ Must define:
 
 After `SYN-METHOD-001`:
 
-- define first target capability set from RQ-023;
+- define first target capability set from RQ-023 / EXP-023;
 - define vocabulary/chunk/construction content from RQ-027;
 - define prerequisite relationships;
 - define task families and skill/modal progression from the method;
-- define assessment probes and confidence from RQ-024;
+- define assessment probes and confidence from RQ-024 / EXP-024;
 - define feedback from RQ-025;
 - define learner adaptations from RQ-026;
 - define target-population validation before scale.
@@ -216,32 +236,36 @@ Nếp Method
 
 The current files in `05-products/` and `SYN-SYS-001` are retained as pre-meta-foundation hypotheses/design history and may be mined selectively, not executed as the present plan.
 
-## 8. Current high-confidence guardrails that remain active
+## 8. Current high-confidence guardrails
 
-These are not the full Nếp Method, but they are strong enough to keep as research guardrails while P12 proceeds:
+These are not the full Nếp Method, but remain active while P12 proceeds:
 
 - CEFR is descriptive, not a teaching algorithm.
 - engagement/completion/streaks are not learning evidence.
 - a scheduler state is not language mastery.
 - recognition is not productive recall.
 - supported success is not unsupported success.
+- supported performance can still be evidence of mediated/emerging capability when provenance is retained.
 - first-seen performance differs from repeated/replayed performance.
 - exact-task repetition is not transfer.
 - immediate success is not delayed retention.
 - a skill claim requires a task that actually elicits that skill.
+- broader claims require broader/more representative evidence.
+- high score reliability does not by itself validate real-world extrapolation.
 - Vietnamese population evidence is a prior, not an individual diagnosis.
 - strong accent is not synonymous with low intelligibility.
 - AI/ASR/TTS outputs do not automatically justify learner-state claims.
+- human agreement is not sufficient evidence that an automated judgment is construct-valid or unbiased.
 - experiments remain hypotheses until results exist.
 
 ## 9. Research stop condition
 
-The goal is **not** to research forever or literally read every document ever published.
+The goal is not to research forever or literally read every document ever published.
 
 Research becomes sufficient for `SYN-METHOD-001` when:
 
 1. every field domain in `ISLA_FIELD_COVERAGE_FRAMEWORK.md` is covered or explicitly scoped out;
-2. the important competing theories have been compared;
+2. important competing theories have been compared;
 3. target needs/content selection have an evidence basis;
 4. core learner-state inferences have a validity argument;
 5. evidence directness to Vietnamese near-A0 is explicit;

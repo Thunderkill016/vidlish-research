@@ -123,13 +123,14 @@ verified research
 → competing-evidence synthesis
 → Nếp Method
 → curriculum specification
+→ validation slices
 → product specification
 → implementation
 ```
 
 The existing Vidlish application is a legacy prototype, not a pedagogical source of truth.
 
-The pre-meta-foundation documents in `05-products/` and `SYN-SYS-001` are provisional. Do not execute them as the current build plan until `SYN-METHOD-001` passes the gates in `00-foundations/ISLA_FIELD_COVERAGE_FRAMEWORK.md`.
+The pre-meta-foundation documents in `05-products/` and `SYN-SYS-001` are provisional. They may not override the accepted Method.
 
 ## 17. Do not turn a local result into a global method
 
@@ -192,8 +193,42 @@ A graph that passes referential validation is not automatically scientifically v
 
 `EVA-*` and `CTR-*` records make evidence quality/directness and unresolved disagreement machine-readable; they still require substantive human/agent reasoning and source verification.
 
-## 22. Current meta-foundation gate
+## 22. Evidence governance is active
 
-Before producing an accepted `SYN-METHOD-001`, close or explicitly scope out the domains in `ISLA_FIELD_COVERAGE_FRAMEWORK.md`, with immediate priority on `RQ-022`–`RQ-028` in `RESEARCH_MAP.md`.
+`RQ-028` and `00-foundations/EVIDENCE_GRADING_PROTOCOL.md` are active.
 
-Do not open lower-value product-feature research while a higher-level foundation gap could change the whole method.
+High-impact method/curriculum claims should separate evidence quality from target directness with `EVA-*` appraisal where decision risk warrants it. Credible disagreements that can change a decision should remain visible as `CTR-*` records.
+
+Null, negative and boundary-condition evidence must not be deleted simply because it makes the synthesis less clean.
+
+## 23. `SYN-METHOD-001` is the provisional pedagogical source of truth
+
+After the P12/P13 audit, `07-syntheses/SYN-METHOD-001-nep-method-v0.md` is the current pedagogical parent for new curriculum work.
+
+This means:
+
+- curriculum rules must be derivable from the Method or be explicitly labeled validation hypotheses;
+- `SYN-SYS-001`, the legacy Vidlish curriculum and old `05-products/` plans cannot override the Method;
+- implementation convenience cannot silently weaken construct/evidence boundaries;
+- the Method itself remains falsifiable and may be narrowed or revised by target learner results;
+- changes to core Method constraints must follow `00-foundations/NEP_METHOD_VALIDATION_CONTRACT.md` change control.
+
+The Method is **not** a claim of integrated efficacy or optimality.
+
+## 24. Do not jump from Method directly to a full app
+
+The next order is:
+
+```text
+SYN-METHOD-001
+→ direct target-needs confirmation
+→ curriculum contract
+→ small construct-faithful capability slices
+→ dogfood
+→ Vietnamese near-A0 pilot
+→ comparative delayed/changed-context validation
+→ revise
+→ broader product specification
+```
+
+Do not build hundreds of lessons, a complete CEFR path, or a broad feature surface before the first capability slices pass the relevant validation gates.

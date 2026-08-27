@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "controversies": [
+    {
+      "id":"CTR-SLA-001",
+      "title":"Explicit instruction advantage versus spontaneous/implicit ability",
+      "status":"open-bounded",
+      "claim_ids":["CLM-SLA-002","CLM-SLA-003"],
+      "source_ids":["SRC-0235","SRC-0236","SRC-0237","SRC-0238","SRC-0243"],
+      "competing_positions":[
+        "Explicit instruction often improves studied target outcomes and can accelerate learning.",
+        "Controlled/explicitly accessible test gains do not establish spontaneous or implicit ability."
+      ],
+      "boundary_conditions":["outcome measure","treatment duration","linguistic target","learner proficiency","degree of spontaneous performance"],
+      "current_resolution":"Use explicit information when it solves a documented processing/knowledge problem, but require target-skill independent evidence before claiming usable ability.",
+      "would_change_if":"Direct target-population evidence showed that explicit support reliably harms or uniquely improves delayed spontaneous performance under Nếp-like conditions."
+    },
+    {
+      "id":"CTR-CF-001",
+      "title":"Prompts versus recasts / supplied correction",
+      "status":"open-moderated",
+      "claim_ids":["CLM-CF-002","CLM-CF-003","CLM-CF-004","CLM-CF-005"],
+      "source_ids":["SRC-0293","SRC-0294","SRC-0295","SRC-0296","SRC-0299"],
+      "competing_positions":[
+        "Prompts can produce stronger outcomes by requiring learner-generated repair.",
+        "Recasts/supplied models can be more useful when the learner lacks enough knowledge to self-repair."
+      ],
+      "boundary_conditions":["learner readiness","feedback salience","linguistic feature","task goal","timing","outcome measure"],
+      "current_resolution":"No universal winner; choose feedback by repair readiness and error consequence, preserving the pre-feedback attempt.",
+      "would_change_if":"Near-A0 comparative data identified a stable feedback policy that dominates across delayed changed-context outcomes without excessive cognitive or interaction cost."
+    },
+    {
+      "id":"CTR-CONT-001",
+      "title":"Lexical coverage threshold versus continuous comprehension relationship",
+      "status":"open-bounded",
+      "claim_ids":["CLM-CONT-008","CLM-CONT-009","CLM-CONT-010"],
+      "source_ids":["SRC-0329","SRC-0330","SRC-0331","SRC-0332"],
+      "competing_positions":[
+        "95–98% coverage values are useful practical regions for relatively independent comprehension in some modalities.",
+        "Comprehension generally changes continuously with coverage and modality/task/learner conditions prevent one universal threshold."
+      ],
+      "boundary_conditions":["reading versus listening versus video","comprehension criterion","text genre","learner proficiency","background knowledge","speech processing load"],
+      "current_resolution":"Use coverage as a learner-material compatibility signal, never as a universal mastery/unlock threshold.",
+      "would_change_if":"Large replicated target-population studies established robust modality-specific decision thresholds with low false-ready/false-locked rates."
+    }
+  ]
+}

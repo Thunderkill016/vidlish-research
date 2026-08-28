@@ -1,9 +1,10 @@
 # First Validation Capability — Initiate Repair After Global Non-Understanding
 
-**Status:** owner-first validation capability; provisional  
+**Status:** owner-first validation capability; research-refined and still provisional  
 **Parent:** `NEP_CURRICULUM_CONTRACT_V0.md`  
 **Needs basis:** `V1_OWNER_TARGET_NEEDS.md`  
-**Research basis:** `CLM-INT-005`, `CLM-INT-006`, `CLM-INT-017`, `CLM-SPK-002`, `CLM-VAL-008`, `CLM-TRN-001`, `CLM-REV-001`
+**Focused evidence:** `06-evidence/V1-first-capability-repair-evidence.md`  
+**Research basis:** `CLM-INT-005`, `CLM-INT-006`, `CLM-INT-017`–`020`, `CLM-SPK-002`, `CLM-VAL-008`, `CLM-TRN-001`, `CLM-REV-001`
 
 ---
 
@@ -36,7 +37,7 @@ problem hearing / understanding
 
 RQ-015 treats repair as part of interactional competence rather than as evidence of incompetence.
 
-`CLM-INT-017` further distinguishes:
+Natural-conversation evidence distinguishes:
 
 ```text
 OPEN REPAIR
@@ -48,7 +49,7 @@ SPECIFIC REPAIR
 “I know which part is the problem.”
 ```
 
-The first slice focuses on **open/global repair**.
+The first slice focuses on **open/global repair**. Later slices can move toward more specific repair when the learner has enough linguistic resources.
 
 ---
 
@@ -100,11 +101,22 @@ The capability does not require native-like pronunciation or one exact sentence.
 
 # 5. Candidate language resources
 
-Natural-conversation research supports a family of open repair initiators rather than one universal phrase.
+Natural English, cross-linguistic, ELF and beginner-pedagogy evidence support a **repair repertoire**, not one canonical phrase.
 
-For the first near-A0 learning slice, use a **small teachable repertoire** rather than treating all variants as new curriculum items.
+The first slice should therefore distinguish:
 
-## 5.1 Core candidate
+```text
+FUNCTION TO LEARN
+= initiate repair after global non-understanding
+
+INITIAL FORM TO PRACTICE
+= one low-load candidate for tractability
+
+CAPABILITY SUCCESS
+≠ exact-string recall of that candidate
+```
+
+## 5.1 Initial short-form candidate
 
 ```text
 Sorry?
@@ -114,32 +126,71 @@ Function here:
 
 ```text
 open repair initiation
-≈ “I did not get that; please repair/repeat.”
+≈ “I did not get the prior turn; repair/repeat it.”
 ```
 
-Important: the same word can perform other actions in other contexts. Prosody/sequential context matters.
+Why keep it as a candidate:
 
-## 5.2 Explicit extension candidate
+- it is attested as an open repair initiator in English conversation;
+- it occurs in multilingual/international interaction;
+- formulaic `pardon?/sorry?` forms were frequent within one natural ELF hospitality/service corpus.
+
+Why **not** call it the universal answer:
+
+- open repair also uses forms such as `what?`, `huh?`, `pardon?` and embodied signals;
+- lexical form can carry other pragmatic meanings outside the repair sequence;
+- frequency/register vary by interactional setting;
+- Vietnamese near-A0 English users have not been directly compared across candidate first forms.
+
+## 5.2 Explicit repetition-request extension
+
+Candidate:
 
 ```text
 Could you say that again?
 ```
 
-This makes the requested repair more explicit and can be introduced as a longer reusable chunk after the short open repair form is understood.
+This is more linguistically explicit and can be learned initially as a formulaic chunk.
 
-## 5.3 Acceptable alternative evidence
+It should be treated as an **extension resource**, not the definition of repair competence.
+
+## 5.3 Later specific-repair resources
+
+Once the learner heard enough to locate the problem, later curriculum can add:
+
+```text
+partial repetition + rising intonation
+specific question word
+candidate understanding
+```
+
+For example, a learner who heard the frame but missed one noun may be better served by a specific repair than a global `Sorry?`.
+
+The exact progression remains a target-population curriculum hypothesis.
+
+## 5.4 Functional alternatives are not automatically errors
 
 Independent capability evidence should not fail solely because the learner uses a different understandable repair form.
 
-Examples that may be functionally acceptable depending on context include other open or repetition-request forms.
-
 The implementation must therefore avoid one exact-string answer as the definition of success.
 
-## 5.4 Not yet fixed
+## 5.5 Vietnamese pragmatic prior
 
-This document does **not** claim that `Sorry?` is globally the politest or universally best first phrase.
+Vietnamese L1 conversation data show that repair-format choice can be socially patterned by relative seniority in the sampled interactions.
 
-Exact phrase inventory, register/politeness guidance and variant order remain curriculum-validation questions.
+Therefore:
+
+```text
+Vietnamese L1 evidence
+→ possible pragmatic prior / probe
+
+NOT
+
+Vietnamese learner
+→ fixed English repair rule
+```
+
+Register, politeness and division of repair effort must stay context-sensitive.
 
 ---
 
@@ -172,6 +223,10 @@ The longer form can initially be a formulaic multiword unit while its internal c
 
 # 7. Learning design
 
+Tool-based follow-up research strengthens one design point: **repair must be practiced at the moment a breakdown occurs**, not only explained or drilled.
+
+A recent introductory-L2 classroom study (`SRC-0359`) used awareness raising, repeated real-time/semi-spontaneous interaction, timely feedback and gradual expansion of the repair repertoire. It is useful design evidence, not comparative proof that this exact sequence is optimal for Nếp.
+
 ## Stage A — Establish the function
 
 Show/listen to a very short interaction in which one speaker does not understand and initiates repair.
@@ -196,29 +251,36 @@ Possible contrast functions:
 
 - apology;
 - normal answer;
-- repair initiation.
+- repair initiation;
+- specific clarification versus global repair.
 
 ## Stage C — Spoken-form access
 
-Learner hears the repair form naturally and practices its spoken shape.
+Learner hears an initial repair resource naturally and practices its spoken shape.
 
 Model-visible repetition is rehearsal only.
 
 Record separately from independent retrieval.
 
-## Stage D — Independent oral retrieval
+## Stage D — Guided real-time repair moments
+
+Create short interactions in which a breakdown actually occurs and the learner must react in time.
+
+Early trials may use a bounded environment and timely feedback.
+
+The aim is to proceduralize the **action**, not merely memorize a translation pair.
+
+## Stage E — Independent oral retrieval
 
 Create a bounded interaction where the learner cannot appropriately continue because the prior spoken turn was not understood.
 
 Do **not** display the answer-bearing repair phrase.
 
-Prompt can be minimal, e.g. the interlocutor waits for the learner's next move.
-
 Learner must speak.
 
 Typing cannot satisfy this stage.
 
-## Stage E — Feedback + repair
+## Stage F — Feedback + repair
 
 If the first spoken attempt fails:
 
@@ -231,7 +293,7 @@ preserve original attempt
 
 A post-model repetition is learning/rehearsal, not retroactive independent success.
 
-## Stage F — Changed-context use
+## Stage G — Changed-context use
 
 Use a new prior utterance/context/interlocutor voice.
 
@@ -243,7 +305,7 @@ Do not prompt with Vietnamese equivalent such as:
 
 because that supplies the communicative intention and weakens transfer evidence.
 
-## Stage G — Delayed re-probe
+## Stage H — Delayed re-probe
 
 Later, present a new breakdown context without answer-bearing support.
 
@@ -273,6 +335,21 @@ The partner gives an utterance; learner can either respond normally if understoo
 
 This is stronger than explicitly telling the learner to request repetition.
 
+### Context 4 — response to learner repair
+
+The interaction must continue after the repair initiation.
+
+A partner can respond by:
+
+```text
+repeat
+simplify
+rephrase
+clarify
+```
+
+Natural ELF data show repair solutions can combine several of these. This lets the learner experience repair as a sequence rather than a one-turn phrase quiz.
+
 ---
 
 # 9. Evidence contract
@@ -299,7 +376,9 @@ Required provenance:
 - number of attempts;
 - response audio;
 - scorer type/version;
+- repair form/function inferred;
 - whether partner actually treated the output as repair;
+- partner repair response type;
 - time since prior learning exposure.
 
 ---
@@ -312,16 +391,19 @@ For the target construct, a meaningful success signal is:
 
 ```text
 learner produces oral repair move
-→ unfamiliar/representative listener understands the repair intent
-→ interlocutor repeats/clarifies
+→ partner/listener recognizes repair intent
+→ interlocutor repeats/rephrases/clarifies
+→ interaction can continue
 ```
+
+This follows the interactional nature of the construct better than exact lexical matching.
 
 ## 10.2 AI/ASR limitation
 
 ASR may help:
 
 - transcribe for practice;
-- detect obvious target forms;
+- detect obvious candidate forms;
 - route feedback;
 - surface possible pronunciation problems.
 
@@ -355,7 +437,8 @@ Possible changes:
 - different preceding utterance length;
 - different lexical content;
 - different setting;
-- different point of breakdown.
+- different point of breakdown;
+- different appropriate repair form.
 
 Do not call it transfer if only background artwork changes while cue/response mapping is identical.
 
@@ -377,12 +460,15 @@ For initial owner dogfood, use at least a later session/day as a practical valid
 
 This first slice should be revised if:
 
-- learner memorizes a phrase but repeatedly fails to choose repair when genuine non-understanding occurs;
+- learner memorizes one phrase but repeatedly fails to choose repair when genuine non-understanding occurs;
 - learner can type the repair but cannot produce it orally;
 - model/reveal is required every time;
+- learner is marked wrong for a functionally successful alternative repair form;
 - ASR passes output that human listeners do not understand;
-- the repair phrase is learned but does not survive new contexts/delay;
+- the repair capability does not survive new contexts/delay;
 - task design makes the correct action obvious without requiring breakdown detection;
+- learner never experiences a contingent partner repair response;
+- register/politeness guidance produces recurrent inappropriate use;
 - the slice consumes excessive time for a tiny capability compared with a simpler learning design.
 
 ---
@@ -403,6 +489,7 @@ Nếp Method as a whole is optimal
 owner has general speaking ability
 owner has general listening ability
 all Vietnamese beginners should learn this first
+Sorry? is universally the best repair form
 AI conversation is validated
 ```
 
@@ -418,8 +505,9 @@ exact audio provenance
 allowed supports
 attempt states
 feedback states
-accepted functional responses
+accepted functional-response classes
 evidence-event semantics
+partner repair responses
 changed-context variants
 delayed probe
 manual/automated scorer roles

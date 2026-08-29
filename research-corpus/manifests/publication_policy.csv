@@ -1,0 +1,6 @@
+class,public_action,storage,why
+raw Facebook/social corpus,do not commit raw,private/local restricted store,contains user-generated text and potentially identifying metadata
+third-party PDF/books/audio,do not commit binaries/full text,licensed/private source store,redistribution rights not established
+derived aggregate research tables,commit,GitHub public research repo,no raw individual text; supports reproducible decisions
+source hashes/manifests,commit,GitHub public research repo,preserves provenance without redistributing source content
+sanitized methodology/reports,commit,GitHub public research repo,"documents findings, limits, and processing lineage"
